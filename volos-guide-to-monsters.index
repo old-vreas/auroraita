@@ -9,7 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/source.xml" />
 		<!-- races -->		
 
 		<!--
@@ -18,7 +17,7 @@
 		<file name="race-goliath.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-goliath.xml" />
 		-->
 
-		<file name="race-kenku.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-kenku.xml" />
+		<file name="race-kenku.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/volos-guide-to-monsters/race-kenku.xml" />
 
 		<!--
 		<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-lizardfolk.xml" />
