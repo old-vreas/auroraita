@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Mezzelfo</name>
+		<update version="0.1.9">
+			<file name="race-halfelf.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-halfelf.xml" />
+		</update>
+	</info>
+	<element name="Mezzelfo" type="Race" source="Manuale del Giocatore" id="ID_RACE_HALFELF_IT">
+		<description>
+			<p class="flavor">I mezzelfi camminano tra due mondi senza mai appartenere fino in fondo a nessuno di essi, e a detta di alcuni uniscono le migliori qualità dei loro genitori elfi e umani: la curiosità, la creatività e l'ambizione degli umani temperate dai sensi raffinati, dall'amore per la natura e dal senso artistico degli elfi. Alcuni mezzelfi vivono fra gli umani, da cui si distinguono per i loro tratti emotivi e fisici, e osservano i loro amici e i loro cari invecchiare mentre il passare del tempo li sfiora a malapena. Altri vivono fra gli elfi nei loro reami senza tempo, e diventano irrequieti al raggiungimento della maturità mentre i loro compagni continuano a vivere come bambini. Molti mezzelfi, non riuscendo a inserirsi in nessuna delle due società, scelgono di vivere in solitudine vagando senza meta o unendosi ad altri spiriti solitari o da reietti dedicandosi all'avventura.</p>
+			<h4>TRA DUE MONDI</h4>
+			<p>Per gli umani i mezzelfi somigliano agli elfi, mentre per gli elfi somigliano agli umani. In altezza sono simili ai loro progenitori, ma non sono né slanciati come gli elfi né robusti come gli umani. Hanno un'altezza che può variare tra gli 1,5 e gli 1,8 metri e un peso che va dai 50 ai 90 kg. I maschi sono leggermente più alti e pesanti delle femmine. Un mezzelfo maschio sviluppa una peluria facciale e a volte si lascia crescere la barba per nascondere il suo retaggio elfico. I colori e i lineamenti dei mezzelfi sono un miscuglio di quelli dei loro genitori, quindi mostrano una varietà ancora più ampia rispetto a quella riscontrabile nelle due razze distinte. I mezzelfi tendono ad avere gli occhi del loro genitore elfico.</p> 
+            <h4>AMBASCIATORI STRAORDINARI</h4>
+			<p>Molti mezzelfi imparano fin da giovanissimi ad andare d'accordo con chiunque, ad allentare le tensioni e a trovare soluzioni pacifiche. Come razza, possiedono la grazia degli elfi senza la loro indifferenza, e l'energia degli umani senza la loro inciviltà. Si rivelano spesso dei mediatori e ambasciatori straordinari (tranne che tra elfi e umani, in quanto ogni parte è portata a sospettare che il mezzelfo favorisca l'altra).</p>
+			<h4>DIPLOMATICI O GIROVAGHI</h4>
+			<p>I mezzelfi non hanno una loro terra, ma sono generalmente bene accetti nelle città umane e leggermente meno bene accetti nelle foreste elfìche. Nelle grandi città delle regioni dove gli elfi e gli umani interagiscono frequentemente a volte i mezzelfi diventano abbastanza numerosi da formare delle piccole comunità. Amano la compagnia degli altri mezzelfi, che sono gli unici a capire veramente cosa significhi vivere a metà strada tra due mondi.</p>
+			<p class="indent">Nella maggior parte del mondo, tuttavia, i mezzelfi sono talmente rari che uno di essi potrebbe vivere per anni senza mai incontrare un suo simile. Alcuni mezzelfi preferiscono evitare del tutto la compagnia degli altri e vagano nelle terre selvagge come cacciatori, guardaboschi o avventurieri, facendo visita ai centri abitati soltanto di rado. Come gli elfi, sono spinti da un forte desiderio di viaggiare che deriva dalla loro longevità. Altri mezzelfi scelgono invece di tuffarsi nel cuore della società, sfruttando al massimo il loro carisma e le loro doti sociali in ruoli diplomatici o come truffatori.</p>
+			<h4>NOMI DEI MEZZELFI</h4>
+			<p>I nomi dei mezzelfi possono essere di origine umana o elfica. A enfatizzare il fatto di non riuscire a integrarsi in nessuna delle due società, i mezzelfi cresciuti fra gli umani spesso ricevono un nome elfico, mentre quelli cresciuti fra gli elfi spesso ricevono un nome umano.</p>
+			<h4>TRATTI DEI MEZZELFI</h4>
+			<p>Un personaggio mezzelfo possiede alcune qualità in comune con gli elfi e altre uniche dei mezzelfi.</p>
+			<p class="indent"><strong><em>Incremento dei Punteggi di Caratteristica.</em></strong>Il punteggio di Carisma di un mezzelfo aumenta di 2 e altri due punteggi di caratteristica a scelta aumentano di 1.</p>
+			<p class="indent"><strong><em>Età.</em></strong>I mezzelfi crescono agli stessi ritmi degli umani e raggiungono l'età adulta attorno ai 20 anni. Vivono comunque molto più a lungo degli umani e spesso superano i 180 anni.</p>
+			<p class="indent"><strong><em>Allineamento.</em></strong>I mezzelfi condividono la propensione al caos insita nel loro retaggio elfico. Rispettano sia la libertà personale che l'espressione creativa, non amano troppo le figure autoritarie e non desiderano avere seguaci. Sono infastiditi dalle regole, non sopportano le pretese altrui e spesso si dimostrano inaffidabili o nel migliore dei casi imprevedibili.</p>
+			<p class="indent"><strong><em>Taglia.</em></strong>Un mezzelfo ha all'incirca le stesse dimensioni di un umano e la sua altezza può variare dagli 1,5 agli 1,8 metri. Un mezzelfo è una creatura di taglia Media.</p>
+			<p class="indent"><strong><em>Velocità.</em></strong>La velocità base sul terreno di un mezzelfo è di 9 metri.</p>
+			<p class="indent"><strong><em>Scurovisione.</em></strong>Grazie al suo sangue elfico, un mezzelfo beneficia di una vista superiore nell'oscurità e nelle condizioni di luce fioca. Un mezzelfo in condizioni di luce fioca può vedere fino a 18 metri come se si trovasse in condizioni di luce intensa e nell'oscurità come se si trovasse in luce fioca. Nell'oscurità non è in grado di discernere i colori, ma solo le tonalità di grigio.</p>
+			<p class="indent"><strong><em>Retaggio Fatato.</em></strong>Un mezzelfo dispone di vantaggio ai tiri salvezza per non essere affascinato e non può essere addormentato tramite la magia.</p>
+			<p class="indent"><strong><em>Versatilità nelle Abilità.</em></strong>Un mezzelfo ha competenza in due abilità a sua scelta.</p>
+			<p class="indent"><strong><em>Linguaggi.</em></strong>Un mezzelfo può parlare, leggere e scrivere in Comune, in Elfico e in un linguaggio extra a sua scelta.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric , Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver, Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{surname}}</set>
+			<set name="height" modifier="2d8">142,5 cm</set>
+			<set name="weight" modifier="2d4">55 kg.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<select type="Racial Trait" name="Incremento dei Punteggi di Caratteristica (Mezzelfo)" supports="Mezzelfo" number="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<stat name="innate speed" value="9" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON_IT" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH_IT" />
+			<select type="Language" name="Lingua (Mezzelfo)" supports="Standard||Exotic" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY_IT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY_IT" requirements="!(ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_INTERNAL_GRANTS_DRAGONMARK)"/>
+			<select type="Race Variant" name="Mezzelfo Variant" supports="Mezzelfo Variant" optional="true" />
+		</rules>
+	</element>
+	<element name="Retaggio Fatato" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_FEY_ANCESTRY_IT">
+		<description>
+			<p>Dispone di vantaggio ai tiri salvezza per non essere affascinato e non può essere addormentato tramite la magia.</p>
+		</description>
+		<sheet>
+			<description>Dispone di vantaggio ai tiri salvezza per non essere affascinato e non può essere addormentato tramite la magia.</description>
+		</sheet>
+	</element>
+	<element name="Versatilità nelle Abilità" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_SKILL_VERSATILITY_IT">
+		<description>
+			<p>Ha competenza in due abilità a sua scelta.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Half-Elf)" supports="Skill" number="2" />
+		</rules>
+	</element>
+
+	<element name="Incremento dei Punteggi di Caratteristica (Forza)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_STRENGTH_IT">
+		<compendium display="false" />
+		<supports>Mezzelfo</supports>
+		<description>
+			<p>Il punteggio di Forza aumenta di 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+	<element name="Incremento dei Punteggi di Caratteristica (Destrezza)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY_IT">
+		<compendium display="false" />
+		<supports>Mezzelfo</supports>
+		<description>
+			<p>Il punteggio di Destrezza aumenta di 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+	<element name="Incremento dei Punteggi di Caratteristica (Costituzione)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION_IT">
+		<compendium display="false" />
+		<supports>Mezzelfo</supports>
+		<description>
+			<p>Il punteggio di Costituzione aumenta di 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+	<element name="Incremento dei Punteggi di Caratteristica (Intelligenza)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE_IT">
+		<compendium display="false" />
+		<supports>Mezzelfo</supports>
+		<description>
+			<p>Il punteggio di Intelligenza aumenta di 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+	<element name="Incremento dei Punteggi di Caratteristica (Saggezza)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HALFELF_WISDOM_IT">
+		<compendium display="false" />
+		<supports>Mezzelfo</supports>
+		<description>
+			<p>Il punteggio di Saggezza aumenta di 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+</elements>

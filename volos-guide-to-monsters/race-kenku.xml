@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kenku</name>
+		<description></description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.1.0">
+			<file name="race-kenku.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-kenku.xml" />
+		</update>
+	</info>
+
+  <element name="Kenku" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_KENKU_IT">
+    <description>
+      <p class="flavor">Perseguitati dal compimento di un antico crimine che li privò delle ali, i kenku errano per il mondo come vagabondi e ladri che vivono ai confini delle società umane. I kenku hanno una pessima reputazione e la maggior parte delle azioni compiute da molti membri della razza, non aiuta nello scagionarli da essa. Però possono essere degli ottimi alleati.</p>
+      <h4>UN'ANTICA MALEDIZIONE</h4>
+      <p>I kenku, molti anni or sono, furono servi di una potente e misteriosa entità proveniente da un altro piano d'esistenza. Alcuni credono fossero i tirapiedi di Grazz't, altri credevano, invece, che fossero degli scout ed esploratori dei Marchesi del Vento di Aaqa. Qualunque sia la verità, secondo una leggenda, i kenku tradirono il loro padrone. Incapaci di resistere al fascino di un tesoro scintillante, i kenku pianificarono di rubare l'oggetto e fuggire nel Piano Materiale.</p>
+      <p class="indent">Sfortunatamente, il piano venne scoperto dal loro padrone prima ancora che potessero attuarlo. Adirata, l'entità impose tre maledizioni mortali su di essi. Primo, le loro amatissime ali appassirono e caddero dai loro corpi, lasciandoli incatenati alla terra ferma. Secondo, visto l'utilizzo del loro ingegno e delle loro abilità contro il loro padrone, la scintilla della creatività fu strappata dalle loro anime. Infine, per far sì che i kenku non potessero divulgare alcun segreto, fu rubato loro l'utilizzo della voce. Una volta che l'entità trovò questa punizione soddisfacente, li sparpagliò sul Piano Materiale.</p>
+      <p class="indent">Sin da allora i kenku vagabondano per il mondo. Si stanziano in posti che li accettano, solitamente città squallide che sono cadute durante tempi duri ed invase dalla criminalità.</p>
+
+      <h4>VOGLIA DI VOLARE</h4>
+      <p>Sopra ogni cosa, i kenku sognano di riacquisire la capacità di volare. Ogni kenku nasce con un desiderio di solcare i cieli e coloro che imparano a lanciare incantesimi sperano di padroneggiarne uno che consenta di volare. Dicerie di oggetti magici come tappeti volanti, scope in grado di prendere il volo ed oggetti simili, provocano nei kenku un grande desiderio di farli propri.</p>
+      <p class="indent">Nonostante la mancanza di ali, i kenku amano dimorare in torri o altre strutture alte. Cercano rovine che si slanciano verso il cielo, anche se manca loro la motivazione e l'inventività per effettuare riparazioni o fortificare luoghi simili.</p>
+      <p class="indent">Nonostante tutto, il fisico minuto e leggero consente loro di nascondersi in strutture instabili, che collasserebbero sotto il peso di un umano o un orco.</p>
+      <p class="indent">Alcune gilde di ladri utilizzano i kenku come vedette e messaggeri. I kenku si posizionano negli edifici più alti o nelle torri che la gilda controlla, permettendo loro di celarsi nei livelli superiori e vegliare sulla città sottostante.</p>
+
+      <h4>PLAGIARI DISPERATI</h4>
+      <p>Come risultato della mancanza di vena creativa, i kenku sono molto efficaci se utilizzati da un padrone molto potente. I capi stormo impongono la disciplina e minimizzano i conflitti, ma non sono in grado di pianificare o portare avanti progetti a lungo termine.</p>
+      <p class="indent">Anche se non sono in grado di parlare con la propria voce, i kenku, possono perfettamente riprodurre ogni suono che sentono, dalla voce di un halfling al rumore di una slavina. Tuttavia non possono creare suoni che non abbiano già ascoltato e possono comunicare solo con quelli che conoscono. La maggior parte dei kenku utilizza una combinazione di frasi sentite per caso e suoni che potrebbero trasmettere le loro idee e pensieri.</p>
+      <p class="indent">Come non sono in grado di creare nuovi suoni, non possono neanche avere nuove idee o creare nuove cose. I kenku possono copiare oggetti già esistenti con un'abilità eccezionale, permettendogli di diventare artigiani e scribi portentosi. Sono in grado di copiare libri e creare repliche d'oggetti e ciò gli consente di prosperare qualora si trovassero in situazioni che permetterebbero loro di creare grandi quantità di oggetti identici. Pochi kenku, però, trovano questa linea di lavoro soddisfacente, visto che la loro missione per riprendere possesso delle ali li rende non adatti per mansioni di monotona routine.</p>
+
+      <h4>SERVITORI IDEALI</h4>
+      <p>I kenku si riuniscono in gruppi chiamati stormi. Uno stormo è guidato dal kenku più anziano che possiede la più grande quantità di conoscenza dalla quale attingere, spesso chiamato Padrone.</p>
+      <p class="indent">Anche se i kenku non possono creare nuove cose, hanno un enorme talento nell'imparare e memorizzare dettagli. Perciò, i kenku più ambiziosi possono diventare eccellenti spie e scout. Un kenku che viene a conoscenza di piani ingegnosi escogitati da altre creature, può metterli in atto. I kenku non hanno alcun tipo di talento nell'improvvisare od alterare un piano, ma un Padrone saggio è in grado di mettere in moto più piani contemporaneamente, confidente nel fatto che i sottoposti siano in grado di seguire gli ordini alla lettera.</p>
+      <p class="indent">Per questa ragione, molti kenku fanno una vita facile svolgendo compiti come: messaggeri, spie e vedette per gilde di ladri, banditi ed altri agglomerati di criminali. Una rete di informazioni kenku può trasmettere un verso, simile ad un richiamo per uccelli, attraverso l'intera città, allertando i propri alleati dell'arrivo di una pattuglia di guardie o segnalando un'ottima opportunità di scippo.</p>
+      <p class="indent">Essendo in grado di riprodurre qualsiasi suono è raro che i messaggi che portano, una volta arrivati a destinazione, cambino di significato o subiscano deterioramenti. Un messaggero umano potrebbe cambiare le parole in una frase o distorcere il significato di un messaggio inavvertitamente, ma i kenku producono copie perfette di qualsiasi cosa ascoltino.</p>
+
+      <h4>AVVENTURIERI KENKU</h4>
+      <p>Di solito, gli avventurieri kenku sono i sopravvissuti di uno stormo che ha subito ingenti perdite o un raro kenku che si è stancato della vita criminosa. Questi kenku sono molto più ambiziosi ed audaci degli altri. Esistono anche kenku in cerca di un metodo per poter volare, imparare incantesimi che consentano di librarsi nell'aria o scoprire i segreti della loro maledizione e trovare un metodo per spezzarla.</p>
+      <p class="indent">Gli avventurieri kenku, nonostante un'indipendenza relativa, tendono comunque a cercare un compagno da emulare e seguire. I kenku amano copiare la voce e le parole del compagno scelto.</p>
+
+      <h4>NOMI DEI KENKU</h4>
+      <p>Visto che un kenku può duplicare qualsiasi suono, i loro nomi derivano da un barcollante agglomerato di suoni e frasi. I nomi dei kenku si distinguono, principalmente, in tre categorie che non fanno distinzione tra nomi maschili e femminili.</p>
+      <p class="indent">I kenku mercenari, picchiatori o briganti adottano i rumori emanati dalle loro armi, come il fragore di una mazza che si scaglia contro un'armatura od il suono delle ossa che si spezzano. I non-kenku si rivolgono a loro descrivendo questi suoni. Esempi: Distruttore, Sminuzzatore, Violento, Fragore.</p>
+      <p class="indent">I kenku ladri, truffatori e rapinatori adottano i suoni degli animali, perlopiù quelli che si trovano comunemente in aree urbane. In questa maniera possono chiamarsi l'un l'altro facendo credere a chi li ascolta di star sentendo il verso di un comune animale. I non-kenku si rivolgono a loro descrivendo i versi degli animali che mimano. Esempi: Grattaratto, Fischietto, Squittio, Ruggente.</p>
+      <p class="indent">Alcuni kenku si lasciano il crimine alle spalle e cercano impieghi legittimi. Questi kenku utilizzano i rumori che fanno parte del loro lavoro. Un marinaio duplica il suono del vento che si abbatte sulle vele, mentre un fabbro emula il rumore del martello sul ferro. I non-kenku li descrivono utilizzando i suoni dei loro lavori. Esempi: Schiocca Corde, Martelletto, Taglierino.</p>
+
+      <h4>TRATTI DEI KENKU</h4>
+      <p>Un personaggio kenku ha i seguenti tratti razziali.</p>
+      <p>
+      <span class="feature">Incremento dei Punteggi di Caratteristica.</span>Il punteggio di Destrezza di un kenku aumenta di 2 e quello di Saggezza aumenta di 1.<br/>
+      <span class="feature">Età.</span>I kenku vivono molto meno degli umani, raggiungendo la maturità intorno ai 12 anni e vivend fino a circa 60 anni.<br/>
+      <span class="feature">Allineamento.</span>I kenku sono creature caotiche che raramente si impegnano per una causa, principalmente interessati a salvarsi le penne. Sono generalmente caotici neutrali.<br/>
+      <span class="feature">Taglia.</span>I kenku sono in media alti circa 1,50 metri e pesano tra i 40 e 60 kg. I kenku sono creature di taglia Media.<br/>
+      <span class="feature">Velocità.</span>La velocità base sul terreno di un kenku è di 9 metri.<br/>
+      <span class="feature">Contraffazione Esperta.</span>Il kenku è in grado di duplicare la grafia o i manufatti di altre creature. Dispone di vantaggio a tutte le prove fatte per creare falsi o duplicati di oggetti esistenti.<br/>
+      <span class="feature">Addestramento Kenku.</span>Il personaggio kenku è competente, a scelta, in 2 delle seguenti abilità: Acrobazia, Inganno, Nascondersi, Rapidità di Mano.<br/>
+      <span class="feature">Mimica.</span>Il kenku è in grado di riprodurre tutti i suoni che ha sentito, incluse le voci. Una creatura che sente il suono emesso dal kenku può capire che si tratta di un'imitazione con una prova di Saggezza (Intuizione) contro una prova opposta di Carisma (Inganno).<br/>
+      <span class="feature">Linguaggi.</span>Il kenku sa leggere e scrivere in Comune ed Auran, ma può parlare solo utilizzando il tratto Mimica.<br/>
+      </p>      
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="names" type="sound">Distruttore, Sminuzzatore, Violento, Fragore, Grattaratto, Fischietto, Squittio, Ruggente, Schiocca Corde, Martelletto, Taglierino</set>
+      <set name="names-format">{{sound}}</set>
+      <set name="height" modifier="1d4">150 cm</set>
+      <set name="weight" modifier="2d10">40 kg</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2" />
+      <stat name="wisdom" value="1" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON_IT" />
+      <grant type="Language" id="ID_MM_LANGUAGE_AURAN_IT" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY_IT" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING_IT" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY_IT" />
+    </rules>
+  </element>
+
+   <element name="Contraffazione Esperta" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY_IT">
+    <description>
+      <p>Il kenku è in grado di duplicare la grafia o i manufatti di altre creature. Dispone di vantaggio a tutte le prove fatte per creare falsi o duplicati di oggetti esistenti.</p>
+    </description>
+    <sheet>
+      <description>Il kenku è in grado di duplicare la grafia o i manufatti di altre creature. Dispone di vantaggio a tutte le prove fatte per creare falsi o duplicati di oggetti esistenti.</description>
+    </sheet>
+  </element>
+
+   <element name="Addestramento Kenku" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING_IT">
+    <description>
+      <p>Il personaggio è competente, a scelta, in 2 delle seguenti abilità: Acrobazia, Inganno, Nascondersi, Rapidità di Mano.</p>
+    </description>
+    <sheet display="false">
+      <description>Il personaggio è competente, a scelta, in 2 delle seguenti abilità: Acrobazia, Inganno, Nascondersi, Rapidità di Mano.</description>
+    </sheet>
+    <rules>
+      <select type="Proficiency" name="Addestramento Kenku" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" />
+    </rules>
+  </element>
+
+   <element name="Mimica" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY_IT">
+    <description>
+      <p>Il kenku è in grado di riprodurre tutti i suoni che ha sentito, incluse le voci. Una creatura che sente il suono emesso dal kenku può capire che si tratta di un'imitazione con una prova di Saggezza (Intuizione) contro una prova opposta di Carisma (Inganno).</p>
+    </description>
+    <sheet>
+      <description>Il kenku è in grado di riprodurre tutti i suoni che ha sentito, incluse le voci. Una creatura che sente il suono emesso dal kenku può capire che si tratta di un'imitazione con una prova di Intuizione contro Inganno.</description>
+    </sheet>
+  </element>
+</elements>

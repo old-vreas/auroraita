@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Paladino</name>
+		<description>La classe del Paladino dal Manuale del Giocatore.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.7">
+			<file name="class-paladin.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-paladin.xml" />
+		</update>
+	</info>
+
+	<element name="Paladino" type="Class" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_PALADIN_IT">
+		<description>
+			<p>Protetta da una corazza di piastre che scintilla alla luce del sole nonostante lo strato di polvere e di fango accumulato in un lungo viaggio, un'umana depone la spada e lo scudo per imporre le mani su un uomo mortalmente ferito. Un bagliore radioso risplende dalle sue mani, le ferite dell'uomo si richiudono e i suoi occhi si spalancano per lo stupore.</p>
+			<p class="indent">Un nano si rannicchia dietro una sporgenza rocciosa, reso quasi invisibile nella notte dal manto nero in cui si avvolge. Spia una banda da guerra di orchi intenta a festeggiare una recente vittoria, poi si insinua in silenzio in mezzo a loro, sussurra un giuramento, e due orchi cadono a terra senza vita prima ancora di accorgersi della sua presenza.</p>
+			<p class="indent">Con la chioma argentea che risplende al di sotto di un raggio di luce che sembra illuminare soltanto lui, un elfo si concede una risata di esultanza. Sulla punta della sua lancia risplende la medesima luce che brilla nei suoi occhi, mentre infligge una tempesta di colpi a un maligno gigante, finché quel fulgore non ha la meglio sull'orrenda oscurità del mostro.</p>
+			<p class="indent">A prescindere dalle loro origini e dalla loro missione, i paladini sono accomunati dal giuramento di opporsi alle forze del male. Che si tratti di un giuramento formulato davanti all'altare di un dio e al cospetto di un sacerdote, in una radura sacra dinanzi agli spiriti della natura e ai folletti, o in un momento di dolore e di disperazione con i soli defunti come suoi testimoni, il giuramento di un paladino è un vincolo potente. È una fonte di potere che può trasformare un devoto combattente in un campione benedetto.</p>
+			<h4>LA CAUSA DELLA RETTITUDINE</h4>
+			<p>Un paladino giura di sostenere la causa della giustizia e della rettitudine, di schierarsi a fianco di tutto ciò che c'è di buono nel mondo per contrastare l'avanzata dell'oscurità e di dare la caccia alle forze del male ovunque si nascondano. Certi paladini possono concentrarsi su aspetti diversi della causa della giustizia, ma sono tutti vincolati da giuramenti che conferiscono loro il potere di dedicarsi alla loro sacra causa. Sebbene molti paladini siano devoti agli dèi del bene, il potere di un paladino proviene in egual misura da una divinità e dalla dedizione del paladino alla causa della giustizia stessa. I paladini si addestrano per anni al fine di apprendere l'arte del combattimento e padroneggiare una vasta gamma di armi e armature. Nonostante questo, le loro abilità marziali sono secondarie rispetto al potere magico che detengono: il potere di curare i malati e i feriti, di punire gli empi e i non morti e di proteggere gli innocenti e coloro che combattono in nome della giustizia al loro fianco.</p>
+			<h4>OLTRE LA VITA QUOTIDIANA</h4>
+			<p>Quasi per definizione, la vita di un paladino è una vita da avventuriero. A meno che una ferita permanente non lo costringa a rinunciare all'avventura per qualche tempo, un paladino conduce una vita in prima linea nella lotta cosmica contro il male. I guerrieri sono figure già abbastanza rare nei ranghi delle milizie e degli eserciti del mondo, ma ancora meno individui possono vantare di avere seguito la vocazione del paladino. Quando un combattente risponde a questa chiamata, abbandona la sua occupazione precedente e imbraccia le armi per combattere il male. A volte il suo giuramento lo porta a servire un sovrano alla guida di un gruppo scelto di cavalieri, ma anche in quel caso la sua fedeltà va alla causa della rettitudine, e non alla corona e alla nazione.</p>
+			<p class="indent">I paladini avventurieri prendono il loro compito molto sul serio. Calarsi in un complesso di antiche rovine o in una cripta polverosa può essere per loro una missione che mira a uno scopo più nobile del semplice recupero di un tesoro. Spesso il male si annida nel cuore di un dungeon o nel fitto di una foresta primordiale, e anche la vittoria più piccola contro le forze dell'oscurità può servire ad allontanare l'equilibrio cosmico dall'oblio.</p>
+			<h4>CREARE UN PALADINO</h4>
+			<p>L'aspetto più importante di un paladino è la natura della sua cerca sacra. Sebbene i privilegi di classe correlati al suo giuramento compaiano soltanto al 3° livello, il giocatore dovrebbe muoversi in previsione di quella scelta leggendo le descrizioni di quei nemici alla fine della classe. Il personaggio è un devoto servitore del bene, fedele agli dèi della giustizia e dell'onore, un cavaliere sacro in armatura splendente, pronto a partire all'avventura per punire il male? Oppure è un glorioso campione della luce, votato a tutto ciò che splende e si contrappone alle tenebre, un cavaliere i cui giuramenti discendono da tradizioni più antiche della maggior parte delle divinità? Oppure è una cupa figura solitaria che ha giurato di reclamare vendetta contro coloro che hanno commesso le malvagità più atroci, inviato come un angelo della morte dagli dèi o animato da una sete inestinguibile di vendetta? Fra le molte divinità venerate dai paladini in tutto il multiverso, troviamo: Torm, Tyr, Heironeous, Paladine, Kiri-Jolith, Dol Arrah, la Fiamma d'Argento, Bahamut, Atena, Ra-Horakhty e Heimdall.</p>
+			<p class="indent">In che occasione il personaggio ha sentito la vocazione di prestare servizio come paladino? Il sussurro di un dio invisibile o di un angelo lo hanno raggiunto mentre era raccolto in preghiera? Un altro paladino ha percepito del potenziale in lui e ha deciso di addestrarlo come scudiero? Oppure un evento terribile di qualche tipo (forse la distruzione della sua dimora) lo hanno spinto a intraprendere una cerca? Forse il paladino si è imbattuto in un boschetto sacro o un insediamento elfico nascosto e ha sentito il bisogno dì proteggere quella bellezza, quella bontà o quei profughi. Oppure potrebbe avere sognato di diventare un paladino fin da quando è in grado di ricordare, come se fosse venuto al mondo con quella missione già impressa nella sua anima.</p>
+			<p class="indent">In qualità di guardiani contro le forze del male, è raro che i paladini seguano un qualsiasi allineamento malvagio. Molti di loro seguono il cammino della carità e della giustizia. Il giocatore dovrà chiedersi in che modo il suo allineamento influenza la sua sacra missione e il suo comportamento al cospetto degli dèi e dei mortali. In alcuni casi il giuramento e l'allineamento del paladino possono coesistere in armonia, ma in altri casi il giuramento può imporre dei parametri di comportamento che il paladino deve ancora raggiungere.</p>
+			<h5>CREAZIONE RAPIDA</h5>
+			<p>You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background.</p>
+			<h3>PRIVILEGI DI CLASSE</h3>
+			<p>È possibile creare un paladino rapidamente seguendo questi suggerimenti. Per prima cosa, Forza dovrebbe essere il punteggio di caratteristica più alto, seguito da Carisma. Poi si sceglie il background del nobile.</p>
+            <h5>PUNTI FERITA</h5>
+            <ul class="unstyled">
+                <li><strong>Dadi Vita:</strong> 1d10 per ogni livello da paladino</li>
+                <li><strong>Punti Ferita al 1° Livello:</strong> 10 + il modificatore di Costituzione del paladino</li>
+                <li><strong>Punti Ferita ai Livelli Successivi:</strong> 1d10 (or 6) + il modificatore di Costituzione del paladino per ogni livello da paladino dopo il 1°</li>
+            </ul>
+            <h5>COMPETENZE</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armature:</strong> Tutte le armature, scudi</li>
+                <li><strong>Armi:</strong> Armi semplici, armi da guerra</li>
+                <li><strong>Strumenti:</strong> Nessuno</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Tiri Salvezza:</strong> Saggezza, Carisma</li>
+                <li><strong>Abilità:</strong> Due a scelta tra Atletica, Intimidire, Intuizione, Medicina, Persuasione e Religione</li>
+            </ul>
+			<h5>EQUIPAGGIAMENTO</h5>
+			<p>Un paladino inizia con l'equipaggiamento seguente, in aggiunta all'equipaggiamento conferito dal suo background:</p>
+			<ul>
+				<li>(a) un'arma da guerra e uno scudo o (b) due armi da guerra</li>
+				<li>(a) cinque giavellotti o (b) una qualsiasi arma semplice da mischia</li>
+				<li>(a) una dotazione da sacerdote o (b) una dotazione da esploratore</li>
+				<li>Una cotta di maglia e un simbolo sacro</li>
+			</ul>
+			<h5 class="caption">PALADINO</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Livello</td><td class="col-60 left">Privilegi</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Percezione del Divino, Imposizione delle Mani</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Stile di Combattimento, Incantesimi, Punizione Divina</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Salute Divina, Giuramento Sacro</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Attacco Extra</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Aura di Protezione</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Privilegio del Giuramento Sacro</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Aura di Coraggio</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Punizione Divina Migliorata</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Tocco Purificatore</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Privilegio del Giuramento Sacro</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Aure Migliorate</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Privilegio del Giuramento Sacro</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_HEALTH_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SACRED_OATH_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_ASI_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_EXTRA_ATTACK_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH_IT" />
+		</description>
+		<sheet display="false">
+			<description>Un guerriero divino legato a un giuramento sacro.</description>
+		</sheet>
+		<setters>
+			<set name="short">Un guerriero divino legato a un giuramento sacro.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<select type="Proficiency" name="Skill Proficiency (Paladin)" supports="Skill,Paladin" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_PALADIN_IT" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE_IT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS_IT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_HEALTH_IT" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SACRED_OATH_IT" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_ASI_IT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_EXTRA_ATTACK_IT" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION_IT" level="6" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE_IT" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE_IT" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH_IT" level="14" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_PALADIN_IT">
+			<prerequisite>Forza 13 and Carisma 13</prerequisite>
+			<requirements>([str:13],[cha:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Armature leggere, armature medie, scudi, armi semplici, armi marziali</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Percezione del Divino" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SENSE_IT">
+		<description>
+			<p>Un paladino percepisce una presenza del male particolarmente forte come se un fetore assalisse le sue narici, mentre una forte presenza del bene equivale per lui a una musica celestiale che risuona nelle sue orecchie. Con un'azione, un paladino può proiettare le sue percezioni attorno a sé per avvertire la presenza di queste forze. Fino alla fine del suo turno successivo, il paladino conosce l'ubicazione di ogni celestiale, immondo o non morto entro 18 metri da lui e che non si trovi sotto copertura totale. Il paladino riconosce il tipo (celestiale, immondo o non morto) di qualsiasi creatura di cui riesca a percepire la presenza, ma non la sua identità (il conte vampiro Strahd von Zarovich, per esempio). Entro lo stesso raggio, il paladino individua anche la presenza dì qualsiasi luogo sacro o sacrilego, con gli stessi effetti dell'incantesimo Santificare.</p>
+			<p class="indent">Il paladino può utilizzare questo privilegio un numero di volte pari a 1 + il suo modificatore di Carisma. Quando completa un riposo lungo, recupera tutti gli utilizzi spesi.</p>
+		</description>
+		<sheet usage="{{divine sense:count}}/Riposo Lungo" action="Azione">
+			<description>un paladino può proiettare le sue percezioni attorno a sé per avvertire la presenza di queste forze. Fino alla fine del suo turno successivo, il paladino conosce l'ubicazione di ogni celestiale, immondo o non morto entro 18 metri da lui e che non si trovi sotto copertura totale. Il paladino riconosce il tipo di qualsiasi creatura di cui riesca a percepire la presenza, ma non la sua identità. Entro lo stesso raggio, il paladino individua anche la presenza dì qualsiasi luogo sacro o sacrilego.</description>
+		</sheet>
+		<rules>
+			<stat name="divine sense:count" value="1" />
+			<stat name="divine sense:count" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Imposizione delle Mani" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_LAY_ON_HANDS_IT">
+		<description>
+			<p>Il tocco benedetto di un paladino è in grado di curare le ferite. Un paladino possiede una riserva di poteri curativi che si ricostituisce quando il paladino completa un riposo lungo. Grazie a quella riserva, il paladino può ripristinare un numero totale di punti ferita pari a cinque volte il proprio livello da paladino.</p>
+			<p class="indent">Con un'azione, il paladino può toccare una creatura e attingere al potere della sua riserva per ripristinare un certo numero di punti ferita in quella creatura, fino all'ammontare massimo rimasto nella sua riserva.</p>
+			<p class="indent">In alternativa, il paladino può spendere 5 punti ferita dalla sua riserva di guarigione per curare il bersaglio da una malattia o neutralizzare un veleno a cui è soggetto. Il paladino può curare più malattie e neutralizzare più veleni con un singolo utilizzo di Imposizione delle Mani, spendendo separatamente i punti ferita per ogni caso.</p>
+			<p class="indent">Questo privilegio non ha effetto sui costrutti e sui non morti.</p>
+		</description>
+		<sheet action="Azione" usage="{{lay on hands:hp pool}}/Riposo Lungo">
+			<description>Il paladino può toccare una creatura e attingere al potere della sua riserva per ripristinare un certo numero di punti ferita in quella creatura, fino all'ammontare massimo rimasto nella sua riserva. 
+			Il paladino può spendere 5 punti ferita dalla sua riserva di guarigione per curare il bersaglio da una malattia o neutralizzare un veleno a cui è soggetto.
+			Questo privilegio non ha effetto sui costrutti e sui non morti.</description>
+		</sheet>
+		<rules>
+			<stat name="lay on hands:hp pool" value="level:paladino" />
+			<stat name="lay on hands:hp pool" value="level:paladino" />
+			<stat name="lay on hands:hp pool" value="level:paladino" />
+			<stat name="lay on hands:hp pool" value="level:paladino" />
+			<stat name="lay on hands:hp pool" value="level:paladino" />
+		</rules>
+	</element>
+	<element name="Stile di Combattimento" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_FIGHTING_STYLE_IT">
+		<description>
+			<p>Al 2° livello, un paladino adotta uno stile di combattimento in cui specializzarsi scegliendo una tra le opzioni seguenti. Non è consentito scegliere uno stile di combattimento più di una volta, anche se in seguito il paladino ha diritto a scegliere di nuovo.</p>
+			<h5 class="caption">Combattere con Armi Possenti</h5>
+			<p>Quando il paladino ottiene un 1 o un 2 a un tiro per i danni di un attacco che ha effettuato con un'arma da mischia impugnata a due mani, può ripetere il tiro e deve usare il nuovo risultato, anche se ottiene ancora un 1 o un 2. L'arma deve possedere la proprietà Due Mani o Versatile affinché il paladino ottenga questo beneficio.</p>
+			<h5 class="caption">Difesa</h5>
+			<p>Finché indossa un'armatura, il paladino ottiene un bonus di +1 alla CA.</p>
+			<h5 class="caption">Duellare</h5>
+			<p>Quando il paladino impugna un'arma da mischia in una mano e non impugna altre armi, ottiene un bonus di +2 ai tiri per i danni di quell'arma.</p>
+			<h5 class="caption">Protezione</h5>
+			<p>Quando una creatura che il paladino sia in grado di vedere attacca un bersaglio diverso dal paladino e situato entro 1,5 metri da lui, il paladino può usare la sua reazione per infliggere svantaggio al tiro per colpire della creatura. Il paladino deve impugnare uno scudo.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Paladin" />
+		</rules>
+	</element>
+	<element name="Incantesimi" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SPELLCASTING_IT">
+		<description>
+			<p>Quando arriva al 2° livello, un paladino attinge alla magia divina attraverso la preghiera e la meditazione al fine di lanciare incantesimi in modo molto simile a un chierico.</p>
+			<h5>PREPARARE E LANCIARE INCANTESIMI</h5>
+			<p>La tabella indica quanti slot incantesimo possiede un paladino per lanciare i suoi incantesimi di 1° livello e di livello superiore. Per lanciare uno dì questi incantesimi, il paladino deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il paladino recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>
+			<p class="indent">Il paladino prepara la lista degli incantesimi disponibili da lanciare scegliendoli dalla lista degli incantesimi da paladino. Quando lo fa, deve scegliere un numero di incantesimi pari al suo modificatore di Carisma + metà del suo livello da paladino arrotondato per difetto (fino a un minimo di un incantesimo). Gli incantesimi devono essere di un livello di cui il paladino possiede degli slot incantesimo.</p>
+			<p class="indent">Per esempio, un paladino di 5° livello possiede quattro slot incantesimo di 1° livello e due slot incantesimo di 2° livello. Con Carisma pari a 14, la lista dei suoi incantesimi preparati può includere quattro incantesimi di 1° o 2° livello, in qualsiasi combinazione. Se prepara l'incantesimo di 1° livello Cura Ferite, potrà lanciarlo usando uno slot incantesimo di 1° livello o di 2° livello. Il lancio di quell'incantesimo non lo rimuove dalla lista di incantesimi preparati.</p>
+			<p class="indent">Il paladino può cambiare la lista dei suoi incantesimi preparati quando completa un riposo lungo. Per preparare una nuova lista di incantesimi è necessario un certo ammontare di tempo da trascorrere in preghiera e meditazione, pari ad 1 minuto per livello di incantesimo per ogni incantesimo nella sua lista.</p>
+			<h5>CARATTERISTICA DA INCANTATORE</h5>
+			<p>Carisma è la caratteristica da incantatore usata per gli incantesimi da paladino, dal momento che il suo potere deriva dalla forza delle sue convinzioni. Un paladino usa Carisma ogni volta che un incantesimo da paladino fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Carisma per definire la CD del tiro salvezza di un incantesimo da paladino da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>
+			<center>
+				<p><strong>CD del tiro salvezza dell'incantesimo</strong> = 8 + il bonus di competenza del paladino + il modificatore di Carisma del paladino</p>
+				<p><strong>Modificatore di attacco dell'incantesimo</strong> = il bonus di competenza del paladino + il modificatore di Carisma del paladino</p>
+			</center>
+			<h5>FOCUS DA INCANTATORE</h5>
+			<p>Un paladino può usare un simbolo sacro come focus da incantatore per i suoi incantesimi da paladino.</p>
+		</description>
+		<sheet display="false">
+			<description>Il paladino attinge alla magia divina attraverso la preghiera e la meditazione al fine di lanciare incantesimi in modo molto simile a un chierico.</description>
+		</sheet>
+		<spellcasting name="Paladino" ability="Charisma" prepare="true">
+			<list known="true">Paladino</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS_IT"/>
+			<stat name="paladino:spellcasting:slots:1" value="2" level="2" />
+			<stat name="paladino:spellcasting:slots:1" value="1" level="3" />
+			<stat name="paladino:spellcasting:slots:1" value="1" level="5" />
+			<stat name="paladino:spellcasting:slots:2" value="2" level="5" />
+			<stat name="paladino:spellcasting:slots:2" value="1" level="7" />
+			<stat name="paladino:spellcasting:slots:3" value="2" level="9" />
+			<stat name="paladino:spellcasting:slots:3" value="1" level="11" />
+			<stat name="paladino:spellcasting:slots:4" value="1" level="13" />
+			<stat name="paladino:spellcasting:slots:4" value="1" level="15" />
+			<stat name="paladino:spellcasting:slots:4" value="1" level="17" />
+			<stat name="paladino:spellcasting:slots:5" value="1" level="17" />
+			<stat name="paladino:spellcasting:slots:5" value="1" level="19" />
+			<stat name="paladino:spellcasting:prepare" value="charisma:modifier" />
+			<stat name="paladino:spellcasting:prepare" value="level:paladino:half" />
+		</rules>
+	</element>
+	<element name="Punizione Divina" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_SMITE_IT">
+		<requirements>!ID_KBP_DMBD_CLASS_FEATURE_ANTIPALADIN_UNHOLY_SMITE</requirements>
+		<description>
+			<p>A partire dal 2° livello, quando il paladino colpisce una creatura con un attacco con un'arma da mischia, può spendere uno slot incantesimo per infliggere danni radiosi al bersaglio, in aggiunta ai danni dell'arma. I danni extra sono 2d8 per uno slot incantesimo di 1 livello, più 1d8 per ogni livello di incantesimo superiore al 1°, fino a un massimo di 5d8. I danni aumentano di 1d8 se il bersaglio è un non morto o un immondo.</p>
+		</description>
+		<sheet>
+			<description>Quando il paladino colpisce una creatura con un attacco con un'arma da mischia, può spendere uno slot incantesimo per infliggere danni radiosi al bersaglio, in aggiunta ai danni dell'arma. I danni extra sono 2d8 per uno slot incantesimo di 1 livello, più 1d8 per ogni livello di incantesimo superiore al 1°, fino a un massimo di 5d8. I danni aumentano di 1d8 se il bersaglio è un non morto o un immondo.</description>
+		</sheet>
+	</element>
+	<element name="Salute Divina" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_DIVINE_HEALTH_IT">
+		<description>
+			<p>Giunto al 3° livello, un paladino diventa immune alle malattie grazie alla magia divina.</p>
+		</description>
+		<sheet>
+			<description>La magia divina rende il paladino immune alle malattie.</description>
+		</sheet>
+	</element>
+	<element name="Giuramento Sacro" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_SACRED_OATH_IT">
+		<description>
+			<p>Una volta giunto al 3° livello, il paladino formula il giuramento che lo vincolerà alla sua vocazione per sempre. Finora il paladino ha vissuto una fase preparatoria in cui si è dedicato a una causa, ma non ha ancora formulato un giuramento. Ora deve scegliere tra Giuramento di Devozione, Giuramento degli Antichi o Giuramento di Vendetta, tutti descritti alla fine delJa sezione di questa classe.</p>
+			<p class="indent">Il giuramento scelto gli conferisce alcuni privilegi al 3° livello e poi di nuovo al 7°, 15° e 20' livello. Questi privilegi includono alcuni incantesimi di giuramento e il privilegio Incanalare Divinità.</p>
+			<h5 class="caption">INCANTESIMI DI GIURAMENTO</h5>
+			<p>A ogni giuramento è associata una lista di incantesimi. Il paladino ottiene l'accesso a questi incantesimi ai livelli specificati nella descrizione del giuramento. Una volta ottenuto l'accesso a un incantesimo. quell'incantesimo è sempre considerato preparato e non conta al fine determinare il numero di incantesimi che il paladino può preparare ogni giorno.</p>
+			<p class="indent">Se il paladino possiede un incantesimo di giuramento che non compare sulla lista degli incantesimi da paladino, quell'incantesimo è comunque considerato un incantesimo da paladino per lui.</p>
+			<h5 class="caption">INCANALARE DIVINITÀ</h5>
+			<p>Grazie al suo giuramento, un paladino può incanalare l'energia divina per alimentare alcuni effetti magici. Ogni opzione di Incanalare Divinità fornitagli dal suo giuramento include la spiegazione del suo utilizzo.</p>
+			<p class="indent">Quando un paladino utilizza Incanalare Divinità, può scegliere quale opzione usare. Deve poi completare un riposo breve o lungo per utilizzare di nuovo Incanalare Divinità.</p>
+			<p class="indent">Alcuni effetti di Incanalare Divinità richiedono dei tiri salvezza. Quando un paladino utilizza un tale effetto, la CD è pari alla CD del tiro salvezza dei suoi incantesimi da paladino.</p>
+		</description>
+		<sheet display="false">
+			<description>Il giuramento del paladino gli consente di incanalare l'energia divina per alimentare alcuni effetti magici.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype" name="Giuramento Sacro" supports="Giuramento Sacro" />
+			<stat name="channel divinity:count" value="1" level="1" bonus="base" />
+		</rules>
+	</element>
+	<element name="Aumento dei Punteggi di Caratteristica" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_ASI_IT">
+		<compendium display="false" />
+		<description>
+			<p>Quando arriva al 4° livello, e poi di nuovo all'8° 12°, 16° e 19° livello, un paladino può aumentare di 2 un punteggio di caratteristica a sua scelta, oppure può aumentare di 1 due punteggi di caratteristica a sua scelta. Come di consueto, non è consentito aumentare un punteggio di caratteristica a più di 20 utilizzando questo privilegio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Paladino 4)" supports="Improvement Option,Paladino,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Paladino 8)" supports="Improvement Option,Paladino,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Paladino 12)" supports="Improvement Option,Paladino,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Paladino 16)" supports="Improvement Option,Paladino,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Paladino 19)" supports="Improvement Option,Paladino,19" level="19" />
+		</rules>
+	</element>
+	<element name="Attacco Extra" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_EXTRA_ATTACK_IT">
+		<description>
+			<p>A partire dal 5° livello, un paladino può attaccare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</p>
+		</description>
+		<sheet>
+			<description>Il paladino può attaccare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Aura di Protezione" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_PROTECTION_IT">
+		<description>
+			<p>A partire dal 6° livello, ogni volta che il paladino o una creatura amica entro 3 metri da lui deve effettuare un tiro salvezza, il paladino o la creatura in questione ottiene un bonus al tiro salvezza pari al modificatore di Carisma del paladino (fino a un bonus minimo di +1). Il paladino deve essere cosciente per conferire questo bonus.</p>
+			<p class="indent">Al 18° livello, la gittata dì questa aura aumenta a 9 metri.</p>
+		</description>
+		<sheet>
+			<description>Ogni volta che il paladino o una creatura amica entro {{aura of protection:range}} metri da lui deve effettuare un tiro salvezza, la creatura ottiene un +{{aura of protection:save bonus}} bonus al tiro salvezza. Il paladino deve essere cosciente per conferire questo bonus.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of protection:range" value="3" />
+			<stat name="aura of protection:range" value="9" level="18" />
+			<stat name="aura of protection:save bonus" value="1" bonus="base"/>
+			<stat name="aura of protection:save bonus" value="charisma:modifier" bonus="base"/>
+		</rules>
+	</element>
+	<element name="Aura di Coraggio" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_AURA_OF_COURAGE_IT">
+		<description>
+			<p>A partire dal 10° livello, il paladino e le creature amiche entro 3 metri da lui non possono essere spaventate finché il paladino è cosciente.</p>
+			<p class="indent">Al 18° livello, la gittata dì questa aura aumenta a 9 metri.</p>
+		</description>
+		<sheet>
+			<description>il paladino e le creature amiche entro {{aura of courage:range}} metri da lui non possono essere spaventate finché il paladino è cosciente.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of courage:range" value="3" />
+			<stat name="aura of courage:range" value="9" level="18" />
+		</rules>
+	</element>
+	<element name="Punizione Divina Migliorata" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_IMPROVED_DIVINE_SMITE_IT">
+		<requirements>!ID_KBP_DMBD_CLASS_FEATURE_ANTIPALADIN_IMPROVED_UNHOLY_SMITE_IT</requirements>
+		<description>
+			<p>All'11° livello, il paladino è talmente pervaso dalla potenza della giustizia che tutti i suoi colpi con le armi si caricano di potere divino. Ogni volta che il paladino colpisce una creatura con un'arma da mischia, quella creatura subisce 1d8 danni radiosi extra. Inoltre, se utilizza Punizione Divina con un attacco, aggiunge questi danni ai danni extra della sua Punizione Divina.</p>
+		</description>
+		<sheet>
+			<description>Ogni volta che il paladino colpisce una creatura con un'arma da mischia, quella creatura subisce 1d8 danni radiosi extra. Inoltre, se utilizza Punizione Divina con un attacco, aggiunge questi danni ai danni extra della sua Punizione Divina.</description>
+		</sheet>
+	</element>
+	<element name="Tocco Purificatore" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_PALADIN_CLEANSING_TOUCH_IT">
+		<description>
+			<p>A partire dal 14° livello, il paladino può usare la sua azione per terminare un incantesimo su sé stesso o su una creatura consenziente che sta toccando.</p>
+			<p class="indent">Il paladino può utilizzare questo privilegio un numero di volte pari al suo modificatore di Carisma (fino a un minimo di una volta). Recupera gli utilizzi spesi quando completa un riposo lungo.</p>
+		</description>
+		<sheet action="Azione" usage="{{cleansing touch:count}}/Riposo Lungo">
+			<description>Il paladino può terminare un incantesimo su sé stesso o su una creatura consenziente che sta toccando.</description>
+		</sheet>
+		<rules>
+			<stat name="cleansing touch:count" value="1" bonus="base"/>
+			<stat name="cleansing touch:count" value="charisma:modifier" bonus="base"/>
+		</rules>
+	</element>
+
+	<element name="Giuramento di Devozione" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_PALADIN_OATH_OF_DEVOTION_IT">
+		<supports>Giuramento Sacro</supports>
+		<description>
+			<p>Il Giuramento di Devozione lega un paladino ai più alti ideali di giustizia, virtù e ordine. A volte chiamati cavalieri bianchi o combattenti sacri, questi paladini incarnano l’ideale del cavaliere in armatura splendente e agisce onorevolmente in nome della giustizia e del bene superiore. Si considerano modelli esemplari di condotta e, alcuni, nel bene e nel male, applicano i loro stessi parametri al resto del mondo. Considerano gli angeli i perfetti servitori del bene, i loro ideali di riferimento e spesso sfoggiano il simbolo delle ali angeliche sui loro elmetti o sui loro stemmi araldici.</p>
+			<h5 class="caption">DETTAMI DI DEVOZIONE</h5>
+			<p>Sebbene le parole e gli obblighi esatti del Giuramento di Devozione possano variare, i paladini di questo giuramento condividono i seguenti precetti.</p>
+			<p class="indent"><strong><em>Onestà.</em></strong> Non mentire e non rubare. Che la tua parola sia vincolante come una promessa.</p>
+			<p class="indent"><strong><em>Coraggio.</em></strong> Non avere mai paura di agire, anche se la prudenza è segno di saggezza.</p>
+			<p class="indent"><strong><em>Compassione.</em></strong> Aiuta gli altri, proteggi i deboli e punisci coloro che li minacciano. Mostra pietà ai tuoi nemici, ma che la tua pietà sia accompagnata dalla saggezza.</p>
+			<p class="indent"><strong><em>Onore.</em></strong> Tratta gli altri con gentilezza e lascia che i tuoi atti onorevoli siano di esempio per loro. Fa' tutto il bene possibile provocando il minimo ammontare di danni.</p>
+			<p class="indent"><strong><em>Dovere.</em></strong> Sii responsabile delle tue azioni e delle loro conseguenze, proteggi coloro che sono stati affidati alle tue cure e obbedisci a chi esercita la sua legittima autorità su di te.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS_IT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION_IT" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT_IT" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS_IT" level="20" />
+		</rules>
+	</element>
+	<element name="Incantesimi di Giuramento" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_OATH_SPELLS_IT">
+		<description>
+			<p>Ottieni gli incantesimi di giuramento al livello da paladino indicato.</p>
+			<h5>INCANTESIMI DEL GIURAMENTO DI DEVOZIONE</h5>
+			<table>
+				<thead>
+					<tr><td>Livello da Paladino</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Protezione dal Bene e dal Male, Santuario</em></td></tr>
+				<tr><td>5th</td><td><em>Ripristino Inferiore, Zona di Verità</em></td></tr>
+				<tr><td>9th</td><td><em>Dissolvi Magie, Faro di Speranza</em></td></tr>
+				<tr><td>13th</td><td><em>Guardiano della Fede, Libertà di Movimento</em></td></tr>
+				<tr><td>17th</td><td><em>Colpo Infuocato, Comunione</em></td></tr>
+			</table>      
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD_IT" level="3" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SANCTUARY_IT" level="3" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LESSER_RESTORATION_IT" level="5" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ZONE_OF_TRUTH_IT" level="5" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE_IT" level="9" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC_IT" level="9" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT_IT" level="13" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUARDIAN_OF_FAITH_IT" level="13" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_IT" level="17" spellcasting="Paladino" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE_IT" level="17" spellcasting="Paladino" prepared="true" />
+		</rules>
+	</element>
+	<element name="Incanalare Divinità" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_DEVOTION_CHANNEL_DIVINITY_IT">
+		<description>
+			<p>Quando il paladino acquisisce questo giuramento al 3° livello, ottiene le seguenti due opzioni di Incanalare Divinità.</p>
+			<p class="indent"><b><i>Arma Consacrata.</i></b> Con un'azione, il paladino può utilizzare Incanalare Divinità per infondere un flusso di energia positiva in un'arma da lui impugnata. Per 1 minuto il paladino aggiunge il suo modificatore di Carisma ai tiri per colpire effettuati con quell'arma (fino a un bonus minimo dì + 1). L'arma emette inoltre luce intensa entro un raggio di 6 metri e luce fioca per ulteriori 6 metri. Se l'arma non è già magica, diventa magica per questa durata.</p>
+			<p class="indent">Il paladino può porre termine a questo effetto nel suo turno come parte di qualsiasi altra azione. Se non impugna o non trasporta più questa arma, o se cade privo di sensi, questo effetto termina.</p>
+			<p class="indent"><b><i>Scacciare i Sacrileghi.</i></b> Con un'azione, il paladino può utilizzare Incanalare Divinità, brandire il suo simbolo sacro e pronunciare una preghiera di condanna nei confronti degli immondi e dei non morti. Ogni immondo o non morto che sia in grado di vedere o sentire il paladino e che si trovi entro 9 metri da lui deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.</p>
+			<p class="indent">Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON_IT" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY_IT" />
+		</rules>
+	</element>
+	<element name="Incanalare Divinità: Arma Consacrata" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_SACRED_WEAPON_IT">
+		<description>
+			<p>Con un'azione, il paladino può utilizzare Incanalare Divinità per infondere un flusso di energia positiva in un'arma da lui impugnata. Per 1 minuto il paladino aggiunge il suo modificatore di Carisma ai tiri per colpire effettuati con quell'arma (fino a un bonus minimo dì + 1). L'arma emette inoltre luce intensa entro un raggio di 6 metri e luce fioca per ulteriori 6 metri. Se l'arma non è già magica, diventa magica per questa durata.</p>
+			<p class="indent">Il paladino può porre termine a questo effetto nel suo turno come parte di qualsiasi altra azione. Se non impugna o non trasporta più questa arma, o se cade privo di sensi, questo effetto termina.</p>
+		</description>
+		<sheet alt="Arma Consacrata" action="Azione" usage="Incanalare Divinità">
+			<description>Per 1 minuto il paladino aggiunge un +{{charisma:modifier}} ai tiri per colpire effettuati con quell'arma. arma emette inoltre luce intensa entro un raggio di 6 metri e luce fioca per ulteriori 6 metri. Se l'arma non è già magica, diventa magica per questa durata.
+			Il paladino può porre termine a questo effetto nel suo turno come parte di qualsiasi altra azione. Se non impugna o non trasporta più questa arma, o se cade privo di sensi, questo effetto termina.</description>
+		</sheet>
+	</element>
+	<element name="Incanalare Divinità: Scacciare i Sacrileghi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_CHANNEL_DIVINITY_TURN_THE_UNHOLY_IT">
+		<description>
+			<p>Con un'azione, il paladino può utilizzare Incanalare Divinità, brandire il suo simbolo sacro e pronunciare una preghiera di condanna nei confronti degli immondi e dei non morti. Ogni immondo o non morto che sia in grado di vedere o sentire il paladino e che si trovi entro 9 metri da lui deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.</p>
+			<p class="indent">Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.</p>
+		</description>
+		<sheet alt="Scacciare i Sacrileghi" action="Azione" usage="Incanalare Divinità">
+			<description>Ogni immondo o non morto che sia in grado di vedere o sentire il paladino e che si trovi entro 9 metri da lui deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.
+			Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.</description>
+		</sheet>
+	</element>
+	<element name="Aura di Devozione" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_AURA_OF_DEVOTION_IT">
+		<description>
+			<p>A partire dal 7° livello, il paladino e le creature amiche entro 3 metri da lui non possono essere affascinate finché il paladino è cosciente.</p>
+			<p class="indent">Al 18° livello, la gittata di questa aura aumenta a 9 metri.</p>
+		</description>
+		<sheet>
+			<description>Il paladino e le creature amiche entro {{aura of devotion:range}} metri da lui non possono essere affascinate finché il paladino è cosciente.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of devotion:range" value="3" />
+			<stat name="aura of devotion:range" value="9" level="18" />
+		</rules>
+	</element>
+	<element name="Purezza di Spirito" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_PURITY_OF_SPIRIT_IT">
+		<description>
+			<p>A partire dal 15° livello, il paladino è sempre sotto l'effetto di un incantesimo Protezione dal Bene e dal Male.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>il paladino è sempre sotto l'effetto di un incantesimo Protezione dal Bene e dal Male.</description>
+		</sheet>
+	</element>
+	<element name="Nube Sacra" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PALADIN_HOLY_NIMBUS_IT">
+		<description>
+			<p>Al 20° livello, con un'azione, il paladino può emanare un'aura di luce solare. Per 1 minuto, il paladino emette luce intensa attorno a sé entro un raggio di 9 metri e luce fioca per ulteriori 9 metri.</p>
+			<p class="indent">Ogni volta che una creatura nemica inizia il suo turno nella luce intensa, subisce 10 danni radiosi.</p>
+			<p class="indent">Inoltre, per la durata dell'effetto, il paladino dispone di vantaggio ai tiri salvezza contro gli incantesimi lanciati dagli immondi o dai non morti.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il paladino non può più utilizzarlo finché non completa un riposo lungo.</p>
+		</description>
+		<sheet action="Azione" usage="1/Riposo Lungo">
+			<description>Il paladino può emanare un'aura di luce solare. Per 1 minuto, il paladino emette luce intensa attorno a sé entro un raggio di 9 metri e luce fioca per ulteriori 9 metri. Ogni volta che una creatura nemica inizia il suo turno nella luce intensa, subisce 10 danni radiosi. Inoltre, per la durata dell'effetto, il paladino dispone di vantaggio ai tiri salvezza contro gli incantesimi lanciati dagli immondi o dai non morti.</description>
+		</sheet>
+	</element>
+
+	<element name="Giuramento degli Antichi" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_PALADIN_OATH_OF_THE_ANCIENTS_IT">
+		<supports>Giuramento Sacro</supports>
+		<description>
+			<p>Il Giuramento degli Antichi è vecchio quanto la razza degli elfi e i rituali dei druidi. A volte chiamati cavalieri fatati, cavalieri verdi o cavalieri cervi, i paladini che formulano questo giuramento si schierano a fianco della luce nella lotta cosmica contro l'oscurità, spinti dall'amore per ciò che è bello e diffonde la vita nel mondo, e non necessariamente perché credono nei principi dell'onore, del coraggio e della giustizia. Decorano le loro armature e i loro abiti con le immagini di tutto ciò che cresce: foglie, rami e fiori, a simboleggiare la loro dedizione alla preservazione della luce e della vita nel mondo.</p>
+			<h5 class="caption">DETTAMI DEGLI ANTICHI</h5>
+			<p>I dettami del Giuramento degli Antichi sono stati preservati per innumerevoli secoli. Questo giuramento enfatizza i principi del bene al di sopra di qualsiasi distinzione tra legge e caos. I suoi quattro principi centrali sono semplici.</p>
+			<p class="indent"><b><i>Alimenta la Luce.</i></b> Tramite i tuoi atti di misericordia, benevolenza e perdono, accendi la fiamma della speranza nel mondo e scaccia la disperazione.</p>
+			<p class="indent"><b><i>Proteggi la Luce.</i></b> Là dove c'è bontà, bellezza, amore e gioia nel mondo, opponiti alla perfidia che vorrebbe distruggerlo. Là dove c'è vita, opponiti alle forze che vorrebbero vederla avvizzire.</p>
+			<p class="indent"><b><i>Preserva la Tua Luce.</i></b> Trai gioia dal canto e dalle risate, dalla bellezza e dall'arte. Se lasci che la luce nel tuo cuore si spenga, non potrai preservarla nel mondo.</p>
+			<p class="indent"><b><i>Sii la Luce.</i></b> Sii un fulgido faro per tutti coloro che vivono nella disperazione. Lascia che la luce della tua gioia e del tuo coraggio risplenda in ogni tua azione.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_OATH_SPELLS_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_UNDYING_SENTINEL_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_ELDER_CHAMPION_IT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_OATH_SPELLS_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING_IT" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_UNDYING_SENTINEL_IT" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_ELDER_CHAMPION_IT" level="20" />
+		</rules>
+	</element>
+	<element name="Incantesimi di Giuramento" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_OATH_SPELLS_IT">
+		<description>
+			<p>Il paladino ottiene gli incantesimi di giuramento seguenti ai livelli da paladino indicati.</p>
+			<h5 class="caption">INCANTESIMI DEL GIURAMENTO DEGLI ANTICHI</h5>
+			<table>
+				<thead>
+					<tr><td>Livello da Paladino</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Colpo Intrappolante, Parlare con gli Animali</em></td></tr>
+				<tr><td>5th</td><td><em>Bagliore Lunare, Passo Velato</em></td></tr>
+				<tr><td>9th</td><td><em>Crescita Vegetale, Protezione dall'Energia</em></td></tr>
+				<tr><td>13th</td><td><em>Pelle di Pietra, Tempesta di Ghiaccio</em></td></tr>
+				<tr><td>17th</td><td><em>Comunione con la Natura, Traslazione Arborea</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ENSNARING_STRIKE_IT" level="3" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS_IT" level="3" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MOONBEAM_IT" level="5" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP_IT" level="5" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PLANT_GROWTH_IT" level="9" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY_IT" level="9" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_ICE_STORM_IT" level="13" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_STONESKIN_IT" level="13" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE_IT" level="17" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE_IT" level="17" spellcasting="Paladino" prepared="true"/>
+		</rules>
+	</element>
+	<element name="Incanalare Divinità" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_IT">
+		<description>
+			<p>Quando il paladino acquisisce questo giuramento al 3° livello, ottiene le due seguenti opzioni di Incanalare Divinità.</p>
+			<p class="indent"><b><i>Collera della Natura.</i></b> Il paladino può utilizzare Incanalare Divinità per invocare le forze primordiali affinché intrappolino un nemico. Con un'azione, può fare spuntare dal terreno dei rampicanti spettrali che si protendono e afferrano una creatura situata entro 3 metri dal paladino e che egli sia in grado di vedere. La creatura deve superare un tiro salvezza su Forza o Destrezza (a sua scelta), altrimenti sarà trattenuta. Finché è trattenuta dai rampicanti, la creatura continua a ripetere il tiro salvezza alla fine di ogni suo turno. Se lo supera, riesce a liberarsi e i rampicanti svaniscono.</p>
+			<p class="indent"><b><i>Scacciare gli Infedeli.</i></b> Il paladino può utilizzare Incanalare Divinità per pronunciare antiche parole che infliggono dolore ai folletti e agli immondi. Con un'azione, il paladino brandisce il suo simbolo sacro e ogni folletto o immondo situato entro 9 metri da lui e in grado di sentirlo deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.</p>
+			<p class="indent">Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.</p>
+			<p class="indent">Se la vera forma della creatura è celata da un'illusione, una forma mutata o altri effetti analoghi, quella forma è rivelata quando la creatura viene scacciata.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_NATURES_WRATH_IT" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_TURN_THE_FAITHLESS_IT" />
+		</rules>
+	</element>
+	<element name="Incanalare Divinità: Collera della Natura" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_NATURES_WRATH_IT">
+		<description>
+			<p>Il paladino può utilizzare Incanalare Divinità per invocare le forze primordiali affinché intrappolino un nemico. Con un'azione, può fare spuntare dal terreno dei rampicanti spettrali che si protendono e afferrano una creatura situata entro 3 metri dal paladino e che egli sia in grado di vedere. La creatura deve superare un tiro salvezza su Forza o Destrezza (a sua scelta), altrimenti sarà trattenuta. Finché è trattenuta dai rampicanti, la creatura continua a ripetere il tiro salvezza alla fine di ogni suo turno. Se lo supera, riesce a liberarsi e i rampicanti svaniscono.</p>
+		</description>
+		<sheet alt="Collera della Natura" action="Azione" usage="Incanalare Divinità">
+			<description>Il paladino può fare spuntare dal terreno dei rampicanti spettrali che si protendono e afferrano una creatura situata entro 3 metri dal paladino e che egli sia in grado di vedere. La creatura deve superare un tiro salvezza su Forza o Destrezza (a sua scelta), altrimenti sarà trattenuta. Finché è trattenuta dai rampicanti, la creatura continua a ripetere il tiro salvezza alla fine di ogni suo turno. Se lo supera, riesce a liberarsi e i rampicanti svaniscono.</description>
+		</sheet>
+	</element>
+	<element name="Incanalare Divinità: Scacciare gli Infedeli" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_CHANNEL_DIVINITY_TURN_THE_FAITHLESS_IT">
+		<description>
+			<p>Il paladino può utilizzare Incanalare Divinità per pronunciare antiche parole che infliggono dolore ai folletti e agli immondi. Con un'azione, il paladino brandisce il suo simbolo sacro e ogni folletto o immondo situato entro 9 metri da lui e in grado di sentirlo deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.</p>
+			<p class="indent">Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.</p>
+			<p class="indent">Se la vera forma della creatura è celata da un'illusione, una forma mutata o altri effetti analoghi, quella forma è rivelata quando la creatura viene scacciata.</p>
+		</description>
+		<sheet alt="Scacciare gli Infedeli" action="Azione" usage="Incanalare Divinità">
+			<description>Il paladino brandisce il suo simbolo sacro e ogni folletto o immondo situato entro 9 metri da lui e in grado di sentirlo deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura è scacciata per 1 minuto o finché non subisce danni.
+			Una creatura scacciata deve spendere i suoi turni tentando di allontanarsi il più possibile dal paladino e non può volontariamente muoversi in uno spazio entro 9 metri dal paladino. Inoltre, non può effettuare reazioni. Come sua azione può usare solo l'azione di Scatto o tentare di fuggire da un effetto che gli impedisce di muoversi. Se non può muoversi in alcun luogo, la creatura può usare l'azione di Schivata.
+			Se la vera forma della creatura è celata da un'illusione, una forma mutata o altri effetti analoghi, quella forma è rivelata quando la creatura viene scacciata.</description>
+		</sheet>
+	</element>
+	<element name="Aura di Interdizione" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_AURA_OF_WARDING_IT">
+		<description>
+			<p>A partire dal 7° livello, la magia antica scorre con tale potenza nel paladino da formare un'interdizione  soprannaturale. Il paladino e le creature amiche situate entro 3 metri da lui ottengono resistenza ai danni degli incantesimi.</p>
+			<p class="indent">Al 18° livello, la gittata di questa aura aumenta a 9 metri.</p>
+		</description>
+		<sheet>
+			<description>Il paladino e le creature amiche situate entro {{aura of warding:range}} metri da lui ottengono resistenza ai danni degli incantesimi.</description>
+		</sheet>
+		<rules>
+			<stat name="aura of warding:range" value="3" />
+			<stat name="aura of warding:range" value="9" level="18" />
+		</rules>
+	</element>
+	<element name="Sentinella Imperitura" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_UNDYING_SENTINEL_IT">
+		<description>
+			<p>A partire dal 15° livello, quando il paladino scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Il paladino non può usare nuovamente questa capacità finché non completa un riposo lungo.</p>
+			<p class="indent">Non subisce inoltre alcuno svantaggio dovuto alla vecchiaia e non può invecchiare magicamente.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Quando il paladino scende a 0 punti ferita ma non viene ucciso sul colpo, può decidere di rimanere a 1 punto ferita. Il paladino non può usare nuovamente questa capacità finché non completa un riposo lungo.
+			Non subisce alcuno svantaggio dovuto alla vecchiaia e non può invecchiare magicamente.</description>
+		</sheet>
+	</element>
+	<element name="Campione degli Antichi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOTA_ELDER_CHAMPION_IT">
+		<description>
+			<p>Al 20° livello, il paladino può assumere la forma di un'antica forza della natura, assumendo un aspetto a sua scelta. Per esempio, la sua pelle potrebbe diventare verde o ruvida e resistente come la corteccia, i suoi capelli potrebbero trasformarsi in fogliame o muschio, oppure dalla sua testa potrebbero spuntare le corna di un cervo o la criniera di un leone. Usando la sua azione, il paladino si sottopone a una trasformazione. Per 1 minuto ottiene i benefici seguenti:</p>
+			<ul>
+				<li>All’inizio di ogni suo turno recupera 10 punti ferita.</li>
+				<li>Ogni volta che lancia un incantesimo da paladino con un tempo di lancio di 1 azione, può lanciarlo usando invece 1 azione bonus.</li>
+				<li>Le creature nemiche situate entro 3 metri da lui subiscono svantaggio ai tiri salvezza contro i suoi incantesimi da paladino e le sue opzioni di Incanalare Divinità.</li>
+			</ul>
+			<p class="indent">Una volta utilizzato questo privilegio, il paladino non può più utilizzarlo finché non completa un riposo lungo.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>For 1 minute you gain the following benefits:
+			All’inizio di ogni suo turno recupera 10 punti ferita
+			Ogni volta che lancia un incantesimo da paladino con un tempo di lancio di 1 azione, può lanciarlo usando invece 1 azione bonus.
+			Le creature nemiche situate entro 3 metri da lui subiscono svantaggio ai tiri salvezza contro i suoi incantesimi da paladino e le sue opzioni di Incanalare Divinità.</description>
+		</sheet>
+	</element>
+
+	<element name="Giuramento di Vendetta" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_PALADIN_OATH_OF_VENGEANCE_IT">
+		<supports>Giuramento Sacro</supports>
+		<description>
+			<p>Con il Giuramento di Vendetta il paladino promette solennemente di punire coloro che hanno commesso i peccati più gravi. Quando le forze del male massacrano un villaggio di innocenti, quando un intero popolo si ribella alla volontà degli dèi, quando una gilda di ladri diventa troppo violenta e potente oppure quando un drago si gira per le campagne seminando morte e devastazione, i paladini insorgono e formulano un Giuramento di Vendetta per raddrizzare il torto commesso. Per questi paladni, a volte chiamati vendicatori o cavalieri oscuri, preservare la toro purezza è meno importante che impartire giustizia.</p>
+			<h5 class="caption">DETTAMI DI VENDETTA</h5>
+			<p>I dettami del Giuramento di Vendetta possono variare da un paladino all'altro, ma tutti i precetti sono incentrati sulla necessità di punire i malfattori con ogni mezzo necessario. I paladini che osservano questi precetti sono disposti a sacrificare anche la loro rettitudine pur di impartire giustizia a chi commette un crimine, quindi i paladini di questo tipo sono spesso di allineamento neutrale o legale neutrale. I principi alla base di questi dettami sono brutalmente semplici.</p>
+			<p class="indent"><b><i>Combattere il Male Peggiore.</i></b> Se devi scegliere tra combattere contro i tuoi nemici giurati e combattere contro un male minore, scegli sempre il male peggiore.</p>
+			<p class="indent"><b><i>Nessuna Pietà per i Malvagi.</i></b> Gli avversari ordinari possono meritarsi la tua misericordia, ma i tuoi nemici giurati non la otterranno mai.</p>
+			<p class="indent"><b><i>Costi Quel Che Costi.</i></b> Non avrai alcuno scrupolo di fronte a un'occasione per sterminare i tuoi nemici.</p>
+			<p class="indent"><b><i>Risarcimento.</i></b> Se i tuoi avversari seminano la rovina per il mondo, lo fanno perché tu non sei riuscito a fermarli. Dovrai aiutare le vittime dei loro misfatti.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_SOUL_OF_VENGEANCE_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL_IT" />
+		</description>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER_IT" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_SOUL_OF_VENGEANCE_IT" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL_IT" level="20" />
+		</rules>
+	</element>
+	<element name="Incantesimi di Giuramento" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_OATH_SPELLS_IT">
+		<description>
+			<p>Il paladino ottiene gli incantesimi di giuramento seguenti ai livelli da paladino indicati.</p>
+			<h5>INCANTESIMI DEL GIURAMENTO DI VENDETTA</h5>
+			<table>
+				<thead>
+					<tr><td>Livello da Paladino</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>3rd</td><td><em>Anatema, Marchio del Cacciatore</em></td></tr>
+				<tr><td>5th</td><td><em>Blocca Persone, Passo Velato</em></td></tr>
+				<tr><td>9th</td><td><em>Protezione dall'Energia, Velocità</em></td></tr>
+				<tr><td>13th</td><td><em>Esilio, Porta Dimensionale</em></td></tr>
+				<tr><td>17th</td><td><em>Blocca Mostri, Scrutare</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANE_IT" level="3" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK_IT" level="3" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON_IT" level="5" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP_IT" level="5" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE_IT" level="9" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY_IT" level="9" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_BANISHMENT_IT" level="13" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DIMENSION_DOOR_IT" level="13" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER_IT" level="17" spellcasting="Paladino" prepared="true"/>
+			<grant type="Spell" id="ID_PHB_SPELL_SCRYING_IT" level="17" spellcasting="Paladino" prepared="true"/>
+		</rules>
+	</element>
+	<element name="Incanalare Divinità" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_IT">
+		<description>
+			<p>Quando il paladino acquisisce questo giuramento al 3° livello, ottiene le due seguenti opzioni di Incanalare Divinità.</p>
+			<p class="indent"><b><i>Abiurare Nemico.</i></b> Con un'azione, il paladino brandisce il suo simbolo sacro e proclama una preghiera di denuncia utilizzando Incanalare Divinità. Il paladino sceglie una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Saggezza, a meno che non sia immune all'essere spaventata. Gli immondi e i non morti subiscono svantaggio a questo tiro salvezza.</p>
+			<p class="indent">Se fallisce il tiro salvezza, la creatura è spaventata per 1 minuto o finché non subisce danni. Finché è spaventata, la creatura ha velocità 0 e non può trarre beneficio da alcun bonus alla sua velocità.</p>
+			<p class="indent">Se supera il tiro salvezza, la creatura dimezza la sua velocità per 1 minuto o finché non subisce danni.</p>
+			<p class="indent"><b><i>Giuramento di Inimicizia.</i></b> Utilizzando Incanalare Divinità come azione bonus, il paladino può formulare un giuramento di inimicizia contro una creatura situata entro 3 metri da lui e che egli sia in grado di vedere. Il paladino dispone di vantaggio ai tiri per colpire contro la creatura per 1 minuto o finché essa non scende a 0 punti ferita o cade priva di sensi.</p>
+		</description>
+		<sheet display="false">
+			<description>Il paladino ha Abiurare Nemico e Giuramento di Inimicizia come opzioni di Incanalare Divinità.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_ABJURE_ENEMY_IT" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_VOW_OF_ENMITY_IT" />
+		</rules>
+	</element>
+	<element name="Incanalare Divinità: Abiurare Nemico" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_ABJURE_ENEMY_IT">
+		<description>
+			<p>Con un'azione, il paladino brandisce il suo simbolo sacro e proclama una preghiera di denuncia utilizzando Incanalare Divinità. Il paladino sceglie una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Saggezza, a meno che non sia immune all'essere spaventata. Gli immondi e i non morti subiscono svantaggio a questo tiro salvezza.</p>
+			<p class="indent">Se fallisce il tiro salvezza, la creatura è spaventata per 1 minuto o finché non subisce danni. Finché è spaventata, la creatura ha velocità 0 e non può trarre beneficio da alcun bonus alla sua velocità.</p>
+			<p class="indent">Se supera il tiro salvezza, la creatura dimezza la sua velocità per 1 minuto o finché non subisce danni.</p>
+		</description>
+		<sheet alt="Abiurare Nemico" action="Azione" usage="Incanalare Divinità">
+			<description>Il paladino brandisce il suo simbolo sacro e proclama una preghiera di denuncia utilizzando Incanalare Divinità. Il paladino sceglie una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Saggezza, a meno che non sia immune all'essere spaventata. Gli immondi e i non morti subiscono svantaggio a questo tiro salvezza.
+			Se fallisce il tiro salvezza, la creatura è spaventata per 1 minuto o finché non subisce danni. Finché è spaventata, la creatura ha velocità 0 e non può trarre beneficio da alcun bonus alla sua velocità.
+			Se supera il tiro salvezza, la creatura dimezza la sua velocità per 1 minuto o finché non subisce danni.</description>
+		</sheet>
+	</element>
+	<element name="Incanalare Divinità: Giuramento di Inimicizia" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_CHANNEL_DIVINITY_VOW_OF_ENMITY_IT">
+		<description>
+			<p>Utilizzando Incanalare Divinità come azione bonus, il paladino può formulare un giuramento di inimicizia contro una creatura situata entro 3 metri da lui e che egli sia in grado di vedere. Il paladino dispone di vantaggio ai tiri per colpire contro la creatura per 1 minuto o finché essa non scende a 0 punti ferita o cade priva di sensi.</p>
+		</description>
+		<sheet alt="Giuramento di Inimicizia" action="Bonus Azione" usage="Incanalare Divinità">
+			<description>Il paladino può formulare un giuramento di inimicizia contro una creatura situata entro 3 metri da lui e che egli sia in grado di vedere. Il paladino dispone di vantaggio ai tiri per colpire contro la creatura per 1 minuto o finché essa non scende a 0 punti ferita o cade priva di sensi.</description>
+		</sheet>
+	</element>
+	<element name="Vendicatore Implacabile" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_RELENTLESS_AVENGER_IT">
+		<description>
+			<p>Al 7° livello, grazie alla sua concentrazione soprannaturale, il paladino è in grado di bloccare la ritirata dei suoi nemici. Quando colpisce una creatura con un attacco di opportunità, può muoversi fino a metà della sua velocità immediatamente dopo l'attacco e come parte della stessa reazione. Questo movimento non provoca attacchi di opportunità.</p>
+		</description>
+		<sheet>
+			<description>Il paladino è in grado di bloccare la ritirata dei suoi nemici. Quando colpisce una creatura con un attacco di opportunità, può muoversi fino a metà della sua velocità immediatamente dopo l'attacco e come parte della stessa reazione. Questo movimento non provoca attacchi di opportunità.</description>
+		</sheet>
+	</element>
+	<element name="Anima di Vendetta" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_SOUL_OF_VENGEANCE_IT">
+		<description>
+			<p>A partire dal 15° livello, l'autorità al cui cospetto il paladino ha formulato il suo Giuramento di Inimicizia gli conferisce un potere superiore sul suo avversario. Quando una creatura sotto l'effetto del Giuramento di Inimicizia del paladino effettua un attacco, il paladino può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura, se essa si trova entro portata.</p>
+		</description>
+		<sheet action="Reazione">
+			<description>Quando una creatura sotto l'effetto del Giuramento di Inimicizia del paladino effettua un attacco, il paladino può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura, se essa si trova entro portata.</description>
+		</sheet>
+	</element>
+	<element name="Angelo Vendicatore" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_OOV_AVENGING_ANGEL_IT">
+		<description>
+			<p>Al 20° livello, il paladino può assumere la forma di un vendicatore angelico. Usando la sua azione, il paladino si sottopone a una trasformazione. Per 1 ora ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Dalla sua schiena spunta un paio di ali che gli conferisce una velocità di volare di 18 metri.</li>
+				<li>Il paladino emana un'aura di minaccia del raggio di 9 metri. La prima volta che una creatura nemica entra nell'aura o vi inizia il proprio turno durante una battaglia, la creatura deve superare un tiro salvezza su Saggezza altrimenti sarà spaventata dal paladino per 1 minuto o finché non subisce danni. I tiri per colpire contro la creatura spaventata dispongono di vantaggio.</li>
+			</ul>
+			<p class="indent">Una volta utilizzato questo privilegio, il paladino non può più utilizzarlo finché non completa un riposo lungo.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Per 1 ora ottiene i benefici seguenti:
+			Dalla sua schiena spunta un paio di ali che gli conferisce una velocità di volare di 18 metri.
+			Il paladino emana un'aura di minaccia del raggio di 9 metri. La prima volta che una creatura nemica entra nell'aura o vi inizia il proprio turno durante una battaglia, la creatura deve superare un tiro salvezza su Saggezza altrimenti sarà spaventata dal paladino per 1 minuto o finché non subisce danni. I tiri per colpire contro la creatura spaventata dispongono di vantaggio.</description>
+		</sheet>
+	</element>
+</elements>

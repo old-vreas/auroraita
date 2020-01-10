@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Equipment Packs</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.2">
+			<file name="items-packs.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-packs.xml" />
+		</update>
+	</info>
+	<element name="Dotazione da Scassinatore" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_BURGLARS_PACK_IT">
+		<description>
+			<p>Include uno zaino, un sacchetto con 1.000 sfere metalliche, 3 metri di spago, una campanella, 5 candele, un piede di porco, un martello, 10 chiodi da rocciatore, una lanterna schermabile, 2 ampolle di olio, 5 razioni giornaliere, un acciarino e pietra focaia e un otre. La dotazione include anche 15 metri di corda di canapa legata allo zaino.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">16</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BALLBEARINGS_IT</item>
+			<item>ID_WOTC_PHB_ITEM_STRING_10FEET_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BELL_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_CANDLE_IT</item>
+			<item>ID_WOTC_PHB_ITEM_CROWBAR_IT</item>
+			<item>ID_WOTC_PHB_ITEM_HAMMER_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_PITON_IT</item>
+			<item>ID_WOTC_PHB_ITEM_LANTERN_HOODED_IT</item>
+			<item amount="2">ID_WOTC_PHB_ITEM_OIL_FLASK_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_RATIONS_1DAY_IT</item>
+			<item>ID_WOTC_PHB_ITEM_TINDERBOX_IT</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN_IT</item>
+			<item>ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Diplomatico" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_DIPLOMATS_PACK_IT">
+		<description>
+			<p>Include un forziere, 2 custodie per mappe e pergamene, un abito pregiato, una boccetta di inchiostro, un pennino, una lampada, 2 ampolle di olio, 5 fogli di carta, una fiala di profumo, cera per sigillo e sapone.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">39</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_CHEST_IT</item>
+			<item amount="2">ID_WOTC_PHB_ITEM_CASE_MAPORSCROLL_IT</item>
+			<item>ID_WOTC_PHB_ITEM_CLOTHES_FINE_IT</item>
+			<item>ID_WOTC_PHB_ITEM_INK_1OUNCEBOTTLE_IT</item>
+			<item>ID_WOTC_PHB_ITEM_INKPEN_IT</item>
+			<item>ID_WOTC_PHB_ITEM_LAMP_IT</item>
+			<item amount="2">ID_WOTC_PHB_ITEM_OIL_FLASK_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_PAPER_ONESHEET_IT</item>
+			<item>ID_WOTC_PHB_ITEM_PERFUME_VIAL_IT</item>
+			<item>ID_WOTC_PHB_ITEM_SEALINGWAX_IT</item>
+			<item>ID_WOTC_PHB_ITEM_SOAP_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Avventuriero" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_DUNGEONEERS_PACK_IT">
+		<description>
+			<p>Include uno zaino, un piede di porco, un martello, 10 chiodi da rocciatore, 10 torce, un acciarino e pietra focaia, 10 razioni giornaliere e un otre. La dotazione include anche 15 metri di corda di canapa legata allo zaino.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">12</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_CROWBAR_IT</item>
+			<item>ID_WOTC_PHB_ITEM_HAMMER_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_PITON_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_TORCH_IT</item>
+			<item>ID_WOTC_PHB_ITEM_TINDERBOX_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_RATIONS_1DAY_IT</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN_IT</item>
+			<item>ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Intrattenitore" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_ENTERTAINERS_PACK_IT">
+		<description>
+			<p>Include uno zaino, un giaciglio, 2 costumi, 5 candele, 5 razioni giornaliere, un otre e trucchi per il camuffamento.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BEDROLL_IT</item>
+			<item amount="2">ID_WOTC_PHB_ITEM_CLOTHES_COSTUME_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_CANDLE_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_RATIONS_1DAY_IT</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN_IT</item>
+			<item>ID_WOTC_PHB_ITEM_TOOL_DISGUISE_KIT_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Esploratore" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_EXPLORERS_PACK_IT">
+		<description>
+			<p>Include uno zaino, un giaciglio, una gavetta, un acciarino e pietra focaia, 10 torce, 10 razioni giornaliere e un otre. La dotazione include anche 15 metri di corda di canapa legata allo zaino.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BEDROLL_IT</item>
+			<item>ID_WOTC_PHB_ITEM_MESSKIT_IT</item>
+			<item>ID_WOTC_PHB_ITEM_TINDERBOX_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_TORCH_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_RATIONS_1DAY_IT</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN_IT</item>
+			<item>ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Sacerdote" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_PRIESTS_PACK_IT">
+		<description>
+			<p>Include uno zaino, una coperta, 10 candele, un acciarino e pietra focaia, una cassetta per le offerte, 2 cubetti di incenso, un incensiere, una veste, 2 razioni giornaliere e un otre.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">19</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BLANKET_IT</item>
+			<item amount="5">ID_WOTC_PHB_ITEM_CANDLE_IT</item>
+			<item>ID_WOTC_PHB_ITEM_TINDERBOX_IT</item>
+			<!-- alms box -->
+			<!-- 2 blocks of incense -->
+			<!-- censer -->
+			<!-- vestments -->
+			<item amount="2">ID_WOTC_PHB_ITEM_RATIONS_1DAY_IT</item>
+			<item>ID_WOTC_PHB_ITEM_WATERSKIN_IT</item>
+		</extract>
+	</element>
+	<element name="Dotazione da Studioso" type="Item" source="Manuale del Giocatore" id="ID_WOTC_ITEM_SCHOLARS_PACK_IT">
+		<description>
+			<p>Include uno zaino, un libro di studio, una boccetta d'inchiostro, un pennino, 10 fogli di pergamena, un sacchetto di sabbia e un coltellino.</p>
+		</description>
+		<setters>
+			<set name="category">Equipment Packs</set>
+			<set name="cost" currency="gp">40</set>
+			<set name="weight" lb="10">10 lbs.</set>
+		</setters>
+		<extract>
+			<description>Include uno zaino, un libro di studio, una boccetta d'inchiostro, un pennino, 10 fogli di pergamena, un sacchetto di sabbia e un coltellino.</description>
+			<item>ID_WOTC_PHB_ITEM_BACKPACK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_BOOK_IT</item>
+			<item>ID_WOTC_PHB_ITEM_INK_1OUNCEBOTTLE_IT</item>
+			<item>ID_WOTC_PHB_ITEM_INKPEN_IT</item>
+			<item amount="10">ID_WOTC_PHB_ITEM_PARCHMENT_ONESHEET_IT</item>
+			<!-- bag of sand -->
+			<!-- small knife -->
+		</extract>
+	</element>
+</elements>

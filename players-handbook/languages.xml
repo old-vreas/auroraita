@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Linguaggi</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/languages.xml" />
+		</update>
+	</info>
+
+	<!-- standard -->
+	<element name="Comune" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_COMMON_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dagli umani.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Umani</set>
+			<set name="script">Comune</set>
+		</setters>
+	</element>
+	<element name="Nanico" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_DWARVISH_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dai nani.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Nani</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+	<element name="Elfico" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_ELVISH_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dagli elfi.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Elfi</set>
+			<set name="script">Elfico</set>
+		</setters>
+	</element>
+	<element name="Gigante" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_GIANT_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato da ogre e giganti.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Ogre, gigani</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+	<element name="Gnomesco" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_GNOMISH_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dagli gnomi.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Gnomi</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+	<element name="Goblin" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_GOBLIN_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dai goblinoidi.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Goblinoidi</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+	<element name="Halfling" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_HALFLING_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dagli halfling.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Halfling</set>
+			<set name="script">Comune</set>
+		</setters>
+	</element>
+	<element name="Orchesco" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_ORC_IT">
+		<supports>Standard</supports>
+		<description>
+			<p>Tipicamente parlato dagli orchi.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Orchi</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+
+	<!-- exotic -->
+	<element name="Abissale" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_ABYSSAL_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dai demoni.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Demoni</set>
+			<set name="script">Infernale</set>
+		</setters>
+	</element>
+	<element name="Celestiale" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_CELESTIAL_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dai celestiali</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Celestiali</set>
+			<set name="script">Celestiale</set>
+		</setters>
+	</element>
+	<element name="Gergo delle Profondità" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_DEEP_SPEECH_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato da mind flayer e beholder.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Mind flayer, beholder</set>
+			<set name="script">—</set>
+		</setters>
+	</element>
+	<element name="Draconico" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_DRACONIC_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato da draghi e dragonidi.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Draghi, dragonidi</set>
+			<set name="script">Draconico</set>
+		</setters>
+	</element>
+	<element name="Infernale" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_INFERNAL_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dai diavoli.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Diavoli</set>
+			<set name="script">Infernale</set>
+		</setters>
+	</element>
+	<element name="Primordiale" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_PRIMORDIAL_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dagli elementali.</p>
+			<p>Il linguaggio Primordiale include i dialetti Aquan, Auran, Ignan e Terran, corrispondenti a ognuno dei quattro piani elementali.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Elementali</set>
+			<set name="script">Nanico</set>
+		</setters>
+	</element>
+	<element name="Silvano" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_SYLVAN_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dalle creature fatate.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Creature Fatate</set>
+			<set name="script">Elfico</set>
+		</setters>
+	</element>
+	<element name="Sottocomune" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_UNDERCOMMON_IT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Tipicamente parlato dagli abitanti dell'Underdark.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Mercanti dell'Underdark</set>
+			<set name="script">Elfico</set>
+		</setters>
+	</element>
+
+	<!-- secret -->
+	<element name="Druidico" type="Language" source="Manuale del Giocatore" id="ID_LANGUAGE_DRUIDIC_IT">
+		<supports>Secret</supports>
+		<description>
+			<p>Il linguaggio segreto dei druidi. Un druido può parlare in questo linguaggio e usarlo per lasciare messaggi segreti. Il druido e coloro che conoscono questo linguaggio sono in grado di avvistare questi messaggi automaticamente. Altri possono notare la presenza di un messaggio in Druidico superando una prova di Saggezza (Percezione) con CD 15, ma non possono decifrarlo senza l'aiuto della magia.The secret language of druids.</p>
+		</description>
+		<setters>
+			<set name="secret">true</set>
+			<set name="speakers">Druidi</set>
+		</setters>
+	</element>  
+	<element name="Gergo Ladresco" type="Language" source="Manuale del Giocatore" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT_IT">
+		<supports>Secret</supports>
+		<description>
+			<p>Un misto di dialetto, termini colloquiali e codici che permette a un ladro di nascondere dei messaggi in una conversazione apparentemente normale. Soltanto un'altra creatura che conosca il gergo ladresco capisce questi messaggi. Per trasmettere un concetto tramite il gergo ladresco serve il quadruplo del tempo che normalmente servirebbe per esprimerlo normalmente.</p>
+		</description>
+		<setters>
+			<set name="secret">true</set>
+			<set name="speakers">Ladri</set>
+		</setters>
+	</element>	
+</elements>

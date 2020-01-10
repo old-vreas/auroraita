@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Linguaggi</name>
+		<description>Linguaggi dal Manuale dei Mostri.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/monster-manual">Wizards of the Coast</author>
+		<update version="0.0.4">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/monster-manual/languages.xml" />
+		</update>
+	</info>
+	<element name="Auran" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_AURAN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli elementali.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Elementali dell'aria</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Terran" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_TERRAN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli elementali.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Elementali della terra</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Aquan" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_AQUAN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli elementali.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Elementali dell'acqua</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Ignan" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_IGNAN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli elementali.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Elementali del fuoco</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Bullywug" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_BULLYWUG_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai bullywug.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Bullywug</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Thri-kreen" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_THRIKREEN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p> I thri-kreen utilizzano un linguaggio privo di parole: per esprimere emozioni e reazioni, un thri-kreen fa sbattere le mandibole e agita le antenne, trasmettendo agli altri thri-kreen la sensazione di ciò che pensa e percepisce. Altre creature trovano questo tipo di comunicazione difficile da interpretare e impossibile da riprodurre.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Thri-kreen</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Troglodita" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_TROGLODYTE_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai trogloditi.</p>
+		</description>
+		<setters>
+			<set name="monster">true</set>
+			<set name="speakers">Troglodita</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Gith" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GITH_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai gith.</p>
+		</description>
+	</element>
+	<element name="Gnoll" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GNOLL_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli gnoll.</p>
+		</description>
+	</element>
+	<element name="Sahuagin" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_SAHUAGIN_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai sahuagin.</p>
+		</description>
+	</element>
+	<element name="Grell" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GRELL_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai grell.</p>
+		</description>
+	</element>
+	<element name="Orrore Uncinato" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_HOOK_HORROR_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli orrori uncinati.</p>
+		</description>
+	</element>
+	<element name="Modron" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_MODRON_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai modron.</p>
+		</description>
+	</element>
+	<element name="Otyugh" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_OTYUGH_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli otyugh.</p>
+		</description>
+	</element>
+	<element name="Slaad" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_SLAAD_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli slaad.</p>
+		</description>
+	</element>
+	<element name="Sfinge" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_SPHINX_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dalla Sfinge.</p>
+		</description>
+	</element>
+	<element name="Umber Hulk" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_UMBER_HULK_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli umber hulk.</p>
+		</description>
+	</element>
+	<element name="Yeti" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_YETI_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dagli yeti.</p>
+		</description>
+	</element>
+	<element name="Cane Intermittente" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_BLINK_DOG_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai cani intermittenti.</p>
+		</description>
+	</element>
+	<element name="Aquila Gigante" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GIANT_EAGLE_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dalle aquile giganti.</p>
+		</description>
+	</element>
+	<element name="Alce Gigante" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GIANT_ELK_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dalle alci giganti.</p>
+		</description>
+	</element>
+	<element name="Gufo Gigante" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_GIANT_OWL_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai gufi giganti.</p>
+		</description>
+	</element>
+	<element name="Lupo Invernale" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_WINTER_WOLF_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai lupi invernali.</p>
+		</description>
+	</element>
+	<element name="Worg" type="Language" source="Manuale dei Mostri" id="ID_MM_LANGUAGE_WORG_IT">
+		<supports>Monster</supports>
+		<description>
+			<p>Tipicamente parlato dai worg.</p>
+		</description>
+	</element>
+</elements>

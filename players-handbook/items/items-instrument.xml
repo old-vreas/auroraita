@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Strumenti Musicali</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.2">
+			<file name="items-instrument.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-instrument.xml" />
+		</update>
+	</info>
+  
+  <!-- <element name="Musical Instrument" type="Support" source="Core" id="ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT">
+    <description>
+      <p>Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.</p>
+    </description>
+  </element> -->
+
+  <element name="Cornamusa" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_BAGPIPES_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>If you have proficiency with the bagpipes, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="6">6 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_BAGPIPES</set>
+    </setters>
+  </element>
+  <element name="Tamburo" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_DRUM_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">6</set>
+      <set name="weight" lb="3">3 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_DRUM</set>
+    </setters>
+  </element>
+  <element name="Dulcimer" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_DULCIMER_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">25</set>
+      <set name="weight" lb="10">10 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_DULCIMER</set>
+    </setters>
+  </element>
+  <element name="Flauto" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_FLUTE_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE</set>
+    </setters>
+  </element>
+  <element name="Liuto" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_LUTE_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">35</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_LUTE</set>
+    </setters>
+  </element>
+  <element name="Lira" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_LYRE_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_LYRE</set>
+    </setters>
+  </element>
+  <element name="Corno" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_HORN_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">3</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HORN</set>
+    </setters>
+  </element>
+  <element name="Flauto di Pan" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_PANFLUTE_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">12</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_PAN_FLUTE</set>
+    </setters>
+  </element>
+  <element name="Ciaramella" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_SHAWM_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_SHAWM</set>
+    </setters>
+  </element>
+  <element name="Viola" type="Item" source="Manuale del Giocatore" id="ID_WOTC_SRD_INSTRUMENT_VIOL_IT">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>La competenza in uno strumento consente a un personaggio di aggiungere il proprio bonus di competenza a qualsiasi prova di caratteristica effettuata quando suona lo strumento. Un bardo può usare uno strumento musicale come focus da incantatore.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">30</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_VIOL</set>
+    </setters>
+  </element>
+</elements>

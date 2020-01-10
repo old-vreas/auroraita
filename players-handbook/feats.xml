@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Talenti</name>
+		<description>Talenti dal Manuale del Giocatore.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.1.2">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/feats.xml" />
+		</update>
+	</info>
+
+	<element name="Attore" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_ACTOR_IT">
+		<description>
+			<p>Il personaggio è abile nella recitazione e nella gestualità e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Carisma aumenta di 1, fino a un massimo di 20.</li>
+				<li>Dispone di vantaggio alle prove di Carisma (Inganno) e Carisma (Intrattenere) quando cerca di spacciarsi per una persona diversa.</li>
+				<li>Può imitare la voce di un'altra persona o i versi di altre creature. Deve aver sentito parlare la persona in questione o avere udito il verso della creatura per almeno 1 minuto. Superando una prova di Saggezza (Intuizione) contrapposta alla prova di Carisma (Inganno) del personaggio, un ascoltatore può capire che l'effetto in questione è falso.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Dispone di vantaggio alle prove di Carisma (Inganno) e Carisma (Intrattenere) quando cerca di spacciarsi per una persona diversa.
+			Può imitare la voce di un'altra persona o i versi di altre creature. Deve aver sentito parlare la persona in questione o avere udito il verso della creatura per almeno 1 minuto. Superando una prova di Saggezza (Intuizione) contrapposta alla prova di Carisma (Inganno) del personaggio, un ascoltatore può capire che l'effetto in questione è falso.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+	<element name="Allerta" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_ALERT_IT">
+		<description>
+			<p>Il personaggio tiene sempre gli occhi aperti in caso di pericolo e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Bonus di +5 all'iniziativa.</li>
+				<li>Non può essere sorpreso finché è cosciente.</li>
+				<li>Le altre creature non dispongono di vantaggio ai tiri per colpire contro di lui quando non sono viste da lui.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Non può essere sorpreso finché è cosciente.
+			Le altre creature non dispongono di vantaggio ai tiri per colpire contro di lui quando non sono viste da lui.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="5" />
+		</rules>
+	</element>
+	<element name="Atleta" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_ATHLETE_IT">
+		<description>
+			<p>Il personaggio si è sottoposto a un intenso addestramento fisico e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza o di Destrezza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Quando è prono, per rialzarsi utilizza solo 1,5 metri del suo movimento.</li>
+				<li>Scalare non gli costa movimento extra.</li>
+				<li>Può effettuare un salto in lungo con rincorsa o un salto in alto con rincorsa dopo essersi mosso solamente di 1,5 metri a piedi, anziché di 3 metri.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando è prono, per rialzarsi utilizza solo 1,5 metri del suo movimento.
+			Scalare non gli costa movimento extra.
+			Può effettuare un salto in lungo con rincorsa o un salto in alto con rincorsa dopo essersi mosso solamente di 1,5 metri a piedi, anziché di 3 metri.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Athlete" supports="ID_PHB_FEAT_ASI_STRENGTH_IT|ID_PHB_FEAT_ASI_DEXTERITY_IT" />
+		</rules>
+	</element>
+	<element name="Carica" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_CHARGER_IT">
+		<description>
+			<p>Quando il personaggio usa la sua azione di Scatto, può usare un'azione bonus per effettuare un attacco con un'arma da mischia o per spingere una creatura.</p>
+			<p class="indent">Se si muove di almeno 3 metri in linea retta subito prima di effettuare questa azione bonus, sceglie se ottenere un bonus di +5 al tiro per i danni dell'attacco (se ha scelto di effettuare un attacco in mischia e ha colpito) o di spingere il bersaglio fino a un massimo di 3 metri allontanandolo da sé (se ha scelto di spingere e ha avuto successo).</p>
+		</description>
+		<sheet>
+			<description>Quando il personaggio usa la sua azione di Scatto, può usare un'azione bonus per effettuare un attacco con un'arma da mischia o per spingere una creatura.
+			Se si muove di almeno 3 metri in linea retta subito prima di effettuare questa azione bonus, sceglie se ottenere un bonus di +5 al tiro per i danni dell'attacco (se ha scelto di effettuare un attacco in mischia e ha colpito) o di spingere il bersaglio fino a un massimo di 3 metri allontanandolo da sé (se ha scelto di spingere e ha avuto successo).</description>
+		</sheet>
+	</element>
+	<element name="Esperto di Balestre" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_CROSSBOWEXPERT_IT">
+		<description>
+			<p>Grazie a un serrato addestramento nell'utilizzo della balestra, il personaggio ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Ignora la proprietà di ricarica delle balestre in cui possiede competenza.</li>
+				<li>La presenza di una creatura ostile a 1,5 metri da lui non impone svantaggio ai suoi tiri per colpire a distanza.</li>
+				<li>Quando usa l'azione di attacco per attaccare con un'arma a una mano, può usare un'azione bonus per attaccare con una balestra a mano da lui impugnata.</li>
+			</ul>			
+		</description>
+		<sheet>
+			<description>Ignora la proprietà di ricarica delle balestre in cui possiede competenza.
+			La presenza di una creatura ostile a 1,5 metri da lui non impone svantaggio ai suoi tiri per colpire a distanza.
+			Quando usa l'azione di attacco per attaccare con un'arma a una mano, può usare un'azione bonus per attaccare con una balestra a mano da lui impugnata.</description>
+		</sheet>
+	</element>
+	<element name="Duellante Difensivo" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_DEFENSIVE_DUELIST_IT">
+		<prerequisite>Destrezza 13 o superiore</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p><i>Prerequisito: Destrezza 13 o superiore</i></p>
+			<p>Quando il personaggio impugna un'arma accurata in cui è competente e un'altra creatura lo colpisce con un attaco in mischia, egli può usare la sua reazione per aggiungere il suo bonus di competenza alla sua CA per quell'attacco, cosa che potrebbe fare in modo che l'attacco lo manchi.</p>
+		</description>
+		<sheet>
+			<description>Quando il personaggio impugna un'arma accurata in cui è competente e un'altra creatura lo colpisce con un attaco in mischia, egli può usare la sua reazione per aggiungere il suo bonus di competenza alla sua CA per quell'attacco, cosa che potrebbe fare in modo che l'attacco lo manchi.</description>
+		</sheet>
+		<rules>
+			<stat name="defensive duelist:ac" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Combattere a Due Armi" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_DUALWIELDER_IT">
+		<description>
+			<p>Il personaggio è un maestro nel combattimento con due armi e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Ottiene un bonus di +1 alla CA mentre impugna un'arma da mischia separata in ogni mano.</li>
+				<li>Può combattere con due armi anche quando le armi da mischia a una mano che impugna non sono leggere.</li>
+				<li>Può estrarre o rinfoderare due armi a una mano quando normalmente sarebbe in grado di estrarne o rinfoderarne solo una.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Bonus di +1 alla CA mentre impugna un'arma da mischia separata in ogni mano.
+			Può combattere con due armi anche quando le armi da mischia a una mano che impugna non sono leggere.
+			Può estrarre o rinfoderare due armi a una mano quando normalmente sarebbe in grado di estrarne o rinfoderarne solo una.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[primary:any],[secondary:any],![primary:versatile]" />
+		</rules>
+	</element>
+	<element name="Esperto di Dungeon" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_DUNGEON_DELVER_IT">
+		<description>
+			<p>Il personaggio sa riconoscere le trappole nascoste e le porte segrete in molti dungeon e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Dispone di vantaggio alle prove di Saggezza (Percezione) e Intelligenza (Indagare) effettuate per individuare la presenza di porte segrete.</li>
+				<li>Dispone di vantaggio ai tiri salvezza effettuati per evitare le trappole o resistere alle trappole.</li>
+				<li>Dispone di resistenza ai danni inferti dalle trappole.</li>
+				<!-- <li>You can search for traps while traveling at a normal pace, instead of only at a slow pace.</li> -->
+				<li>Può cercare trappole mentre si muove a passo normale, anziché soltanto passo lento.</li>
+			</ul>
+		</description>
+		<sheet>
+			<!-- <description>You have advantage on Perception and Investigation checks made to detect the presence of secret doors.
+			You have advantage on saving throws made to avoid or resist traps.
+			You have resistance to the damage dealt by traps.
+			You can search for traps while traveling at a normal pace, instead of only at a slow pace.</description> -->
+			<description>Dispone di vantaggio alle prove di Saggezza (Percezione) e Intelligenza (Indagare) effettuate per individuare la presenza di porte segrete.
+			Dispone di vantaggio ai tiri salvezza effettuati per evitare le trappole o resistere alle trappole.
+			Dispone di resistenza ai danni inferti dalle trappole.
+			Può cercare trappole mentre si muove a passo normale, anziché soltanto passo lento.</description>			
+		</sheet>
+		<!-- todo: traps resistance condition -->
+	</element>
+	<element name="Tenace" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_DURABLE_IT">
+		<description>
+			<p>Il personaggio è robusto e resiliente, e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Costituzione aumenta di 1, fino a un massimo di 20.</li>
+				<li>Quando tira un Dado Vita per recuperare punti ferita, il numero minimo di punti ferita che recupera con il tiro è pari al doppio del suo modificatore di Costituzione (fino a un minimo di 2).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando tira un Dado Vita per recuperare punti ferita, il numero minimo di punti ferita che recupera con il tiro è pari a {{durable:hd:bonus}}.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+			<stat name="durable:constitution modifier" value="constitution:modifier" />
+			<stat name="durable:constitution modifier" value="constitution:modifier" />
+			<stat name="durable:hd:bonus" value="2" bonus="feat:durable" />
+			<stat name="durable:hd:bonus" value="durable:constitution modifier" bonus="feat:durable" />
+		</rules>
+	</element>
+	<element name="Adepto Elementale" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_IT">
+		<prerequisite>La capacità di lanciare almeno un incantesimo</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p><i>Prerequisito: La capacità di lanciare almeno un incantesimo</i></p>
+			<p>Quando il personaggio ottiene questo talento, sceglie uno dei tipi di danni seguenti: acido, freddo, fulmine, fuoco o tuono.</p>
+			<p class="indent">Gli incantesimi che lancia ignorano la resistenza ai danni del tipo scelto. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni di quel tipo, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+			<p class="indent">Un personaggio può selezionare questo talento più volte. Ogni volta che lo fa, deve scegliere un tipo di danno diverso.</p>
+		</description>
+		<sheet />
+		<setters>
+			<set name="allow multiple">true</set>
+		</setters>
+		<rules>
+			<select type="Feat Feature" name="Adepto Elementale" supports="Adepto Elementale" />
+		</rules>
+	</element>
+	<element name="Acido" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID_IT">
+		<supports>Adepto Elementale</supports>
+		<description>
+			<p>Gli incantesimi che lancia ignorano la resistenza ai danni da acido. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni da acido, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+		</description>
+		<sheet>
+			<description>Gli incantesimi che lancia ignorano la resistenza ai danni da acido. Considera ogni 1 ai dadi dei danni come un 2.</description>
+		</sheet>
+	</element>
+	<element name="Freddo" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD_IT">
+		<supports>Adepto Elementale</supports>
+		<description>
+			<p>Gli incantesimi che lancia ignorano la resistenza ai danni da freddo. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni da freddo, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+		</description>
+		<sheet>
+			<description>Gli incantesimi che lancia ignorano la resistenza ai danni da freddo. Considera ogni 1 ai dadi dei danni come un 2.</description>
+		</sheet>
+	</element>
+	<element name="Fuoco" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE_IT">
+		<supports>Adepto Elementale</supports>
+		<description>
+			<p>Gli incantesimi che lancia ignorano la resistenza ai danni da fuoco. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni da fuoco, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+		</description>
+		<sheet>
+			<description>Gli incantesimi che lancia ignorano la resistenza ai danni da fuoco. Considera ogni 1 ai dadi dei danni come un 2.</description>
+		</sheet>
+	</element>
+	<element name="Fulmine" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING_IT">
+		<supports>Adepto Elementale</supports>
+		<description>
+			<p>Gli incantesimi che lancia ignorano la resistenza ai danni da fulmine. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni da fulmine, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+		</description>
+		<sheet>
+			<description>Gli incantesimi che lancia ignorano la resistenza ai danni da fulmine. Considera ogni 1 ai dadi dei danni come un 2.</description>
+		</sheet>
+	</element>
+	<element name="Tuono" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER_IT">
+		<supports>Adepto Elementale</supports>
+		<description>
+			<p>Gli incantesimi che lancia ignorano la resistenza ai danni da tuono. Inoltre, quando tira per i danni di un incantesimo da lui lanciato che infligge danni da tuono, può considerare ogni 1 ai dadi dei danni come un 2.</p>
+		</description>
+		<sheet>
+			<description>Gli incantesimi che lancia ignorano la resistenza ai danni da tuono. Considera ogni 1 ai dadi dei danni come un 2.</description>
+		</sheet>
+	</element>
+	<!-- elemental adept -->
+
+	<element name="Lottatore" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_GRAPPLER_IT">
+		<prerequisite>Forza 13 o superiore</prerequisite>
+		<requirements>[str:13]</requirements>
+		<description>
+			<p class="flavor">Prerequisito: Forza 13 o superiore</p>
+			<p>Il personaggio ha sviluppato le abilità necessarie per farsi valere nella lotta corpo a corpo. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Dispone di vantaggio ai tiri per colpire contro una creatura con cui sta lottando.</li>
+				<li>Può usare la sua azione per tentare di immobilizzare una creatura da lui afferrata. Per farlo deve effettuare un'altra prova di lotta. In caso di successo, il personaggio e la creatura sono entrambi trattenuti fino alla fine della lotta.</li>
+				<li>Creature che sono di una taglia più grandi del personaggio non hanno automaticamente successo alle prove per liberarsi dalla presa.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Dispone di vantaggio ai tiri per colpire contro una creatura con cui sta lottando.
+			Può usare la sua azione per tentare di immobilizzare una creatura da lui afferrata. Per farlo deve effettuare un'altra prova di lotta. In caso di successo, il personaggio e la creatura sono entrambi trattenuti fino alla fine della lotta.
+			Creature che sono di una taglia più grandi del personaggio non hanno automaticamente successo alle prove per liberarsi dalla presa.</description>
+		</sheet>
+	</element>
+	<element name="Maestro d'Armi Possenti" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_GREATWEAPONMASTER_IT">
+		<description>
+			<p>Il personaggio ha imparato a sfruttare a proprio vantaggio il peso di un'arma, lasciando che il suo slancio infonda maggiore potenza ai suoi colpi. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Nel proprio turno, quando mette a segno un colpo critico con un'arma da mischia o porta un personaggio a 0 punti ferita con un attacco del genere, può effettuare un attacco con un'arma da mischia come azione bonus.</li>
+				<li>Prima di effettuare un attacco in mischia con un'arma pesante in cui è competente, può scegliere di subire una penalità di -5 al tiro per colpire. Se l'attacco colpisce, il personaggio aggiunge +10 ai danni dell'attacco.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Nel proprio turno, quando mette a segno un colpo critico con un'arma da mischia o porta un personaggio a 0 punti ferita con un attacco del genere, può effettuare un attacco con un'arma da mischia come azione bonus.
+			Prima di effettuare un attacco in mischia con un'arma pesante in cui è competente, può scegliere di subire una penalità di -5 al tiro per colpire. Se l'attacco colpisce, il personaggio aggiunge +10 ai danni dell'attacco.</description>
+		</sheet>
+	</element>
+	<element name="Guaritore" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_HEALER_IT">
+		<description>
+			<p>Il personaggio è un abile guaritore, in grado di medicare le ferite rapidamente e di consentire ai suoi alleati di tornare a combattere. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Quando usa una borsa del guaritore per stabilizzare una creatura morente, quella creatura recupera anche 1 punto ferita.</li>
+				<li>Con un'azione, può spendere un utilizzo della borsa del guaritore per curare una creatura e ripristinare 1d6 + 4 dei suoi punti ferita, più un numero di punti ferita aggiuntivi pari al massimo dei Dadi Vita della creatura. La creatura non può recuperare altri punti ferita tramite questo talento finché non completa un riposo breve o lungo.</li>
+			</ul>
+		</description>
+		<sheet action="Azione">
+			<description>Con un'azione, può spendere un utilizzo della borsa del guaritore per curare una creatura e ripristinare 1d6 + 4 dei suoi punti ferita, più un numero di punti ferita aggiuntivi pari al massimo dei Dadi Vita della creatura. La creatura non può recuperare altri punti ferita tramite questo talento finché non completa un riposo breve o lungo.
+			Quando usa una borsa del guaritore per stabilizzare una creatura morente, quella creatura recupera anche 1 punto ferita.</description>
+		</sheet>
+	</element>
+	<element name="Corazze Pesanti" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_HEAVILYARMORED_IT">
+		<prerequisite>Competenza nelle armature medie</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p><i>Prerequisito: Competenza nelle armature medie</i></p>
+			<p>Il personaggio si è addestrato per padroneggiare l'utilizzo delle armature pesanti e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Ottiene competenza nelle armature pesanti.</li>
+			</ul>
+		</description>
+		<sheet display="false">
+			<description>Il personaggio si è addestrato per padroneggiare l'utilizzo delle armature pesanti.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+		</rules>
+	</element>
+	<element name="Maestro delle Armature Pesanti" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_HEAVYARMORMASTER_IT">
+		<prerequisite>Competenza nelle armature pesanti</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR</requirements>
+		<description>
+			<p><i>Prerequisito: Competenza nelle armature pesanti</i></p>
+			<p>Il personaggio può usare la sua armatura per deviare colpi che risulterebbero letali per gli altri. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Mentre indossa un'armatura pesante, i danni contundenti, perforanti e taglienti che subisce dalle armi non magiche sono ridotti di 3.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Mentre indossa un'armatura pesante, i danni contundenti, perforanti e taglienti che subisce dalle armi non magiche sono ridotti di 3.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" />
+		</rules>
+	</element>
+	<element name="Condottiero Ispiratore" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_INSPIRINGLEADER_IT">
+		<prerequisite>Carisma 13 o superiore</prerequisite>
+		<requirements>[cha:13]</requirements>
+		<description>
+			<p><i>Prerequisito: Carisma 13 o superiore</i></p>
+			<p>Il personaggio può dedicare 10 minuti a ispirare i suoi compagni, ravvivando la loro determinazione a combattere. Quando lo fa, sceglie fino a sei creature amiche (può includere sé stesso) situate entro 9 metri da lui e che siano in grado di vederlo, di udirlo e di capirlo. Ogni creatura ottiene un numero di punti ferita temporanei pari al livello del personaggio + il modificatore di Carisma del personaggio. Una creatura non può ottenere altri punti ferita temporanei da questo talento finché non ha completato un riposo breve o lungo.</p>
+		</description>
+		<sheet>
+			<description>Il personaggio può dedicare 10 minuti a ispirare i suoi compagni, ravvivando la loro determinazione a combattere. Quando lo fa, sceglie fino a sei creature amiche situate entro 9 metri da lui e che siano in grado di vederlo, di udirlo e di capirlo. Ogni creatura ottiene {{inspiring leader:hp:temp}} punti ferita temporanei. Una creatura non può ottenere altri punti ferita temporanei da questo talento finché non ha completato un riposo breve o lungo.</description>
+		</sheet>
+		<rules>
+			<stat name="inspiring leader:hp:temp" value="level" />
+			<stat name="inspiring leader:hp:temp" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Mente Acuta" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_KEENMIND_IT">
+		<description>
+			<p>La mente del personaggio è in grado di tenere conto del tempo, della direzione e dei dettagli con straaordinaria precisione. Il personaggio ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Intelligenza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Sa sempre in che direzine si trova il nord.</li>
+				<li>Sa sempre quante ore mancano alla prossima alba o al prossimo tramonto.</li>
+				<li>Riesce a ricordare con precisione tutto ciò che ha visto o sentito nell'arco dell'ultimo mese.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Sa sempre in che direzine si trova il nord.
+			Sa sempre quante ore mancano alla prossima alba o al prossimo tramonto.
+			Riesce a ricordare con precisione tutto ciò che ha visto o sentito nell'arco dell'ultimo mese.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" />
+		</rules>
+	</element>
+	<element name="Corazze Leggere" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_LIGHTLYARMORED_IT">
+		<description>
+			<p>Il personaggio si è addestrato per padroneggiare l'utilizzo delle armature leggere e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza o di Destrezza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Ottiene competenza nelle armature leggere.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Il personaggio si è addestrato per padroneggiare l'utilizzo delle armature leggere.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Lightly Armored)" supports="ID_PHB_FEAT_ASI_STRENGTH_IT|ID_PHB_FEAT_ASI_DEXTERITY_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+		</rules>
+	</element>
+	<element name="Linguista" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_LINGUIST_IT">
+		<description>
+			<p>Il personaggio ha studiato molte lingue e codici diversi, e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Intelligenza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Apprende tre linguaggi a sua scelta.</li>
+				<li>E' in grado di creare codici cifrati. Gli altri individui non possono decifrare il codice a meno che non vengano istruiti a farlo dal personaggio, o che non superino una prova di Intelligenza (CD pari al punteggio di Intelligenza del personaggio + il bonus di competenza del personaggio), oppure utilizzando una magia che consenta loro di decifrarli.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>E' in grado di creare codici cifrati. Gli altri individui non possono decifrare il codice a meno che non vengano istruiti a farlo dal personaggio, o che non superino una prova di Intelligenza (CD {{linguist:dc}}), oppure utilizzando una magia che consenta loro di decifrarli.</description>
+		</sheet>
+		<rules>
+			<stat name="intelligence" value="1" />
+			<select type="Language" name="Language (Linguist)" number="3" />
+			<stat name="linguist:dc" value="intelligence:score" />
+			<stat name="linguist:dc" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Fortunato" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_LUCKY_IT">
+		<description>
+			<p>Il personaggio è dotato di una fortuna sfacciata che sembra intervenire nei momenti più opportuni.</p>
+			<p class="indent">Il personaggio possiede 3 punti fortuna. Ogni volta che effettua un tiro per colpire, una prova di caratteristica o un tiro salvezza, può spendere un punto fortuna per tirare un d20 aggiuntivo.</p>
+			<p class="indent">Può scegliere di spendere uno dei suoi punti fortuna dopo che ha tirato il dado, ma prima che l'esito del tiro sia determinato. Il personaggio sceglie quale dei d20 usare per il tiro per colpire, la prova di caratteristica o il tiro salveza. Il personaggio può anche spendere un punto fortuna quando viene effettuato un tiro per colpire contro di lui. Tira un d20, dopodiché sceglie se l'attacco utilizzerà il tiro dell'attaccante o il suo.</p>
+			<p class="indent">Se più di una creatura spende un punto fortuna per influenzare l'esito di un tiro, i punti si annullano a vicenda e non si tira alcun dado aggiuntivo.</p>
+			<p class="indent">Il personaggio recupera i punti fortuna spesi quando completa un riposo lungo.</p>
+		</description>
+		<sheet usage="3/Riposo Lungo">
+			<description>Ogni volta che effettua un tiro per colpire, una prova di caratteristica o un tiro salvezza, può spendere un punto fortuna per tirare un d20 aggiuntivo. Può scegliere di spendere uno dei suoi punti fortuna dopo che ha tirato il dado, ma prima che l'esito del tiro sia determinato.
+			Il personaggio può anche spendere un punto fortuna quando viene effettuato un tiro per colpire contro di lui. Tira un d20, dopodiché sceglie se l'attacco utilizzerà il tiro dell'attaccante o il suo.</description>
+		</sheet>
+	</element>
+	<element name="Sterminatore di Maghi" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGESLAYER_IT">
+		<description>
+			<p>Il personaggio ha imparato varie tecniche utili nei combattimenti in mischia contro gli incantatori e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Quando una creatura entro 1,5 metri da lui lancia un incantesimo, egli può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura.</li>
+				<li>Quando infligge danni su una creatura concentrata su un incantesimo, quella creatura subisce svantaggio al tiro salvezza che effettua per mantenere la concentrazione.</li>
+				<li>Dispone di vantaggio ai tiri salvezza contro gli incantesimi lanciati dalle creature entro 1,5 metri da lui.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando una creatura entro 1,5 metri da lui lancia un incantesimo, egli può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura.
+			Quando infligge danni su una creatura concentrata su un incantesimo, quella creatura subisce svantaggio al tiro salvezza che effettua per mantenere la concentrazione.
+			Dispone di vantaggio ai tiri salvezza contro gli incantesimi lanciati dalle creature entro 1,5 metri da lui.</description>
+		</sheet>
+	</element>
+	<element name="Iniziato alla Magia" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGICINITIATE_IT">
+		<description>
+			<p>Il personaggio sceglie una classe: bardo, chierico, druido, mago, stregone o warlock. Apprende due truchetti a sua scelta dalla lista di incantesimi di quella classe.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi dipende dalla classe scelta: Carisma per il bardo, lo stregone o il warlock; Saggezza per il chierico o il druido; Intelligenza per il mago.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Feat Feature" name="Iniziato alla Magia" supports="Iniziato alla Magia" />
+		</rules>
+	</element>
+	<element name="Bardo" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_BARD_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da bardo.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è carisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Bardo" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Bardo" />
+		</rules>
+	</element>
+	<element name="Chierico" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_CLERIC_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da chierico.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è saggezza.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Saggezza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Chierico" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Chierico" />
+		</rules>
+	</element>
+	<element name="Druido" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_DRUID_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da druido.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è saggezza.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Saggezza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Druido" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Druido" />
+		</rules>
+	</element>
+	<element name="Stregone" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_SORCERER_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da stregone.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è carisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Stregone" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Stregone" />
+		</rules>
+	</element>
+	<element name="Warlock" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_WARLOCK_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da warlock.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è carisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Warlock" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Warlock" />
+		</rules>
+	</element>
+	<element name="Mago" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_MAGIC_INITIATE_WIZARD_IT">
+		<supports>Iniziato alla Magia</supports>
+		<description>
+			<p>Il personaggio apprende due truchetti a sua scelta dalla lista di incantesimi da mago.</p>
+			<p class="indent">Sceglie inoltre un incantesimo di 1° livello da apprendere da quella stessa lista. Usando questo talento, può lanciare quell'incantesimo una volta al suo livello più basse e deve completare un riposo lungo prima di poterlo lanciare di nuovo in questo modo.</p>
+			<p class="indent">La caratteristica da incantatore del personaggio per questi incantesimi è intelligenza.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Intelligenza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Iniziato alla Magia)" supports="0,Mago" number="2" />
+			<select type="Spell" name="Incantesimo di 1° livello (Iniziato alla Magia)" supports="1,Mago" />
+		</rules>
+	</element>
+	<!-- /magic initiate -->
+
+	<element name="Adepto Marziale" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MARTIALADEPT_IT">
+		<description>
+			<p>Il personaggio si è sottoposto a un addestramento marziale che gli permette di effettuare alcune manovre speciali in combattimento. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Impara due manovre a scelta tra quelle disponibili per l'archetipo del Maestro di Battaglia nella classe del guerriero. Se una manovra da lui utilizzata richiede che il bersaglio effettui un tiro salvezza per resistere agli effetti della manovra, la CD del tiro salvezza è pari a 8 + il bonus di competenza del personaggio + il modificatore di Forza o di Destrezza del personaggio (a scelta del personaggio).</li>
+				<li>Ottiene un dado di superiorità, un d6 (in aggiunta agli eventuali dadi di superiorità forniti da un'altra fonte). Usa questo dado per alimentare le sue manovre. Un dado di superiorità è considerato speso quando il personaggio lo usa. Il personaggio recupera i dadi di superiorità spesi quando completa un riposo breve o lungo.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>{{martial adept:dice:amount}}d{{martial adept:dice:size}} dadi superiorità / riposo breve. CD {{martial adept:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="martial adept:ability" value="strength:modifier" bonus="martial adept:ability" />
+			<stat name="martial adept:ability" value="dexterity:modifier" bonus="martial adept:ability" />
+
+			<stat name="martial adept:dc" value="8" />
+			<stat name="martial adept:dc" value="proficiency" />
+			<stat name="martial adept:dc" value="martial adept:ability" />
+
+			<stat name="martial adept:dice:amount" value="1" />
+			<stat name="martial adept:dice:size" value="6" />
+
+			<select type="Archetype Feature" name="Adepto Marziale" supports="Manovra,Maestro di Battaglia" number="2" />
+
+			<!-- battle master -->
+			<stat name="superiority dice:amount" value="1" requirements="ID_ARCHETYPE_FEATURE_BATTLE_MASTER_COMBAT_SUPERIORITY_IT" />
+		</rules>
+	</element>
+	<element name="Maestro delle Armature Medie" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MEDIUMARMORMASTER_IT">
+		<prerequisite>Competenza nelle armature medie</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR</requirements>
+		<description>
+			<p><i>Prerequisito: Competenza nelle armature medie</i></p>
+			<p>Il personaggio si è addestrato per muoversi con efficacia quando indossa un'armatura media e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Se indossa un'armatura media non subisce svantaggio alle proprie prove di Destrezza (Furtività).</li>
+				<li>Quando indossa un'armatura media, può aggiungere +3 anziché +2 alla propria CA se possiede una Destrezza pari o superiore a 16.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Indossare un'armatura media non dà svantaggio alle prove di Destrezza (Furtività).</description>
+		</sheet>
+		<rules>
+			<stat name="ac:armored:dexterity:cap" value="3" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mobilità" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MOBILE_IT">
+		<description>
+			<p>Il personaggio è straordinariamente agile e veloce, e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>La sua velocità aumenta di 3 metri.</li>
+				<li>Quando usa l'azione di Scatto, il terreno difficile non gli costa movimento extra in quel turno.</li>
+				<li>Quando effettua un attacco in mischia contro una creatura, non provoca attacchi di opportunità da parte di quella creatura per il resto del turno, che l'attacco colpisca o meno.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando usa l'azione di Scatto, il terreno difficile non gli costa movimento extra in quel turno.
+			Quando effettua un attacco in mischia contro una creatura, non provoca attacchi di opportunità da parte di quella creatura per il resto del turno, che l'attacco colpisca o meno.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="3" />
+			<stat name="innate speed:climb:misc" value="3" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="3" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="3" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="3" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+	<element name="Corazze Medie" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MODERATELYARMORED_IT">
+		<prerequisite>Competenze nelle armature leggere</prerequisite>
+		<requirements>ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR</requirements>
+		<description>
+			<p><i>Prerequisito: Competenze nelle armature leggere</i></p>
+			<p>Il personaggio si è addestrato per pardoneggiare l'utilizzo delle armature medie e degli scudi e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza o di Destrezza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Ottiene competenza nelle armature pesanti.</li>
+			</ul>
+		</description>
+		<sheet display="false">
+			<description>Il personaggio si è addestrato per pardoneggiare l'utilizzo delle armature medie e degli scudi.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Corazze Medie)" supports="ID_PHB_FEAT_ASI_STRENGTH_IT|ID_PHB_FEAT_ASI_DEXTERITY_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+		</rules>
+	</element>
+	<element name="Combattente in Sella" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_MOUNTEDCOMBATANT_IT">
+		<description>
+			<p>Il personaggio è un nemico pericoloso da affrontare quando è in sella. Finché è in sella e non è incapacitato, ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura che non sia a sua volta in sella e che sia più piccola della sua cavalcatura.</li>
+				<li>Può obbligare un attacco che bersaglierebbe la sua cavalcatura a bersagliare invece lui.</li>
+				<li>Se la sua cavalcatura è soggetta a un effetto che gli permette di effettuare un tiro salvezza su Destrezza per subire solo la metà dei danni, non subisce alcun danno se supera il tiro salvezza e soltanto la metà dei danni se lo fallisce.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura che non sia a sua volta in sella e che sia più piccola della sua cavalcatura.
+			Può obbligare un attacco che bersaglierebbe la sua cavalcatura a bersagliare invece lui. 
+			Se la sua cavalcatura è soggetta a un effetto che gli permette di effettuare un tiro salvezza su Destrezza per subire solo la metà dei danni, non subisce alcun danno se supera il tiro salvezza e soltanto la metà dei danni se lo fallisce.</description>
+		</sheet>
+	</element>
+	<element name="Osservatore" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_OBSERVANT_IT">
+		<description>
+			<p>Il personaggio nota rapidamente i dettagli dell'ambiente circostante e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Intelligenza o di Saggezza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Se è in grado di vedere la bocca di una creatura mentre questa parla un linguaggio a lui conosciuto, riesce a capire cosa sta dicendo leggendo le labbra.</li>
+				<li>Ottiene un bonus +5 alle sue prove passive di Saggezza (Percezione) e alle sue prove passive di Intelligenza (Indagare).</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Se è in grado di vedere la bocca di una creatura mentre questa parla un linguaggio a lui conosciuto, riesce a capire cosa sta dicendo leggendo le labbra.
+			Ottiene un bonus +5 alle sue prove passive di Saggezza (Percezione) e alle sue prove passive di Intelligenza (Indagare).</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Observant)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE_IT|ID_PHB_FEAT_ASI_WISDOM_IT" />
+			<stat name="perception:passive" value="5" />
+			<stat name="investigation:passive" value="5" />
+		</rules>
+	</element>
+	<element name="Maestro delle Armi su Asta" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_POLEARMMASTER_IT">
+		<description>
+			<p>Il personaggio ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Quando effettua l'azione di Attacco e attacca soltanto con un'alabarda, un bastone ferrato o un falcione, può usare un'azione bonus per effettuare un attaco in mischia con l'estremità opposta dell'arma. Questo attaco usa lo stesso modificatore di caratteristica dell'attacco primario. Il dado dei danni dell'arma per questo attacco è un d4 e l'arma infligge danni contundenti.</li>
+				<li>Mentre impugna un'alabarda, un bastone ferrato, un falcione o una picca, le altre creature provocano un attacco di opportunità da parte sua quando entrano nella portata che egli possiede con quell'arma.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando effettua l'azione di Attacco e attacca soltanto con un'alabarda, un bastone ferrato o un falcione, può usare un'azione bonus per effettuare un attaco in mischia con l'estremità opposta dell'arma. Questo attaco usa lo stesso modificatore di caratteristica dell'attacco primario. Il dado dei danni dell'arma per questo attacco è un d4 e l'arma infligge danni contundenti.
+			Mentre impugna un'alabarda, un bastone ferrato, un falcione o una picca, le altre creature provocano un attacco di opportunità da parte sua quando entrano nella portata che egli possiede con quell'arma.</description>
+		</sheet>
+	</element>
+
+	<element name="Resiliente" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_IT">
+		<description>
+			<p>Il personaggio sceglie un punteggio di caratteristica e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio della caratteristica scelta aumenta di 1, fino a un massimo di 20.</li>
+				<li>Ottiene competenza nei tiri salvezza che usano la caratteristica scelta.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Feat Feature" name="Resiliente (Talento)" supports="Resiliente" />
+		</rules>
+	</element>
+	<element name="Resiliente (Forza)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_STRENGTH_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Forza aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Forza.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+		</rules>
+	</element>
+	<element name="Resiliente (Destrezza)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_DEXTERITY_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Destrezza aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Destrezza.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+		</rules>
+	</element>
+	<element name="Resiliente (Costituzione)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Costituzione aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Costituzione.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+		</rules>
+	</element>
+	<element name="Resiliente (Intelligenza)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_INTELLIGENCE_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Intelligenza aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Intelligenza.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+		</rules>
+	</element>
+	<element name="Resiliente (Saggezza)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_WISDOM_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Saggezza aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Saggezza.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+		</rules>
+	</element>
+	<element name="Resiliente (Carisma)" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RESILIENT_CHARISMA_IT">
+		<supports>Resiliente</supports>
+		<description>
+			<p>Il punteggio di Carisma aumenta di 1.</p>
+			<p>Ottiene competenza nei tiri salvezza di Carisma.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Resiliente" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+		</rules>
+	</element>
+	<!-- /resilient -->
+
+	<element name="Incantatore Rituale" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUALCASTER_IT">
+		<prerequisite>Intelligenza o Saggezza 13 o superiore</prerequisite>
+		<requirements>[int:13]||[wis:13]</requirements>
+		<description>
+			<p><i>Prerequisito: Intelligenza o Saggezza 13 o superiore</i></p>
+			<p>Il personaggio ha imparato alcuni incantesimi che può lanciare come rituali. Questi incantesimi sono scritti in un libro dei rituali che il personaggio deve impugnare quando intende lanciarli.</p>
+			<p class="indent">Quando sceglie questo talento, il personaggio ottiene un libro dei rituali che contiene due incantesimi di 1° livello a sua scelta. Può sceglierli da una delle seguenti classi: bardo, chierico, druido, mago, stregone o warlock. Deve scegliere i suoi incantesimi dalla lista degli incantesimi di quella classe e gli incantesimi che sceglie devono avere il descrittore rituale. La classe scelta determina anche la sua caratteristica da incantatore per quegli incantesimi: Carisma per il bardo, lo stregone o il warlock; Saggezza per il chierico o il druido; Intelligenza per il mago.</p>
+			<p class="indent">Se il personaggio si imbatte in un incantesimo in forma scritta, come una pergamena magica o il libro degli incantesimi di un mago, può aggiungerlo al suo libro dei rituali. L'incantesimo deve appartenere alla lista degli incantesimi della classe cha ha scelto, non può essere di livello superiore alla metà del suo livello del personaggio (arotondato per eccesso) e deve possedere il descrittore rituale. La procedura per copiare l'incantesimo nel libro dei rituali richiede 2 ore per livello dell'incantesimo e costa 50 mo per livello. Il costo rappresenta le componenti materiali che il personaggio spende mentre sperimenta l'incantesimo per riuscire a padroneggiarlo, nonché gli inchiostri pregiati che gli servono per trascriverlo.</p>
+		</description>
+		<sheet>
+			<description>Il personaggio ha imparato alcuni incantesimi che può lanciare come rituali.</description>
+		</sheet>
+		<rules>
+			<!-- todo: grant ID_INTERNAL_RITUAL-->
+			<select type="Feat Feature" name="Incantatore Rituale" supports="Incantatore Rituale" />
+		</rules>
+	</element>
+	<element name="Bardo" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_BARD_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Bardo" number="2" />
+		</rules>
+	</element>
+	<element name="Chierico" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_CLERIC_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Saggezza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Chierico" number="2" />
+		</rules>
+	</element>
+	<element name="Druido" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_DRUID_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Saggezza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Druido" number="2" />
+		</rules>
+	</element>
+	<element name="Stregone" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_SORCERER_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Stregone" number="2" />
+		</rules>
+	</element>
+	<element name="Warlock" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_WARLOCK_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Carisma.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Warlock" number="2" />
+		</rules>
+	</element>
+	<element name="Mago" type="Feat Feature" source="Manuale del Giocatore" id="ID_PHB_FEAT_RITUAL_CASTER_WIZARD_IT">
+		<supports>Incantatore Rituale</supports>
+		<description>
+			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+			<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
+		</description>
+		<sheet>
+			<description>Caratteristica da incantatore: Intelligenza.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Incantesimo di 1° livello (Incantatore Rituale)" supports="Ritual,1,Mago" number="2" />
+		</rules>
+	</element>
+	<!-- /ritual caster -->
+
+	<element name="Aggressore Selvaggio" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SAVAGEATTACKER_IT">
+		<description>
+			<p>Una volta per turno, quando il personaggio tira per i danni di un attacco con un'arma da mischia, può ripetere il tiro per i danni dell'arma e scegliere quale risultato usare.</p>
+		</description>
+		<sheet>
+			<description>Una volta per turno, quando il personaggio tira per i danni di un attacco con un'arma da mischia, può ripetere il tiro per i danni dell'arma e scegliere quale risultato usare.</description>
+		</sheet>
+	</element>
+	<element name="Sentinella" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SENTINEL_IT">
+		<description>
+			<p>Il personaggio ha padroneggiato le tecniche che gli consentono di approfittare di ogni minuscolo varco nelle difese del nemico e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Quando colpisce una creatura con un attacco di opportunità, la velocità di quella creatura diventa 0 per il resto del turno.</li>
+				<li>Le creature provocano attacchi di opportunità da parte sua anche quando effettuano l'azione di Disimpegno prima di uscire dalla sua portata.</li>
+				<li>Quando una creatura entro 1,5 metri dal personaggio effettua un attacco contro un bersaglio diverso da lui (e quel bersaglio non possiede questo talento), il personaggio può usare la sua reazione per effettuare un attacco con un'arma da mischia contro la ceratura attaccante.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando colpisce una creatura con un attacco di opportunità, la velocità di quella creatura diventa 0 per il resto del turno.
+			Le creature provocano attacchi di opportunità da parte sua anche quando effettuano l'azione di Disimpegno prima di uscire dalla sua portata.
+			Quando una creatura entro 1,5 metri dal personaggio effettua un attacco contro un bersaglio diverso da lui (e quel bersaglio non possiede questo talento), il personaggio può usare la sua reazione per effettuare un attacco con un'arma da mischia contro la ceratura attaccante.</description>
+		</sheet>
+	</element>
+	<element name="Tiratore Scelto" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SHARPSHOOTER_IT">
+		<description>
+			<p>Il personaggio ha padroneggiato l'utilizzo delle armi a distanza ed è in grado di effettuare tiri che per gli altri risulterebbero impossibili. Ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Gli attacchi a gittata lunga non impongono svantaggio ai tiri per colpire delle sue armi a distanza.</li>
+				<li>Gli attacchi delle sue armi a distanza ignorano metà copertura e tre quarti di copertura.</li>
+				<li>Prima di effettuare un attacco con un'arma a distanza in cui è competente, può scegliere di subire una penalità di -5 al tiro per colpire. Se l'attacco colpisce, il personaggio aggiunge +10 ai danni dell'attacco.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Gli attacchi a gittata lunga non impongono svantaggio ai tiri per colpire delle sue armi a distanza.
+			Gli attacchi delle sue armi a distanza ignorano metà copertura e tre quarti di copertura.
+			Prima di effettuare un attacco con un'arma a distanza in cui è competente, può scegliere di subire una penalità di -5 al tiro per colpire. Se l'attacco colpisce, il personaggio aggiunge +10 ai danni dell'attacco.</description>
+		</sheet>
+	</element>
+	<element name="Maestro degli Scudi" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SHIELDMASTER_IT">
+		<description>
+			<p>Il personaggio usa gli scudi non solo per proteggersi, ma anche per attaccare. Finché impugna uno scudo, ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Se effettua l'azione di Attacco nel suo turno, può usare un'azione bonus per cercare di spingere con il suo scudo una creatura entro 1,5 metri da sé.</li>
+				<li>Se non è incapacitato, può aggiungere il bonus di CA del suo scudo a qualsiasi tiro salvezza su Destrezza che effettui contro un incantesimo o un altro effetto dannoso che bersaglia soltanto lui.</li>
+				<li>Se è soggetto a un effetto che gli consente di effettuare un tiro salvezza su Destrezza per subire solo la metà dei danni, può usare la sua reazione per non subire alcun danno qualora superi il tiro salvezza, frapponendo lo scudo tra sé stesso e la fonte dell'effetto.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Se effettua l'azione di Attacco nel suo turno, può usare un'azione bonus per cercare di spingere con il suo scudo una creatura entro 1,5 metri da sé.
+			Se non è incapacitato, può aggiungere il bonus di CA del suo scudo a qualsiasi tiro salvezza su Destrezza che effettui contro un incantesimo o un altro effetto dannoso che bersaglia soltanto lui.
+			Se è soggetto a un effetto che gli consente di effettuare un tiro salvezza su Destrezza per subire solo la metà dei danni, può usare la sua reazione per non subire alcun danno qualora superi il tiro salvezza, frapponendo lo scudo tra sé stesso e la fonte dell'effetto.</description>
+		</sheet>
+	</element>
+	<element name="Abile" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SKILLED_IT">
+		<description>
+			<p>Il personaggio ottiene competenza i una qualsiasi combinazione di tre abilità o strumenti a scelta.</p>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Skilled)" supports="Skill||Tool" number="3" />
+		</rules>
+	</element>
+	<element name="Appostato" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SKULKER_IT">
+		<prerequisite>Destrezza 13 o superiore</prerequisite>
+		<requirements>[dex:13]</requirements>
+		<description>
+			<p class="flavor">Prerequisito: Destrezza 13 o superiore</p>
+			<p>Il personaggio è abile nello sgusciare tra le ombre e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Può cercare di nascondersi quando si trova in un'area leggermente oscurata rispetto alla creatura da cui si nasconde.</li>
+				<li>Quando è nascosto da una creatura e la manca con un attacco con un'arma a distanza, l'attacco sferrato non rivela la sua posizione.</li>
+				<li>La luce fioca non impone svantaggio alle sue prove di Saggezza (Percezione) basate sulla vista.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Può cercare di nascondersi quando si trova in un'area leggermente oscurata rispetto alla creatura da cui si nasconde.
+			Quando è nascosto da una creatura e la manca con un attacco con un'arma a distanza, l'attacco sferrato non rivela la sua posizione.
+			La luce fioca non impone svantaggio alle sue prove di Saggezza (Percezione) basate sulla vista.</description>
+		</sheet>
+	</element>
+	<element name="Cecchino Magico" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_SPELLSNIPER_IT">
+		<prerequisite>La capacità di lanciare almeno un incantesimo</prerequisite>
+		<requirements>[type:spell]</requirements>
+		<description>
+			<p><i>Prerequisito: La capacità di lanciare almeno un incantesimo</i></p>
+			<p>Il personaggio ha appreso le tecniche che gli consentono di potenziare i suoi attacchi con certi tipi di incantesimi e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Quando lancia un incantesimo che gli richiede di effettuare un tiro per colpire, la gittata dell'incantesimo è raddoppiata.</li>
+				<li>Gli attacchi a distanza con un incantesimo ignorano metà copertura e tre quarti di copertura.</li>
+				<li>Apprende un trucchetto che richiede un tiro per colpire. Può sceglierlo dalle liste del bardo, chierico, druido, mago, stregone o warlock. La sua caratteristica da incantatore per questo trucchetto dipende dalla lista degli incantesimi da cui è stato scelto: Carisma per il bardo, lo stregone o il warlock; Saggezza per il chierico o il druido; Inteligenza per il mago.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Quando lancia un incantesimo che gli richiede di effettuare un tiro per colpire, la gittata dell'incantesimo è raddoppiata.
+			Gli attacchi a distanza con un incantesimo ignorano metà copertura e tre quarti di copertura.</description>
+		</sheet>
+		<rules>
+			<!-- todo: supports ID_INTERNAL_SUPPORT_SPELL_ATTACK -->
+			<select type="Spell" name="Cecchino Magico" supports="0,(Bardo||Chierico||Druido||Stregone||Warlock||Mago)" />
+		</rules>
+	</element>
+	<element name="Lottatore da Taverna" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_TAVERNBRAWLER_IT">
+		<description>
+			<p>Il personaggio è abituato ai combattimenti più rozzi e diretti, dove si usa qualsiasi arma si trovi a portata di mano, e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza o di Costituzione aumenta di 1, fino a un massimo di 20.</li>
+				<li>E' competente nelle armi improvvisate.</li>
+				<li>Il suo colpo senz'armi usa 1d4 per i danni.</li>
+				<li>Quando colpisce una creatura con un colpo senz'armi o un'arma improvvisata nel suo turno, può usare un'azione bonus per tentare di afferrare il bersaglio.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>E' competente nelle armi improvvisate.
+			Il suo colpo senz'armi usa 1d4 per i danni.
+			Quando colpisce una creatura con un colpo senz'armi o un'arma improvvisata nel suo turno, può usare un'azione bonus per tentare di afferrare il bersaglio.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Lottatore da Taverna)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION_IT" />
+			<!-- todo: You are proficient with improvised weapons. -->
+		</rules>
+	</element>
+	<element name="Robusto" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_TOUGH_IT">
+		<description>
+			<p>Il massimo dei punti ferita del personaggio aumenta di un ammontare pari al doppio del suo livello quando il personaggio ottiene questo talento. Da allora in poi, ogni volta che il personaggio acquisisce un livello, il massimo dei suoi punti ferita aumenta di 2 punti ferita aggiuntivi.</p>
+		</description>
+		<sheet>
+			<description>I punti ferita massimi aumentano di {{tough:hp}}.</description>
+		</sheet>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="tough:hp" value="level" />
+			<stat name="tough:hp" value="level" />
+			<stat name="hp" value="tough:hp" />
+		</rules>
+	</element>
+	<element name="Incantatore da Guerra" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_WARCASTER_IT">
+		<description>
+			<p><i>Prerequisito: La capacità di lanciare almeno un incantesimo</i></p>
+			<p>Il personaggio si è allenato a lanciare incantesimi nel bel mezzo di un combattimento e ha appreso le tecniche che gli forniscono i benefici seguenti:</p>
+			<ul>
+				<li>Dispone di vantaggio ai tiri salvezza su Costituzione che effettua per mantenere la concentrazione su un incantesimo quando subisce danni.</li>
+				<li>Può fornire le componenti somatiche degli incantesimi anche quando impugna armi o uno scudo con una o entrambe le mani.</li>
+				<li>Quando il movimento di una creatura ostile provoca un attacco di opportunità da parte sua, il personaggio può usare la sua reazione per lanciare un incantesimo sulla creatura anziché effettuare un attacco di opportunità. L'incantesimo deve avere un tempo di lancio di 1 azione e deve bersagliare solo quella creatura.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Dispone di vantaggio ai tiri salvezza su Costituzione che effettua per mantenere la concentrazione su un incantesimo quando subisce danni.
+			Può fornire le componenti somatiche degli incantesimi anche quando impugna armi o uno scudo con una o entrambe le mani.
+			Quando il movimento di una creatura ostile provoca un attacco di opportunità da parte sua, il personaggio può usare la sua reazione per lanciare un incantesimo sulla creatura anziché effettuare un attacco di opportunità. L'incantesimo deve avere un tempo di lancio di 1 azione e deve bersagliare solo quella creatura.</description>
+		</sheet>
+	</element>
+	<element name="Maestro d'Armi" type="Feat" source="Manuale del Giocatore" id="ID_PHB_FEAT_WEAPONMASTER_IT">
+		<description>
+			<p>Il personaggio si è addestrato a lungo nell'utilizzo di molte armi e ottiene i benefici seguenti:</p>
+			<ul>
+				<li>Il suo punteggio di Forza o di Destrezza aumenta di 1, fino a un massimo di 20.</li>
+				<li>Ottiene competenza in quattro armi a sua scelta. Ogni arma deve essere un'arma semplice o un'arma da guerra.</li>
+			</ul>
+		</description>
+		<sheet />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Maestro d'Armi)" supports="ID_PHB_FEAT_ASI_STRENGTH_IT|ID_PHB_FEAT_ASI_DEXTERITY_IT" />
+			<select type="Proficiency" name="Maestro d'Armi" supports="Weapon" number="4" />
+		</rules>
+	</element>
+
+	<!--Feat Ability Score Increase-->
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_STRENGTH_IT">
+		<compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_DEXTERITY_IT">
+		<compendium display="false" />
+		<supports>Feat, Athlete</supports>
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_CONSTITUTION_IT">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligenza)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_INTELLIGENCE_IT">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Intelligenza increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Saggezza)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_WISDOM_IT">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Saggezza increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Carisma)" type="Ability Score Improvement" source="Manuale del Giocatore" id="ID_PHB_FEAT_ASI_CHARISMA_IT">
+		<compendium display="false" />
+		<supports>Feat</supports>
+		<description>
+			<p>Your Carisma increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+</elements>

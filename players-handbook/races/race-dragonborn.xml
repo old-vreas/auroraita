@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragonide</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.1">
+			<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-dragonborn.xml" />
+		</update>
+	</info>
+	
+	<element name="Dragonide" type="Race" source="Manuale del Giocatore" id="ID_RACE_DRAGONBORN_IT">
+		<description>
+			<p class="flavor">I dragonidi, generati dai draghi, come il loro stesso nome implica, si fanno strada con fierezza in un mondo che li accoglie con titubanza e incomprensione. Creati dalle divinità draconiche o dai draghi stessi, i dragonidi si schiusero originariamente dalle uova di drago come una razza unica in cui si mescolavano i migliori attributi dei draghi e degli umanoidi. Alcuni dragonidi sono fedeli servitori dei veri draghi, mentre altri fungono da truppe di fanteria in grandi guerre, e altri ancora vagano allo sbando, senza alcun chiaro obiettivo nella vita.</p>
+			<h4>FIERA STIRPE DI DRAGO</h4>
+			<p>Un dragonide è molto simile a un drago in posizione eretta, ma è privo di ali o di coda. I primi dragonidi sfoggiavano scaglie di colori accesi, che richiamavano i colori dei draghi loro progenitori, ma molte generazioni di incroci hanno portato a un aspetto più uniforme. Le loro piccole ed eleganti scaglie sono solitamente di colore ottone o bronzo, variando a volte fino a tonalità rosse, ruggine, oro o verderame. I dragonidi sono creature alte e robuste, raggiungendo quasi i 2 metri d'altezza e pesando oltre i 150 kg. Possiedono mani e piedi molto forti, dotati di artigli simili a quelli dei rapaci; ogni mano e piede ha tre dita e un pollice opponibile.</p>
+			<p class="indent">In alcuni clan di dragonidi il sangue di un particolare tipo di drago scorre con forza. Questi dragonidi spesso sfoggiano scaglie molto simili a quelle dei draghi loro antenati: rosso, verde, blu, bianco o nero lucido, oppure scintillanti tonalità di oro, argento, ottone, rame o bronzo.</p>
+			<h4>CLAN AUTOSUFFICIENTI</h4>
+			<p>Per ogni dragonide il clan è più importante della vita stessa. I dragonidi mettono la devozione e il rispetto nei confronti del proprio clan al di sopra di ogni altra cosa, perfino delle divinità. La condotta di un dragonide si riflette sull'onore del suo clan e chi disonora il clan rischia l'espulsione e l'esilio. Ogni dragonide conosce molto bene la sua posizione e i suoi doveri all'interno del clan ed è obbligato dall'onore a rispettare i limiti di quella posizione.</p>
+			<p class="indent">Il continuo desiderio di migliorarsi personalmente è indicativo dell'autosufficienza dell'intera razza. Per i dragonidi è importante dimostrarsi abili ed eccellere in ogni impresa. Odiano fallire e non lasciano nulla di intentato prima di arrendersi. Per un dragonide, raggiungere la massima maestria in una determinata abilità è un obiettivo che può durare tutta una vita. I membri delle altre razze che dimostrano una dedizione analoga riescono a guadagnare facilmente il rispetto di un dragonide.</p>
+			<p class="indent">Anche se tutti i dragonidi si sforzano di essere autosufficienti, sanno bene che in certe difficili situazioni un aiuto può essere necessario. Ma la migliore fonte di aiuto resta sempre il clan, e quando lo stesso clan necessita di aiuto, si rivolge a un altro clan di dragonidi prima di chiedere aiuto ad altre razze o alle divinità.</p>
+			<h4>NOMI DEI DRAGONIDI</h4>
+			<p>Un dragonide ha un nome proprio che gli viene attribuito alla nascita, a cui antepone il nome del clan in segno d'onore. Spesso tra i compagni di nidiata si usano anche nomi o soprannomi d'infanzia dal significato descrittivo o affettivo. Questi nomi possono fare riferimento a un evento o basarsi su un'abitudine.</p>
+			<p>
+			<b>Nomi Maschili: </b>Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
+			<br/>
+			<b>Nomi Femminili: </b>Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
+			<br/>
+			<b>Nomi d'Infanzia: </b>Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+			<br/>
+			<b>Nomi di Clan: </b>Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit
+			<br/>
+			</p>
+			<h4>TRATTI DEI DRAGONIDI</h4>
+			<p>Il retaggio draconico si manifesta in una varietà di caratteristiche che il personaggio condivide con gli altri dragonidi.</p>
+			<p>
+			<span class="feature">Incremento dei Punteggi di Caratteristica.</span>Il punteggio di Forza di un dragonide aumenta di 2 e quello di Carisma aumenta di 1.
+			<br />
+			<span class="feature">Età.</span>I giovani dragonidi crescono velocemente. Camminano già poche ore dopo la schiusa dell'uovo, a 3 anni raggiungono le dimensioni e lo sviluppo di un bambino umano di 10 anni e a 15 anni raggiungono la maturità. Vivono all'incirca fino a 80 anni.
+			<br />
+			<span class="feature">Allineamento.</span> I dragonidi tendono agli estremi e scelgono coscientemente da che parte stare nella guerra cosmica tra il bene e il male (rappresentati rispettivamente da Bahamut e Tiamat). La maggior parte dei dragonidi è buona, ma quelli che si schierano dalla parte di Tiamat possono rivelarsi tremendamente malvagi.
+			<br />
+			<span class="feature">Taglia.</span>I dragonidi sono più alti e pesanti degli umani: hanno un'altezza superiore agli 1,8 metri e un peso medio di 125 kg. Un dragonide è una creatura di taglia Media.
+			<br />
+			<span class="feature">Velocità.</span>La velocità base sul terreno di un dragonide è di 9 metri.
+			<br />
+			<span class="feature">Discendenza Draconica.</span>Un dragonide vanta una discendenza da un drago. Il giocatore sceglie un tipo di drago dalla tabella "Discendenza Draconica". l'arma a soffio del personaggio e la sua resistenza ai danni saranno determinate dalla tipologia di drago, come indicato dalla tabella.
+			<br />
+			<span class="feature">Arma a Soffio.</span>Un dragonide può usare la sua azione per esalare un soffio di energia distruttiva. La discendenza draconica determina la dimensione, la forma e il tipo di danno dell'esalazione. Quando il dragonide utilizza la sua arma a soffio, ogni creatura entro l'area dell'esalazione deve effettuare un tiro salvezza determinato in base alla discendenza draconica. La CD di questo tiro salvezza è pari a 8 + il modificatore di Costituzione del dragonide + il bonus competenza del dragnoide. Una creatura subisce 2d6 danni se il tiro salvezza fallisce. Se invece ha successo, i danni sono dimezzati. i danni aumentano a 3d6 al 6° livello, 4d6 all'11° livello e 5d6 al 16° livello. Una volta che il dragonide ha utilizzato la sua arma a soffio, non può più utilizzarla finché non completa un riposo breve o lungo.
+			<br />
+			<span class="feature">Resistenza ai Danni.</span>Un dragonide dispone di resistenza ai danno del tipo associato alla sua discendenza draconica.
+			<br />
+			<span class="feature">Linguaggi.</span>Un dragonide sa parlare, leggere e scrivere in Comune e in Draconico. Si ritiene che il Draconico sia uno dei linguaggi più antichi e viene spesso usato nello studio della magia. Il linguaggio ha un suono aspro per la maggior parte delle creature e include numerose consonanti dure e sibilanti.
+			<br />
+			</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+			<set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+			<set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
+			<set name="names" type="clan">Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit</set>
+			<set name="names-format">{{name}} {{clan}}</set>
+			<set name="height" modifier="2d8">165 cm</set>
+			<set name="weight" modifier="2d6">87,5 kg</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="2"/>
+			<stat name="charisma" value="1"/>
+			<stat name="innate speed" value="9" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON_IT" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC_IT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON_IT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE_IT" />
+		</rules>
+	</element>
+
+
+	<element name="Discendenza Draconica" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT">
+		<description>
+			<p>Un dragonide vanta una discendenza da un drago. Il giocatore sceglie un tipo di drago dalla tabella "Discendenza Draconica". l'arma a soffio del personaggio e la sua resistenza ai danni saranno determinate dalla tipologia di drago, come indicato dalla tabella.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr>
+						<td>Drago</td>
+						<td>Tipo di Danni</td>
+						<td>Arma a Soffio</td>
+					</tr>
+				</thead>
+                <tr>
+					<td>Argento</td>
+					<td>Freddo</td>
+					<td>Cono di 4,5 m (TS di Costituzione)</td>
+				</tr>
+				<tr>
+					<td>Bianco</td>
+					<td>Freddo</td>
+					<td>Cono di 4,5 m (TS di Costituzione)</td>
+				</tr>
+				<tr>
+					<td>Blu</td>
+					<td>Fulmine</td>
+					<td>Linea di 1,5 per 9 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Bronzo</td>
+					<td>Fulmine</td>
+					<td>Linea di 1,5 per 9 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Nero</td>
+					<td>Acido</td>
+					<td>Linea di 1,5 per 9 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Oro</td>
+					<td>Fuoco</td>
+					<td>Cono di 4,5 m (TS di Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Ottone</td>
+					<td>Fuoco</td>
+					<td>Linea di 1,5 per 9 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Rame</td>
+					<td>Acido</td>
+					<td>Linea di 1,5 per 9 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Rosso</td>
+					<td>Fuoco</td>
+					<td>Cono di 4,5 m (TS Destrezza)</td>
+				</tr>
+				<tr>
+					<td>Verde</td>
+					<td>Veleno</td>
+					<td>Cono di 4,5 m (TS Costituzione)</td>
+				</tr>
+			</table>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Discendenza Draconica" supports="Discendenza Draconica" />
+		</rules>
+	</element>
+	<element name="Arma a Soffio" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_BREATH_WEAPON_IT">
+		<description>
+			<p>Un dragonide può usare la sua azione per esalare un soffio di energia distruttiva. La discendenza draconica determina la dimensione, la forma e il tipo di danno dell'esalazione.</p>
+			<p>Quando il dragonide utilizza la sua arma a soffio, ogni creatura entro l'area dell'esalazione deve effettuare un tiro salvezza determinato in base alla discendenza draconica. La CD di questo tiro salvezza è pari a 8 + il modificatore di Costituzione del dragonide + il bonus competenza del dragnoide. Una creatura subisce 2d6 danni se il tiro salvezza fallisce. Se invece ha successo, i danni sono dimezzati. i danni aumentano a 3d6 al 6° livello, 4d6 all'11° livello e 5d6 al 16° livello.</p>
+			<p>Una volta che il dragonide ha utilizzato la sua arma a soffio, non può più utilizzarla finché non completa un riposo breve o lungo.</p>
+		</description>
+		<sheet action="Azione" usage="1/Riposo Breve">
+			<description>Esala energia distruttiva. La tua arma a soffio fa {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} danni in {{draconic-ancestry:breath}}  DC {{breath-weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" level="1" />
+			<stat name="breath-weapon:dice count" value="1" level="6" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="16" />
+		</rules>
+	</element>
+	<element name="Resistenza ai Danni" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE_IT">
+		<description>
+			<p>Un dragonide dispone di resistenza ai danno del tipo associato alla sua discendenza draconica.</p>
+		</description>
+		<sheet>
+			<description>Hai resistenza ai danni da {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK_IT||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER_IT" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE_IT||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE_IT" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS_IT||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD_IT||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN_IT" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER_IT||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE_IT" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Nero)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Nero">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Nero"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acido" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Linea di 1,5 per 9 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Blu)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Blu">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Blu"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fulmine" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Linea di 1,5 per 9 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Ottone)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Ottone">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Ottone"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fuoco" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Linea di 1,5 per 9 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Bronzo)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Bronzo">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Bronzo"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fulmine" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Linea di 1,5 per 9 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Rame)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Rame">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Rame"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acido" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Linea di 1,5 per 9 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Oro)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Oro">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Oro"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fuoco" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Cono di 4,5 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Verde)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Verde">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Verde"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Veleno" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Cono di 4,5 m (TS Costituzione)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Rosso)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Rosso">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Rosso"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fuoco" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Cono di 4,5 m (TS Destrezza)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Argento)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Argento">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Argento"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Freddo" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Cono di 4,5 m (TS Costituzione)" />
+		</rules>
+	</element>
+	<element name="Discendenza Draconica (Bianco)" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE_IT">
+		<supports>Discendenza Draconica</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_IT" />
+		</description>
+		<sheet alt="Bianco">
+			<description>La tua discendenza draconica è {{draconic-ancestry}}. Il tuo tipo di danno è da {{draconic-ancestry:damage type}}. La tua arma a soffio è {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Bianco"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Freddo" />
+			<stat inline="true" name="draconic-ancestry:breath" value="Cono di 4,5 m (TS Costituzione)" />
+		</rules>
+	</element>
+</elements>

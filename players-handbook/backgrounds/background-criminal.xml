@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Criminale</name>
+		<description>Criminale Background</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.6">
+			<file name="background-criminal.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-criminal.xml" />
+		</update>
+	</info>
+
+	<element name="Criminale" type="Background" source="Manuale del Giocatore" id="ID_BACKGROUND_CRIMINAL_IT">
+		<description>
+			<p>Un criminale è un esperto malfattore che ha già violato la legge più volte in passato. Ha trascorso molto tempo tra gli altri criminali e mantiene ancora qualche contatto con il mondo del crimine. E' molto più vicino della maggior parte della gente a quel mondo clandestino di omicidi, furti e violenze che contamina gli strati più bassi di una comnità ed è sopravvissuto fino a oggi sfidando le leggi e le regole della società.</p>
+			<ul class="unstyled">
+				<li><strong>Competenze nelle Abilità:</strong> Furtività, Inganno</li>
+				<li><strong>Competenze negli Strumenti:</strong> Arnesi da scasso, un tipo di gioco.</li>
+				<li><strong>Equipaggiamento:</strong> Un piede di porco, un abito comune compreso di cappuccio, una borsa con 15 mo</li>
+			</ul>
+			<h5>SPECIALIZZAZIONE CRIMINALE</h5>
+			<p>Esistono molti tipi di criminali e ogni singolo membro di una gilda di ladri o di un'organizzazione criminale analoga è dotato di specialità particolari. Perfino i criminali che agiscono al di fuori di tali organizzazioni hanno le loro preferenze per certi tipi di crimini rispetto ad altri. Il giocatore può scegliere liberamente il ruolo che il suo personaggio ha svolto come criminale, oppure può tirare sulla tabella sottostante.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d8</td><td>Specializzazione</td></tr>
+				</thead>
+				<tr><td>1</td><td>Assassino</td></tr>
+				<tr><td>2</td><td>Borseggiatore</td></tr>
+				<tr><td>3</td><td>Brigante</td></tr>
+				<tr><td>4</td><td>Contrabbandiere</td></tr>
+				<tr><td>5</td><td>Picchiatore</td></tr>
+				<tr><td>6</td><td>Ricattatore</td></tr>
+				<tr><td>7</td><td>Ricettatore</td></tr>
+				<tr><td>8</td><td>Scassinatore</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT_IT" />
+			<h5>CARATTERISTICHE SUGGERITE</h5>
+			<p>Un criminale potrebbe apparire crudele a prima vista, e molti criminali sono a tutti gli effetti malvagi fino al midollo. Ma alcuni vantano numerose qualità in grado di renderli gradevoli, se non di riscattarli. Forse il detto che parla di onore tra i ladri dice il vero, ma i criminali raramente mostrano rispetto per le leggi o per le autorità ufficiali.</p>
+			<div element="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY_IT" />
+		</description>
+		<setters>
+			<set name="short">Furtività, Inganno, Gaming Set, Thieves’ Tools</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<select type="Proficiency" name="Gaming Set (Criminal)" supports="Gaming Set" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT_IT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Criminale" supports="Variant Criminale" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Specializzazione Criminale" optional="true">
+				<item id="1">Assassino</item>
+				<item id="2">Borseggiatore</item>
+				<item id="3">Brigante</item>
+				<item id="4">Contrabbandiere</item>
+				<item id="5">Picchiatore</item>
+				<item id="6">Ricattatore</item>
+				<item id="7">Ricettatore</item>
+				<item id="8">Scassinatore</item>
+			</select>
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Il criminale ha sempre un piano di riserva, qualora le cose dovessero mettersi male.</item>
+				<item id="2">Il criminale mantiene sempre la calma, a prescindere dalla situazione. Non alza mai la voce e non permette mai alle emozioni di prendere il sopravvento sulla sua razionalità.</item>
+				<item id="3">La prima cosa che fa il criminale quando giunge in un nuovo luogo è notare tutte le zone in cui sono custoditi o potrebbero essere stati nascosti dei valori.</item>
+				<item id="4">Il criminale preferisce farsi un nuovo amico piuttosto che un nuovo nemico.</item>
+				<item id="5">Il criminale impiega molto tempo a fidarsi di qualcuno. Ritiene che spesso proprio quelli che sembrano più onesti sono quelli che hanno più cose da nascondere.</item>
+				<item id="6">Il criminale non bada ai rischi. Parlargli di probabilità è perfettamente inutile.</item>
+				<item id="7">Il modo più efficace per indurre il criminale a fare qualcosa è dirgli che non ha il permesso di farla.</item>
+				<item id="8">Il criminale reagisce con collera alla minima provocazione.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Onore. Il criminale non deruba altri criminali. (Legale)</item>
+				<item id="2">Libertà. Le catene devono essere spezzate, e lo stesso vale per chi cerca di imporle agli altri. (Caotico)</item>
+				<item id="3">Carità. Il criminale ruba ai ricchi per donare ai poveri. (Buono)</item>
+				<item id="4">Avidità. Il criminale farà tutto ciò che è in suo potere per arricchirsi. (Malvagio)</item>
+				<item id="5">Persone. Il criminale è leale solo nei confronti dei suoi amici, non si cura degli ideali stratti, e per quello che lo riguarda, tutti gli altri possono andare a tuffarsi nello Stige. (Neutrale)</item>
+				<item id="6">Redenzione. C'è una scintilla di bontà in ogni individuo. (Buono)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">Il criminale cerca di ripagare un vecchio debito che ha contratto con un generoso benefattore.</item>
+				<item id="2">Il criminale usa i proventi delle sue attività illecite per sostenere la sua famiglia.</item>
+				<item id="3">Al criminale è stato sottratto qualcosa di importante, e il suo obiettivo è riprenderselo.</item>
+				<item id="4">Il criminale vuole diventare il più grande ladro di tutti i tempi.</item>
+				<item id="5">Il criminale si è macchiato di un crimine terribile e spera di potersi redimere.</item>
+				<item id="6">Una persona amata dal criminale ha perso la vita per colpa sua. Il criminale è determinato a far sì che questo non accada mai più.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">Quando vede qualcosa di valore, il criminale riesce solo a pensare a come appropriarsene.</item>
+				<item id="2">Quando si trova a dover scegliere tra gli amici e il denaro, generalmente il criminale sceglie il denaro.</item>
+				<item id="3">Quando c'è un piano, il criminale lo dimentica. E se non lo dimentica, lo ignora.</item>
+				<item id="4">Quando il criminale mente, c'è qualcosa che rivela la sua bugia.</item>
+				<item id="5">Quando le cose sembrano mettersi male, il criminale se la dà a gambe levate.</item>
+				<item id="6">Un innocente è in prigione accusato di un crimine commesso dal criminale, il quale da parte sua convive tranquillamente con la situazione.</item>
+			</select>
+		</rules>
+	</element>
+
+	<element name="Privilegio: Contatto Criminale" type="Background Feature" source="Manuale del Giocatore" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT_IT">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Il criminale conosce un contatto affidabile che funge da tramite tra lui e una rete di altri criminali. Il criminale sa come inviare e ricevere messaggi dal suo contatto, anche a grandi distanze; nello specifico, conosce i messaggeri locali, i mastri carovanieri corrotti e i marinai poco raccomandabili che trasmetteranno il messaggio per suo conto.</p>
+		</description>
+		<sheet>
+			<description>Il criminale conosce un contatto affidabile che funge da tramite tra lui e una rete di altri criminali. Il criminale sa come inviare e ricevere messaggi dal suo contatto, anche a grandi distanze; nello specifico, conosce i messaggeri locali, i mastri carovanieri corrotti e i marinai poco raccomandabili che trasmetteranno il messaggio per suo conto.</description>
+		</sheet>
+		<sheet alt="Contatto Criminale" />
+	</element>
+
+	<element name="Variant Criminale: Spia" type="Background Variant" source="Manuale del Giocatore" id="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY_IT">
+		<supports>Variant Criminale</supports>
+		<description>
+			<p>Anche se le sue capacità non sono troppo diverse da quelle di uno scassinatore o di un contrabbandiere, una spia le apprende e le applica in un contesto molto diverso: come agente spionistico. Forse è un agente avallato ufficialmente dalla corona, o forse vende i segreti che scopre al migliore offerente.</p>
+		</description>
+		<sheet alt="Spia" />
+	</element>
+</elements>

@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Warlock</name>
+		<description>The Warlock class from the Manuale del Giocatore.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.3.6">
+			<file name="class-warlock.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-warlock.xml" />
+		</update>
+	</info>
+
+	<element name="Warlock" type="Class" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_WARLOCK_IT">
+		<description>
+			<p>Con uno pseudodrago appollaiato sulla spalla, un giovane elfo dalle vesti dorate sorride amichevolmente e intreccia nelle sue parole rnielate un effetto magico ammaliante che piega le guardie del palazzo alla sua volontà.</p>
+			<p class="indent">Quando un'umana raggrinzita sussurra il nome del suo patrono demoniaco, dalle sue mani si sprigiona una fiammata che infonde il potere degli immondi nel suo incantesimo</p>
+            <p class="indent">Con gli occhi che guizzano da un tomo consumato al cielo dove risplende uno strano allineamento delle stellle, un tiefling dallo sguardo spiritato intona il rituale mistico che spalancherà un portale verso un mondo remoto.</p>
+			<p class="indent">I warlock vanno in cerca delle conoscenze nascoste negli anfratti più remoti del multiverso. Grazie ai patti che stipulano con misteriose entità dai poteri soprannaturali, sono in grado di generare gli effetti magici piu disparati, da quelli più spettacolari a quelli più insidiosamente sottili. Attingendo alle conoscenze antiche di esseri come nobili folletti, demoni, diavoli, streghe ed entità aliene appartenenti al Reame Remoto, i warlock apprendono un segreto arcano dopo l'altro con cui rafforzano i loro poteri.</p>
+			<h4>IL VINCOLO DEL PATTO</h4>
+			<p>Un warlock è definito dal patto che stipula con un'entità ultraterrena. A volte il rapporto tra un warlock e il suo patrono è simile a quello tra un chierico e la sua divinità, ma gli esseri che fungono da patroni dei warlock non sono dèi. Un warlock potrebbe guidare un culto devoto a un principe dei demoni, a un arcidiavolo o anche a un'entità totalmente aliena: esseri che solitamente nessun chierico servirà mai. Tuttavia, nella maggior parte dei casi il patto tra un warlock e il suo patrono è simile a quello tra un maestro e un apprendista. Il warlock apprende e aumenta il suo potere, ma in cambio deve mettere di tanto in tanto i suoi poteri al servizio del patrono.</p>
+			<p class="indent">La magia conferita a un warlock può variare da alterazioni minuscole ma permanenti (come per esempio la capacità di vedere nel buio o di leggere qualsiasi linguaggio), fino alla possibilità di accedere agli incantesimi più potenti. A differenza dei maghi veri e propri, che sono dei topi di biblioteca, i warlock integrano i loro poteri magici con una certa perizia nel combattimento corpo a corpo. Indossano senza difficoltà le armature leggere e sanno usare le armi semplici.</p>
+			<h4>SCOPRITORI DI SEGRETI</h4>
+			<p>I warlock sono animati da un'insaziabile sete di sapere e di potere, che li spinge a stipulare patti con i loro patroni e che plasma le loro vite. Questa sete di conoscenza modella anche la loro carriera futura.</p>
+			<p class="indent">Le storie che vedono un warlock legarsi a una creatura immonda sono le più note, ma molti warlock servono patroni di tutt'altra natura. A volte un viaggiatore si imbatte in una strana, magnifica torre nelle terre selvagge e incontra il nobile fatato che vive al suo interno, stipulando con quella figura un patto senza nemmeno esserne del tutto consapevole. Altre volte, immerso nella lettura di un tomo proibito, un discepolo geniale ma folle proietta la sua mente in una realtà che va oltre il piano materiale e contatta gli esseri alieni che si annidano nel vuoto esterno.</p>
+			<p class="indent">Una volta stipulato il patto, il semplice studio e la ricerca non bastano più a placare la sete di sapere e potere del warlock. Nessuno si vincola a un patrono di tale potenza se non intende usare il potere che ottiene in questo modo. La maggior parte dei warlock dedica quindi il suo tempo a perseguire attivamente i suoi obiettivi, cosa che spesso li porta a partire all'avventura. Ma altrettanto spesso sono le imposizioni dei loro patroni a indurre i warlock a intraprendere un'avventura.</p>
+			<h4>CREARE UN WARLOCK</h4>
+			<p>Al momento di creare un personaggio warlock, il giocatore dovrà dedicare qualche minuto a riflettere sul suo patrono e sugli obblighi che il patto gli impone. Cosa lo ha spinto a stipulare il patto? E come ha fatto a entrare in contatto con il suo patrono? È stato sedotto dalJa tentazione di evocare un diavolo o ha ricercato il rituale che gli ha permesso di entrare in contatto con un antico dio alieno? Ha cercato lui il suo patrono o è :stato il patrono a trovare e a scegliere il warlock? Si sente schiacciato dagli obblighi imposti dal patto o serve il patrono con entusiasmo, in attesa della ricompensa che ne seguirà?</p>
+			<p class="indent">Il giocatore può accordarsi con il DM per determinare la portata dell'influenza del patto nella vita e nelle avventure del warlock. Il patrono stesso potrebbe esigere che il warlock prenda parte alle avventure, oppure le sue richieste potrebbero limitarsi a piccoli servizi che il warlock può sbrigare tra un'avventura e l'altra.</p>
+			<p class="indent">Che tipo di rapporto c'è tra il warlock e il suo patrono? Si tratta di un rapporto amichevole, antagonistico, sofferto o romantico? Che ruolo svolge il warlock nei piani del patrono? Il warlock conosce altri servitori del suo patrono?</p>
+			<p class="indent">In che modo il patrono comunica con il warlock? Se quest'ultimo possiede un famiglio, esso potrebbe a volte parlare con la voce del patrono. Alcuni warlock trovano i messaggi dei loro patroni incisi sulla corteccia degli alberi, celati nelle foglie di tè, o sospesi in cielo, tra le nuvole, come messaggi comprensibili soltanto dal loro destinatario. Altri warlock comunicano con i loro patroni tramite sogni e visioni, o hanno a che fare soltanto con un intermediario.</p>
+			<h5>CREAZIONE RAPIDA</h5>
+			<p>È possibile creare un warlock rapidamente seguendo questi suggerimenti. Per prima cosa, Carisma dovrebbe essere il punteggio di caratteristica più alto, seguito da Costituzione. Poi si sceglie il background del ciarlatano. Infine si scelgono i trucchetti deflagrazione occulta e tocco gelido, assieme agli incantesimi di 1° livello charme su persone e dardo stregato.</p>
+			<h3>PRIVILEGI DI CLASSE</h3>
+			<p>Un warlock ottiene i seguenti privilegi di classe.</p>
+            <h5>PUNTI FERITA</h5>
+            <ul class="unstyled">
+                <li><strong>Dadi Vita:</strong> 1d8 per ogni livello da warlock</li>
+                <li><strong>Punti Ferita al 1° Livello:</strong> 8 + il modificatore di Costituzione del warlock</li>
+                <li><strong>Punti Ferita ai Livelli Successivi:</strong> 1d8 (o 5) + il modificatore di Costituzione del warlock per ogni livello da warlock dopo il 1°</li>
+            </ul>
+            <h5>COMPETENZE</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armature:</strong> Armature leggere</li>
+                <li><strong>Armi:</strong> Armi semplici</li>
+                <li><strong>Strumenti:</strong> Nessuno</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Tiri Salvezza:</strong> Saggezza, Carisma</li>
+                <li><strong>Abilità:</strong> Due a scelta tra Arcano, Indagare, Inganno, Intimidire, Natura, Religione e Storia</li>
+            </ul>
+			<h5>EQUIPAGGIAMENTO</h5>
+			<p>Un warlock inizia con l'equipaggiamento seguente, in aggiunta all'equipaggiamento conferito dal suo background:</p>
+			<ul>
+				<li>(a) una balestra leggera e 20 quadrelli o (b) una qualsiasi arma semplice</li>
+				<li>(a) una borsa dei componenti o (b) un focus arcano</li>
+				<li>(a) una dotazione da studioso o (b) una dotazione da avventuriero</li>
+				<li>Un'armatura di cuoio, una qualsiasi arma semplice e due pugnali</li>
+			</ul>
+			<h5 class="caption">WARLOCK</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Livello</td><td class="left">Privilegi</td><td class="col-10">Trucchetti Conosciuti</td><td class="col-10">Incantesimi Conosciuti</td><td class="col-10">Slot Incantesimo</td><td class="col-10">Livello dello Slot</td><td class="col-10">Suppliche Conosciute</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Patrono Ultraterreno, Magia del Patto</td><td>2</td><td>2</td><td>1</td><td>1st</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Suppliche Occulte</td><td>2</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
+				<tr><td> 3rd</td><td class="left">Dono del Patto</td><td>2</td><td>4</td><td>2</td><td>2nd</td><td>2</td></tr>
+				<tr><td> 4th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>3</td><td>5</td><td>2</td><td>2nd</td><td>2</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>3rd</td><td>3</td></tr>
+				<tr><td> 6th</td><td class="left">Privilegio del Patrono Ultraterreno</td><td>3</td><td>7</td><td>2</td><td>3rd</td><td>3</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>8</td><td>2</td><td>4th</td><td>4</td></tr>
+				<tr><td> 8th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>3</td><td>9</td><td>2</td><td>4th</td><td>4</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>3</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
+				<tr><td>10th</td><td class="left">Privilegio del Patrono Ultraterreno</td><td>4</td><td>10</td><td>2</td><td>5th</td><td>5</td></tr>
+				<tr><td>11th</td><td class="left">Arcanum Mistico (6° livello)</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>5</td></tr>
+				<tr><td>12th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>11</td><td>3</td><td>5th</td><td>6</td></tr>
+				<tr><td>13th</td><td class="left">Arcanum Mistico (7° livello)</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
+				<tr><td>14th</td><td class="left">Privilegio del Patrono Ultraterreno</td><td>4</td><td>12</td><td>3</td><td>5th</td><td>6</td></tr>
+				<tr><td>15th</td><td class="left">Arcanum Mistico (8° livello)</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
+				<tr><td>16th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>13</td><td>3</td><td>5th</td><td>7</td></tr>
+				<tr><td>17th</td><td class="left">Arcanum Mistico (9° livello)</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>7</td></tr>
+				<tr><td>18th</td><td class="left">—</td><td>4</td><td>14</td><td>4</td><td>5th</td><td>8</td></tr>
+				<tr><td>19th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
+				<tr><td>20th</td><td class="left">Maestro dell'Occulto</td><td>4</td><td>15</td><td>4</td><td>5th</td><td>8</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER_IT" />
+		</description>
+		<sheet display="false">
+			<description>Un incantatore che deriva il suo potere da un patto con un'entita extraplanare.</description>
+		</sheet>
+		<setters>
+			<set name="short">Un incantatore che deriva il suo potere da un patto con un'entita extraplanare.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOC_ITK"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK_IT"/>
+			<select type="Proficiency" name="Skill Proficiency (Warlock)" supports="Skill,Warlock" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_WARLOCK_IT"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON_IT" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC_IT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_IT" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK_IT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM_IT" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER_IT" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_WARLOCK_IT">
+			<prerequisite>Charisma 13</prerequisite>
+			<requirements>[cha:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Armature leggere, armi semplici</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Patrono Ultraterreno" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON_IT">
+		<description>
+			<p>Al 1° livello, un warlock stipula un patto con un essere extra planare a sua scelta.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Patrono Ultraterreno" supports="Patrono Ultraterreno" />
+		</rules>
+	</element>
+	<element name="Magia del Patto" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC_IT">
+		<description>
+			<p>Le ricerche arcane condotte dal warlock e l'energia magica che il suo patrono gli conferisce rendono il warlock particolarmente abile nell'uso degli incantesimi.</p>
+			<h5>TRUCCHETTI</h5>
+			<p>Un warlock conosce due trucchetti a sua scelta tratti dalla lista degli incantesimi da warlock. Apprende ulteriori trucchetti da warlock a sua scelta ai livelli successivi, come indicato dalla colonna "Trucchetti Conosciuti" nella tabella.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>La tabella indica quanti slot incantesimo possiede un warlock. La tabella indica anche il livello di quegli slot; tutti gli slot incantesimo da warlock sono dello stesso livello. Per lanciare un incantesimo di livello pari o superiore al 1°, il warlock deve spendere uno slot incantesimo. Il warlock recupera tutti gli slot incantesimo spesi quando completa un riposo breve o lungo.</p>
+			<p class="indent">Per esempio, un warlock di 5° livello possiede due slot incantesimo di 3° livello. Per lanciare l'incantesimo di 1° livello Dardo Stregato deve spendere uno di quegli slot e lanciarlo come incantesimo di 3° livello.</p>
+			<h5>INCANTESIMI CONOSCIUTI DI 1° LIVELLO E DI LIVELLO SUPERIORE</h5>
+			<p>Al 1° livello, un warlock conosce due incantesimi di 1° livello a sua scelta dalla lista degli incantesimi da warlock.</p>
+			<p class="indent">La colonna "Incantesimi Conosciuti" nella tabella indica quando un warlock impara altri incantesimi da warlock a sua scelta, di 1° livello o superiore. Ognuno di questi incantesimi deve appartenere a un livello pari o inferiore al "Livello di Slot" relativo al livello attuale del warlock e indicato nella sua tabella. Per esempio, quando un warlock arriva al 6° livello, apprende un nuovo incantesimo da warlock di 1°, 2° o 3° livello.</p>
+			<p class="indent">Inoltre, quando un warlock acquisisce un livello, può scegliere un incantesimo da warlock che conosce e sostituirlo con un altro incantesimo della lista degli incantesimi da warlock; anche il nuovo incantesimo deve essere di un livello di cui il warlock possiede degli slot incantesimo.</p>
+			<h5>CARATTERISTICA DA INCANTATORE</h5>
+			<p>Carisma è la caratteristica da incantatore per gli incantesimi da warlock, quindi un warlock usa Carisma ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Carisma per definire la CD del tiro salvezza di un incantesimo da warlock da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>
+			<p class="indent">
+				<b>CD del tiro salvezza dell'incantesimo</b> = 8 + il bonus di competenza del warlock + il modificatore di Carisma del warlock</p>
+			<p class="indent">
+				<b>Modificatore di attacco dell'incantesimo</b> = il bonus di competenza del warlock + il modificatore di Carisma del warlock</p>
+			<h5>FOCUS DA INCANTATORE</h5>
+			<p>Un warlock può usare un focus arcano come focus da incantatore per i suoi incantesimi da warlock.</p>
+		</description>
+		<sheet display="false">
+			<description>Le ricerche arcane condotte dal warlock e l'energia magica che il suo patrono gli conferisce rendono il warlock particolarmente abile nell'uso degli incantesimi. Hai {{warlock:spellcasting:slots:count}} slot di livello {{warlock:spellcasting:slot}}</description>
+		</sheet>
+		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
+			<list>Warlock</list>
+		</spellcasting>
+		<rules>
+			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+			<stat name="warlock:spellcasting:slots:count" value="1" level="1"/>
+			<stat name="warlock:spellcasting:slots:count" value="1" level="2"/>
+			<stat name="warlock:spellcasting:slots:count" value="1" level="11"/>
+			<stat name="warlock:spellcasting:slots:count" value="1" level="17"/>
+
+			<stat name="warlock:spellcasting:slot" value="1" level="1" />
+			<stat name="warlock:spellcasting:slot" value="1" level="3" />
+			<stat name="warlock:spellcasting:slot" value="1" level="5" />
+			<stat name="warlock:spellcasting:slot" value="1" level="7" />
+			<stat name="warlock:spellcasting:slot" value="1" level="9" />
+
+			<!-- negative count to remove slots -->
+			<stat name="warlock:spellcasting:slots:1" value="warlock:spellcasting:slots:count" level="1" />
+			<stat name="warlock:spellcasting:slots:1" value="-warlock:spellcasting:slots:count" level="3" />
+			<stat name="warlock:spellcasting:slots:2" value="warlock:spellcasting:slots:count" level="3" />
+			<stat name="warlock:spellcasting:slots:2" value="-warlock:spellcasting:slots:count" level="5" />
+			<stat name="warlock:spellcasting:slots:3" value="warlock:spellcasting:slots:count" level="5" />
+			<stat name="warlock:spellcasting:slots:3" value="-warlock:spellcasting:slots:count" level="7" />
+			<stat name="warlock:spellcasting:slots:4" value="warlock:spellcasting:slots:count" level="7" />
+			<stat name="warlock:spellcasting:slots:4" value="-warlock:spellcasting:slots:count" level="9" />
+			<stat name="warlock:spellcasting:slots:5" value="warlock:spellcasting:slots:count" level="9" />
+
+			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Warlock" />
+			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="4" spellcasting="Warlock" />
+			<select type="Spell" name="Cantrip (Warlock)" supports="$(spellcasting:list),0" level="10" spellcasting="Warlock" />
+
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Warlock"/>
+			<select type="Spell" name="Spellcasting (Warlock)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Warlock"/>
+		</rules>
+	</element>
+	<element name="Suppliche Occulte" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS_IT">
+		<description>
+			<p>Dedicandosi allo studio delle scienze occulte, un warlock ha scoperto come usare alcune suppliche occulte, frammenti di conoscenze proibite che gli conferiscono persistenti doti magiche.</p>
+			<p class="indent">Al 2° livello, il warlock ottiene due suppliche occulte a sua scelta. Le sue opzioni di invocazione sono descritte alla fine della sezione di questa classe. Quando il warlock raggiunge livelli superiori, ottiene ulteriori suppliche a sua scelta, come indicato nella colonna "Suppliche Conosciute" nella tabella.</p>
+			<p class="indent">Inoltre, quando acquisisce un nuovo livello, il warlock può scegliere una delle suppliche che conosce e sostituirla con un'altra che potrebbe imparare a quel livello.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Supplica Occulta (Livello 2)" supports="Supplica Occulta" level="2" number="2" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 5)" supports="Supplica Occulta" level="5" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 7)" supports="Supplica Occulta" level="7" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 9)" supports="Supplica Occulta" level="9" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 12)" supports="Supplica Occulta" level="12" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 15)" supports="Supplica Occulta" level="15" />
+			<select type="Class Feature" name="Supplica Occulta (Livello 18)" supports="Supplica Occulta" level="18" />
+		</rules>
+	</element>
+	<element name="Dono del Patto" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_IT">
+		<description>
+			<p>Al 3° livello, il patrono ultraterreno elargisce al warlock un dono per ricompensarlo dei suoi fedeli servigi. Il warlock ottiene uno dei privilegi seguenti a sua scelta.</p>
+			<h5 class="caption">PATTO DELLA CATENA</h5>
+			<p>Il warlock impara l'incantesimo Trova Famiglio e può lanciarlo come rituale. Questo incantesimo non va conteggiato al fine di determinare il numero di incantesimi conosciuti dal warlock.</p>
+			<p class="indent">Quando il warlock lancia l'incantesimo può scegliere per il suo famiglio una delle forme normali o una delle forme speciali seguenti: imp, pseudodrago, quasit o spiritello.</p>
+			<p class="indent">Inoltre, quando effettua l'azione di Attacco, il warlock può rinunciare a uno dei suoi attacchi per consentire al suo famiglio di effettuare un suo attacco individuale con la sua reazione.</p>
+			<h5 class="caption">PATTO DEL TOMO</h5>
+			<p>Il patrono dona al warlock un grimorio chiamato il Libro delle Ombre. Quando ottiene questo privilegio, il warlock può scegliere tre trucchetti dalla lista degli incantesimi di qualsiasi classe (che non devono necessariamente appartenere alla stessa lista). Quando il warlock porta il libro con sé, può lanciare quei trucchetti a volontà. Non vencono conteggiati al fine di determinare il numero di trucchetti conosciuti dal warlock. Anche se non compaiono sulla lista degli incantesimi da warlock, sono comunque considerati incantesimi da warlock per lui.</p>
+			<p class="indent">Se il Libro delle Ombre viene perduto, il warlock può effettuare un cerimoniale da 1 ora per riceverne un altro dal proprio patrono. Tale cerimoniale può essere effettuato durante un periodo di riposo breve o lungo, e provoca la distruzione del vecchio libro. Il libro si riduce in polvere alla morte del warlock.</p>
+			<h5 class="caption">PATTO DELLA LAMA</h5>			
+			<p>Il warlock può usare la sua azione per fare apparire un'arma del patto nella sua mano vuota. Può scegliere la forma che questa arma da mischia assume ogni volta che la crea. Il warlock è considerato competente nell'arma fintanto che la impugna. Questa arma è considerata magica al fine di oltrepassare la resistenza e l'immunità agli attacchi e ai danni non magici.</p>
+			<p class="indent">L'arma del patto scompare se rimane per un minuto a più di 1,5 metri di distanza dal warlock. L'arma scompare anche se il warlock utilizza di nuovo il privilegio, se la congeda (non è richiesta alcuna azione per farlo), o se muore.</p>
+			<p class="indent">Il warlock può trasformare un'arma magica nella sua arma del patto celebrando un rituale speciale mentre la impugna. Il rituale dura 1 ora e può essere completato durante un periodo di riposo breve. Una volta completato il rituale, il warlock può congedare l'arma relegandola in uno spazio extradimensionale; da allora in poi compare ogni volta che il warlock crea la sua arma del patto. Non è possibile influenzare un artefatto o un'arma senziente in questo modo. L'arma cessa di essere l'arma del patto se il warlock muore, se celebra un rituale di 1 ora su un'altra arma o se celebra un altro rituale di 1 ora per spezzare il suo vincolo con l'arma. Se l'arma si trova nello spazio extradimensionale quando il vincolo viene spezzato, essa ricompare ai piedi del warlock.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Dono del Patto" supports="Dono del Patto" level="3"/>
+		</rules>
+	</element>
+	<element name="Aumento dei Punteggi di Caratteristica" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK_IT">
+		<compendium display="false" />
+		<description>
+			<p>Quando arriva al 4° livello, e poi di nuovo all'8°, 12°, 16° e 19° livello, un warlock può aumentare di 2 un punteggio di caratteristica a sua scelta, oppure può aumentare di 1 due punteggi di caratteristica a sua scelta. Come di consueto, non è consentito aumentare un punteggio di caratteristica a più di 20 utilizzando questo privilegio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Warlock 4)" supports="Improvement Option,Warlock,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Warlock 8)" supports="Improvement Option,Warlock,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Warlock 12)" supports="Improvement Option,Warlock,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Warlock 16)" supports="Improvement Option,Warlock,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Warlock 19)" supports="Improvement Option,Warlock,19" level="19" />
+		</rules>
+	</element>
+	<element name="Arcanum Mistico" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_MYSTIC_ARCANUM_IT">
+		<description>
+			<p>All'11° livello, il patrono rivela al warlock un segreto magico chiamato arcanum. Il warlock sceglie un incantesimo di 6° livello dalla lista degli incantesimi da warlock come arcanum.</p>
+			<p class="indent">Il warlock può lanciare il suo incantesimo arcanum senza spendere uno slot incantesimo. Deve completare un riposo lungo prima di poterlo fare di nuovo.</p>
+			<p class="indent">Ai livelli successivi, il warlock ottiene altri incantesimi da warlock a sua scelta da lanciare in questo modo: un incantesimo di 7° livello al 13° livello, un incantesimo di 8° livello al 15° livello e un incantesimo di 9° livello al 17° livello. Recupera tutti gli utilizzi del suo Arcanum Mistico quando completa un riposo lungo.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare il suo incantesimo arcanum senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Arcanum (Arcanum Mistico)" supports="Warlock,6" level="11" spellcasting="Warlock" />
+			<select type="Spell" name="Arcanum (Arcanum Mistico)" supports="Warlock,7" level="13" spellcasting="Warlock" />
+			<select type="Spell" name="Arcanum (Arcanum Mistico)" supports="Warlock,8" level="15" spellcasting="Warlock" />
+			<select type="Spell" name="Arcanum (Arcanum Mistico)" supports="Warlock,9" level="17" spellcasting="Warlock" />
+		</rules>
+	</element>
+	<element name="Maestro dell'Occulto" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_MASTER_IT">
+		<description>
+			<p>Al 20° livello, il warlock è in grado di attingere alla sua riserva interiore di potere mistico quando invoca il suo patrono per riottenere gli slot incantesimo spesi. Il warlock può trascorrere 1 minuto invocando l'aiuto del suo patrono per riottenere tutti gli slot incantesimo concessi dal privilegio Magia del Patto che ha speso. Una volta riottenuti gli slot incantesimo tramite questo privilegio, il warlock deve completare un riposo lungo prima di poterlo fare di nuovo.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può trascorrere 1 minuto invocando l'aiuto del suo patrono per riottenere tutti gli slot incantesimo concessi dal privilegio Magia del Patto che ha speso.</description>
+		</sheet>
+	</element>
+
+	<element name="Patto della Catena" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN_IT">
+		<supports>Dono del Patto</supports>
+		<description>
+			<p>Il warlock impara l'incantesimo Trova Famiglio e può lanciarlo come rituale. Questo incantesimo non va conteggiato al fine di determinare il numero di incantesimi conosciuti dal warlock.</p>
+			<p class="indent">Quando il warlock lancia l'incantesimo può scegliere per il suo famiglio una delle forme normali o una delle forme speciali seguenti: imp, pseudodrago, quasit o spiritello.</p>
+			<p class="indent">Inoltre, quando effettua l'azione di Attacco, il warlock può rinunciare a uno dei suoi attacchi per consentire al suo famiglio di effettuare un suo attacco individuale con la sua reazione.</p>
+		</description>
+		<sheet>
+			<description>Il warlock impara l'incantesimo Trova Famiglio e può lanciarlo come rituale.
+			Inoltre, quando effettua l'azione di Attacco, il warlock può rinunciare a uno dei suoi attacchi per consentire al suo famiglio di effettuare un suo attacco individuale.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR_IT" spellcasting="Warlock" />
+			<select type="Companion" name="Famiglio, Patto della Catena" supports="Famiglio||Variant Famiglio" />
+		</rules>
+	</element>
+	<element name="Patto del Tomo" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME_IT">
+		<supports>Dono del Patto</supports>
+		<description>
+			<p>Il patrono dona al warlock un grimorio chiamato il Libro delle Ombre. Quando ottiene questo privilegio, il warlock può scegliere tre trucchetti dalla lista degli incantesimi di qualsiasi classe (che non devono necessariamente appartenere alla stessa lista). Quando il warlock porta il libro con sé, può lanciare quei trucchetti a volontà. Non vencono conteggiati al fine di determinare il numero di trucchetti conosciuti dal warlock. Anche se non compaiono sulla lista degli incantesimi da warlock, sono comunque considerati incantesimi da warlock per lui.</p>
+			<p class="indent">Se il Libro delle Ombre viene perduto, il warlock può effettuare un cerimoniale da 1 ora per riceverne un altro dal proprio patrono. Tale cerimoniale può essere effettuato durante un periodo di riposo breve o lungo, e provoca la distruzione del vecchio libro. Il libro si riduce in polvere alla morte del warlock.</p>
+		</description>
+		<sheet>
+			<description>Il patrono dona al warlock un grimorio chiamato il Libro delle Ombre. 
+			Se il Libro delle Ombre viene perduto, il warlock può effettuare un cerimoniale da 1 ora per riceverne un altro dal proprio patrono. Tale cerimoniale può essere effettuato durante un periodo di riposo breve o lungo, e provoca la distruzione del vecchio libro. Il libro si riduce in polvere alla morte del warlock.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Trucchetto (Patto del Tomo)" supports="0" level="1" number="3" spellcasting="Warlock"/>
+		</rules>
+	</element>
+	<element name="Patto della Lama" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE_IT">
+		<supports>Dono del Patto</supports>
+		<description>
+			<p>Il warlock può usare la sua azione per fare apparire un'arma del patto nella sua mano vuota. Può scegliere la forma che questa arma da mischia assume ogni volta che la crea. Il warlock è considerato competente nell'arma fintanto che la impugna. Questa arma è considerata magica al fine di oltrepassare la resistenza e l'immunità agli attacchi e ai danni non magici.</p>
+			<p class="indent">L'arma del patto scompare se rimane per un minuto a più di 1,5 metri di distanza dal warlock. L'arma scompare anche se il warlock utilizza di nuovo il privilegio, se la congeda (non è richiesta alcuna azione per farlo), o se muore.</p>
+			<p class="indent">Il warlock può trasformare un'arma magica nella sua arma del patto celebrando un rituale speciale mentre la impugna. Il rituale dura 1 ora e può essere completato durante un periodo di riposo breve. Una volta completato il rituale, il warlock può congedare l'arma relegandola in uno spazio extradimensionale; da allora in poi compare ogni volta che il warlock crea la sua arma del patto. Non è possibile influenzare un artefatto o un'arma senziente in questo modo. L'arma cessa di essere l'arma del patto se il warlock muore, se celebra un rituale di 1 ora su un'altra arma o se celebra un altro rituale di 1 ora per spezzare il suo vincolo con l'arma. Se l'arma si trova nello spazio extradimensionale quando il vincolo viene spezzato, essa ricompare ai piedi del warlock.</p>
+		</description>
+		<sheet usage="Azione">
+			<description>Fa apparire un'arma del patto nella sua mano vuota. Può scegliere la forma che questa arma da mischia assume ogni volta che la crea. Il warlock è considerato competente nell'arma fintanto che la impugna. Questa arma è considerata magica al fine di oltrepassare la resistenza e l'immunità agli attacchi e ai danni non magici.
+			L'arma del patto scompare se rimane per un minuto a più di 1,5 metri di distanza dal warlock. L'arma scompare anche se il warlock utilizza di nuovo il privilegio, se la congeda (non è richiesta alcuna azione per farlo), o se muore.
+			Il warlock può trasformare un'arma magica nella sua arma del patto celebrando un rituale speciale mentre la impugna. Il rituale dura 1 ora e può essere completato durante un periodo di riposo breve. Una volta completato il rituale, il warlock può congedare l'arma relegandola in uno spazio extradimensionale; da allora in poi compare ogni volta che il warlock crea la sua arma del patto. Non è possibile influenzare un artefatto o un'arma senziente in questo modo. L'arma cessa di essere l'arma del patto se il warlock muore, se celebra un rituale di 1 ora su un'altra arma o se celebra un altro rituale di 1 ora per spezzare il suo vincolo con l'arma. Se l'arma si trova nello spazio extradimensionale quando il vincolo viene spezzato, essa ricompare ai piedi del warlock.</description>
+		</sheet>
+	</element>
+
+	<!-- Suppliche Occulte -->
+	<element name="Deflagrazione Agonizzante" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_AGONIZING_BLAST_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>trucchetto Deflagrazione Occulta</prerequisite>
+		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST_IT</requirements>
+		<description>
+			<p><em>Prerequisito: trucchetto Deflagrazione Occulta</em></p>
+			<p>Quando il warlock lancia Deflagrazione Occulta, aggiunge il suo modificatore di Carisma ai danni che infligge quando colpisce il bersaglio.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ELDRITCH_BLAST_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Quando il warlock lancia Deflagrazione Occulta, aggiunge {{agonizing blast:damage}} ai danni che infligge quando colpisce il bersaglio.</description>
+		</sheet>
+		<rules>
+			<stat name="agonizing blast:damage" value="charisma:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Armatura delle Ombre" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Armatura Magica su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_MAGE_ARMOR_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Armatura Magica su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_ARMOR_IT" />
+		</rules>
+	</element>
+	<element name="Passo Ascendente" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>9° livello</prerequisite>
+		<requirements>[level:9]</requirements>
+		<description>
+			<p><em>Prerequisito: 9° livello</em></p>
+			<p>Il warlock può lanciare Levitazione su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LEVITATE_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Levitazione su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_LEVITATE_IT" />
+		</rules>
+	</element>
+	<element name="Lingue delle Bestie" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEECH_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Parlare con gli Animali a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SPEAK_WITH_ANIMALS_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Parlare con gli Animali a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS_IT" />
+		</rules>
+	</element>
+	<element name="Influenza Seducente" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock ottiene competenza nelle abilità Inganno e Persuasione.</p>
+		</description>
+		<sheet display="false">
+			<description>Il warlock ottiene competenza nelle abilità Inganno e Persuasione.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Sussurri Stregati" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BEWITCHING_WHISPERS_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>7° livello</prerequisite>
+		<requirements>[level:7]</requirements>
+		<description>
+			<p><em>Prerequisito: 7° livello</em></p>
+			<p>Il warlock può lanciare Compulsione una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_COMPULSION_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Compulsione una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMPULSION_IT" />
+		</rules>
+	</element>
+	<element name="Libro degli Antichi Segreti" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_BOOK_OF_ANCIENT_SECRETS_IT">
+		<supports>Supplica Occulta, Patto del Tomo</supports>
+		<prerequisite>privilegio Patto del Tomo</prerequisite>
+		<requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_TOME</requirements>
+		<description>
+			<p><em>Prerequisito: privilegio Patto del Tomo</em></p>
+			<p>Il warlock può ora trascrivere i rituali magici nel suo Libro delle Ombre. Sceglie due incantesimi di 1° livello con il descrittore rituale dalle liste di incantesimi di qualsiasi classe (non è necessario che i due incantesimi appartengano alla stessa lista). Gli incantesimi compaiono nel libro e non contano ai fini di determinare il numero di incantesimi che il warlock conosce. Quando il warlock impugna il suo Libro delle Ombre, può lanciare gli incantesimi scelti come rituali. Può lanciare quegli incantesimi anche in altri modi. Può inoltre lanciare un incantesimo da warlock che lui conosce come rituale, se tale incantesimo possiede il descrittore rituale.</p>
+			<p class="indent">Nel corso delle sue avventure, il warlock può aggiungere altri incantesimi rituali al suo Libro delle Ombre. Quando trova un incantesimo del genere, può aggiungerlo al libro se il livello dell'incantesimo è pari o inferiore alla metà del suo livallo da warlock (arrotondato per eccesso) e se dispone di abbastanza tempo da trascrivere l'incantesimo. Per ogni livello dell'incantesimo, il processo di trascrizione richiede 2 ore e costa 50 mo per gli inchiostri rari richiesti.</p>
+		</description>
+		<sheet>
+			<description>Quando il warlock impugna il suo Libro delle Ombre, può lanciare gli incantesimi scelti come rituali.
+			Nel corso delle sue avventure, il warlock può aggiungere altri incantesimi rituali al suo Libro delle Ombre. Quando trova un incantesimo del genere, può aggiungerlo al libro se il livello dell'incantesimo è pari o inferiore a {{level:warlock:half:up}} e se dispone di abbastanza tempo da trascrivere l'incantesimo. Per ogni livello dell'incantesimo, il processo di trascrizione richiede 2 ore e costa 50 mo per gli inchiostri rari richiesti.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Libro degli Antichi Segreti" supports="1,Ritual" number="2" spellcasting="Warlock"/>
+		</rules>
+	</element>
+	<element name="Catene di Carceri" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_CHAINS_OF_CARCERI_IT">
+		<supports>Supplica Occulta, Patto della Catena</supports>
+		<prerequisite>15° livello, privilegio Patto della Catena</prerequisite>
+		<requirements>[level:15],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN_IT</requirements>
+		<description>
+			<p><em>Prerequisiti: 15° livello, privilegio Patto della Catena</em></p>
+			<p>Il warlock può lanciare Blocca Mostri a volontà (bersagliando un celestiale, un immondo o un elementale) senza spendere uno slot incantesimo o componenti materiali. Deve completare un riposo lungo prima che possa usare di nuovo questa supplica sulla stessa creatura.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_HOLD_MONSTER_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Blocca Mostri a volontà (bersagliando un celestiale, un immondo o un elementale) senza spendere uno slot incantesimo o componenti materiali. Deve completare un riposo lungo prima che possa usare di nuovo questa supplica sulla stessa creatura.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER_IT" />
+		</rules>
+	</element>
+	<element name="Vista del Diavolo" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock è in grado di vedere normalmente nell'oscurità, sia magica che comune, fino a una distanza di 36 metri.</p>
+		</description>
+		<sheet>
+			<description>Il warlock è in grado di vedere normalmente nell'oscurità, sia magica che comune, fino a una distanza di 36 metri.</description>
+		</sheet>
+	</element>
+	<element name="Parola Temibile" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_DREADFUL_WORD_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>7° livello</prerequisite>
+		<requirements>[level:7]</requirements>
+		<description>
+			<p><em>Prerequisito: 7° livello</em></p>
+			<p>Il warlock può lanciare Confusione una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CONFUSION_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Confusione una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION_IT" />
+		</rules>
+	</element>
+	<element name="Vista dell'Occulto" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Individuazione del Magico a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DETECT_MAGIC_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Individuazione del Magico a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC_IT" />
+		</rules>
+	</element>
+	<element name="Lancia Occulta" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_Eldritch_Spear_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>trucchetto Deflagrazione Occulta</prerequisite>
+		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST_IT</requirements>
+		<description>
+			<p><em>Prerequisito: trucchetto Deflagrazione Occulta</em></p>
+			<p>Quando il warlock lancia Deflagrazione Occulta, la sua gittata è di 90 metri.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ELDRITCH_BLAST_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Quando il warlock lancia Deflagrazione Occulta, la sua gittata è di 90 metri.</description>
+		</sheet>
+		<rules>
+			<!-- implement alter spell: <stat target="ID_PHB_SPELL_ELDRITCH_BLAST" field="range" value="300 feet" />-->
+		</rules>
+	</element>
+	<element name="Occhi del Custode delle Rune" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNEKEEPER_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock è in grado di leggere ogni forma di scrittura.</p>
+		</description>
+		<sheet>
+			<description>Il warlock è in grado di leggere ogni forma di scrittura.</description>
+		</sheet>
+	</element>
+	<element name="Vigore Immondo" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_FIENDISH_VIGOR_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Vita Falsata su sé stesso a volontà come incantesimo di 1° livello, senza spendere uno slot incantesimo o componenti materiali.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_FALSE_LIFE_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Vita Falsata su sé stesso a volontà come incantesimo di 1° livello, senza spendere uno slot incantesimo o componenti materiali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE_IT" />
+		</rules>
+	</element>
+	<element name="Sguardo delle Due Menti" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può usare la sua azione per toccare un umanoide consenziente e percepire il mondo attraverso i suoi sensi fino alla fine del proprio turno successivo. Fintanto che la creatura si trova sullo stesso piano di esistenza del warlock, quest'ultimo può usare la sua azione nei turni successivi per mantenere questo legame, estendendo la durata fino alla fine del suo turno successivo. Finché percepisce il mondo attraverso i sensi dell'altra creatura, il warlock beneficia degli eventuali sensi speciali posseduti da essa, ma è cieco e sordo riguardo a ciò che accade attorno a lui.</p>
+		</description>
+		<sheet action="Azione">
+			<description>Il warlock può usare la sua azione per toccare un umanoide consenziente e percepire il mondo attraverso i suoi sensi fino alla fine del proprio turno successivo. Fintanto che la creatura si trova sullo stesso piano di esistenza del warlock, quest'ultimo può usare la sua azione nei turni successivi per mantenere questo legame, estendendo la durata fino alla fine del suo turno successivo. Finché percepisce il mondo attraverso i sensi dell'altra creatura, il warlock beneficia degli eventuali sensi speciali posseduti da essa, ma è cieco e sordo riguardo a ciò che accade attorno a lui.</description>
+		</sheet>
+	</element>
+	<element name="Succhiavita" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER_IT">
+		<supports>Supplica Occulta, Patto della Lama</supports>
+		<prerequisite>12° livello, privilegio di Patto della Lama</prerequisite>
+		<requirements>[level:12],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE_IT</requirements>
+		<description>
+			<p><em>Prerequisiti: 12° livello, privilegio di Patto della Lama</em></p>
+			<p>Quando il warlock colpisce una creatura con la sua arma del patto, quella creatura subisce danni necrotici extra pari al modificatore di Carisma del warlock (fino a un minimo di 1).</p>
+		</description>
+		<sheet>
+			<description>Quando il warlock colpisce una creatura con la sua arma del patto, quella creatura subisce {{lifedrinker:damage}} danni necrotici extra.</description>
+		</sheet>
+		<rules>
+			<stat name="lifedrinker:damage" value="1" bonus="modifier"/>
+			<stat name="lifedrinker:damage" value="charisma:modifier" bonus="modifier"/>
+		</rules>
+	</element>
+	<element name="Maschera dei Molti Volti" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Camuffare Sé Stesso a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DISGUISE_SELF_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Camuffare Sé Stesso a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF_IT" />
+		</rules>
+	</element>
+	<element name="Maestro di Mille Forme" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>15° livello</prerequisite>
+		<requirements>[level:15]</requirements>
+		<description>
+			<p><em>Prerequisito: 15° livello</em></p>
+			<p>Il warlock può lanciare Alterare Sé Stesso a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Alterare Sé Stesso a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF_IT" />
+		</rules>
+	</element>
+	<element name="Servitori del Caos" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>9° livello</prerequisite>
+		<requirements>[level:9]</requirements>
+		<description>
+			<p><em>Prerequisito: 9° livello</em></p>
+			<p>Il warlock può lanciare Evoca Elementale una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CONJURE_ELEMENTAL_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Evoca Elementale una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ELEMENTAL_IT" />
+		</rules>
+	</element>
+	<element name="Fardello Mentale" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>5° livello</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisito: 5° livello</em></p>
+			<p>Il warlock può lanciare Lentezza una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SLOW_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Lentezza una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW_IT" />
+		</rules>
+	</element>
+	<element name="Visioni Velate" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Immagine Silenziosa a volontà, senza spendere uno slot incantesimo o componenti materiali.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SILENT_IMAGE_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Immagine Silenziosa a volontà, senza spendere uno slot incantesimo o componenti materiali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE_IT" />
+		</rules>
+	</element>
+	<element name="Tutt'Uno con le Ombre" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>5° livello</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisito: 5° livello</em></p>
+			<p>Quando il warlock si trova in un'area di luce fioca o di oscurità, può usare la sua azione per diventare invisibile finché non si muove, effettua un'azione o reazione.</p>
+		</description>
+		<sheet action="Action">
+			<description>Quando il warlock si trova in un'area di luce fioca o di oscurità, può usare la sua azione per diventare invisibile finché non si muove, effettua un'azione o reazione.</description>
+		</sheet>
+	</element>
+	<element name="Balzo Ultraterreno" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>9° livello</prerequisite>
+		<requirements>[level:9]</requirements>
+		<description>
+			<p><em>Prerequisito: 9° livello</em></p>
+			<p>Il warlock può lanciare Saltare su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_JUMP_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Saltare su sé stesso a volontà, senza spendere uno slot incantesimo o componenti materiali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_JUMP_IT" />
+		</rules>
+	</element>
+	<element name="Deflagrazione Respingente" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>trucchetto Deflagrazione Occulta</prerequisite>
+		<requirements>ID_PHB_SPELL_ELDRITCH_BLAST_IT</requirements>
+		<description>
+			<p><em>Prerequisito: trucchetto Deflagrazione Occulta</em></p>
+			<p>Quando il warlock colpisce una creatura con Deflagrazione Occulta, può spingere la creatura fino a un massimo di 3 metri per allontanarla da sé in linea retta.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ELDRITCH_BLAST_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Quando il warlock colpisce una creatura con Deflagrazione Occulta, può spingere la creatura fino a un massimo di 3 metri per allontanarla da sé in linea retta.</description>
+		</sheet>
+	</element>
+	<element name="Scultore della Carne" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SCULPTOR_OF_FLESH_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>7° livello</prerequisite>
+		<requirements>[level:7]</requirements>
+		<description>
+			<p><em>Prerequisito: 7° livello</em></p>
+			<p>Il warlock può lanciare Metamorfosi una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_POLYMORPH_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Metamorfosi una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_POLYMORPH_IT" />
+		</rules>
+	</element>
+	<element name="Presagio di Sventura" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>5° livello</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p><em>Prerequisito: 5° livello</em></p>
+			<p>Il warlock può lanciare Scagliare Maledizione una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_BESTOW_CURSE_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Scagliare Maledizione una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BESTOW_CURSE_IT" />
+		</rules>
+	</element>
+	<element name="Ladro dei Cinque Fati" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES_IT">
+		<supports>Supplica Occulta</supports>
+		<description>
+			<p>Il warlock può lanciare Anatema una volta usando uno slot incantesimo da warlock. Non può farlo di nuovo finché non completa un riposo lungo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_BANE_IT" />
+			</div>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Il warlock può lanciare Anatema una volta usando uno slot incantesimo da warlock.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BANE_IT" />
+		</rules>
+	</element>
+	<element name="Lama Assetata" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE_IT">
+		<supports>Supplica Occulta, Patto della Lama</supports>
+		<prerequisite>5° livello, privilegio Patto della Lama</prerequisite>
+		<requirements>[level:5],ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE_IT</requirements>
+		<description>
+			<p><em>Prerequisiti: 5° livello, privilegio Patto della Lama</em></p>
+			<p>Ogni volta che effettua l'azione di Attacco nel suo turno, il warlock può attaccare con la sua arma del patto due volte anziché una volta.</p>
+		</description>
+		<sheet>
+			<description>Ogni volta che effettua l'azione di Attacco nel suo turno, il warlock può attaccare con la sua arma del patto due volte anziché una volta.</description>
+		</sheet>
+	</element>
+	<element name="Visione dei Reami Lontani" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>15° livello</prerequisite>
+		<requirements>[level:15]</requirements>
+		<description>
+			<p><em>Prerequisito: 15° livello</em></p>
+			<p>Il warlock può lanciare Occhio Arcano a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ARCANE_EYE_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Occhio Arcano a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ARCANE_EYE_IT" />
+		</rules>
+	</element>
+	<element name="Voce del Signore delle Catene" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_VOICE_OF_THE_CHAIN_MASTER_IT">
+		<supports>Supplica Occulta, Patto della Catena</supports>
+		<prerequisite>privilegio Patto della Catena</prerequisite>
+		<requirements>ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_CHAIN_IT</requirements>
+		<description>
+			<p><em>Prerequisito: privilegio Patto della Catena</em></p>
+			<p>Il warlock può comunicare telepaticamente con il suo famiglio e percepire il mondo attraverso i sensi di quest'ultimo, purché entrambi si trovino sullo stesso piano di esistenza. Inoltre, finché percepisce il mondo attraverso i sensi del suo famiglio, il warlock può anche parlare attraverso il famiglio con la propria voce, anche se il suo famiglio normalmente non è in grado di parlare.</p>
+		</description>
+		<sheet>
+			<description>Il warlock può comunicare telepaticamente con il suo famiglio e percepire il mondo attraverso i sensi di quest'ultimo, purché entrambi si trovino sullo stesso piano di esistenza. Inoltre, finché percepisce il mondo attraverso i sensi del suo famiglio, il warlock può anche parlare attraverso il famiglio con la propria voce, anche se il suo famiglio normalmente non è in grado di parlare.</description>
+		</sheet>
+	</element>
+	<element name="Sussurri della Tomba" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>9° livello</prerequisite>
+		<requirements>[level:9]</requirements>
+		<description>
+			<p><em>Prerequisito: 9° livello</em></p>
+			<p>Il warlock può lanciare Parlare con i Morti a volontà, senza spendere uno slot incantesimo.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_SPEAK_WITH_DEAD_IT" />
+			</div>
+		</description>
+		<sheet>
+			<description>Il warlock può lanciare Parlare con i Morti a volontà, senza spendere uno slot incantesimo.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_DEAD_IT" />
+		</rules>
+	</element>
+	<element name="Vista Stregata" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT_IT">
+		<supports>Supplica Occulta</supports>
+		<prerequisite>15° livello</prerequisite>
+		<requirements>[level:15]</requirements>
+		<description>
+			<p><em>Prerequisito: 15° livello</em></p>
+			<p>Il warlock è in grado di vedere la vera forma di qualsiasi mutaforma o creatura celata da una magia di illusione o trasmutazione, fintanto che quella creatura si trova entro 9 metri da lui ed entro linea di vista.</p>
+		</description>
+		<sheet>
+			<description>Il warlock è in grado di vedere la vera forma di qualsiasi mutaforma o creatura celata da una magia di illusione o trasmutazione, fintanto che quella creatura si trova entro 9 metri da lui ed entro linea di vista.</description>
+		</sheet>
+	</element>
+
+	<element name="L'Immondo" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_FIEND_IT">
+		<supports>Patrono Ultraterreno</supports>
+		<description>
+			<p>Il warlock ha stipulato un patto con un immondo dei piani inferiori di esistenza, un essere le cui mire rimangono malvagie, anche se il warlock si oppone a esse. Le creature come l'immondo bramano la corruzione o la distruzione di tutte le cose, e questo prima o poi includerà anche il warlock. Gli immondi sufficientemente potenti da stipulare un patto includono i signori dei demoni come Demogorgon, Orcus, Fraz'Urb-Iuu e Baphomet, gli arcidiavoli come Asmodeus, Dispater, Mefistofele e Belial, i diavoli delle fosse e i balor di particolare potenza, gli ultroloth e gli altri signori degli yugoloth.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL_IT"/>
+		</description>
+		<sheet display="false">
+			<description>Il warlock ha stipulato un patto con un immondo dei piani inferiori di esistenza.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE_IT" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Lista Ampliata degli Incantesimi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_EXPANDED_SPELL_LIST_IT">
+		<description>
+			<p>L'Immondo consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock. Il warlock aggiunge gli incantesimi seguenti alla sua lista degli incantesimi da warlock.</p>
+			<h5 class="caption">INCANTESIMI AMPLIATI DELL'IMMONDO</h5>
+			<table>
+				<thead>
+					<tr><td>Livello dell'Incantesimo</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Comando, Mani Brucianti</em></td></tr>
+				<tr><td>2nd</td><td><em>Cecità/Sordità, Raggio Rovente</em></td></tr>
+				<tr><td>3rd</td><td><em>Nube Maleodorante, Palla di Fuoco</em></td></tr>
+				<tr><td>4th</td><td><em>Muro di Fuoco, Scudo di Fuoco</em></td></tr>
+				<tr><td>5th</td><td><em>Colpo Infuocato, Santificare</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>L'Immondo consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_BURNING_HANDS_IT</extend>
+			<extend>ID_PHB_SPELL_COMMAND_IT</extend>
+			<extend>ID_PHB_SPELL_BLINDNESS_DEAFNESS_IT</extend>
+			<extend>ID_PHB_SPELL_SCORCHING_RAY_IT</extend>
+			<extend>ID_PHB_SPELL_FIREBALL_IT</extend>
+			<extend>ID_PHB_SPELL_STINKING_CLOUD_IT</extend>
+			<extend>ID_PHB_SPELL_FIRE_SHIELD_IT</extend>
+			<extend>ID_PHB_SPELL_WALL_OF_FIRE_IT</extend>
+			<extend>ID_PHB_SPELL_FLAME_STRIKE_IT</extend>
+			<extend>ID_PHB_SPELL_HALLOW_IT</extend>
+		</spellcasting>
+	</element>
+	<element name="Benedizione dell'Oscuro" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESBLESSING_IT">
+		<description>
+			<p>A partire dal 1° livello, quando il warlock porta una creatura ostile a 0 punti ferita, ottiene un ammontare di punti ferita temporanei pari al proprio modificatore di Carisma + il proprio livello da warlock (fino a un minimo di 1).</p>
+		</description>
+		<sheet>
+			<description>Quando il warlock porta una creatura ostile a 0 punti ferita, ottiene {{dark ones blessing:temp hp}} punti ferita temporanei.</description>
+		</sheet>
+		<rules>
+			<stat name="dark ones blessing:temp hp" value="charisma:modifier" />
+			<stat name="dark ones blessing:temp hp" value="level:warlock" />
+		</rules>
+	</element>
+	<element name="Fortuna dell'Oscuro" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_DARKONESOWNLUCK_IT">
+		<description>
+			<p>A partire dal 6° livello, il warlock può appellarsi al suo patrono per alterare il fato in suo favore. Quando effettua una prova di caratteristica o un tiro salvezza, può utilizzare questo privilegio per aggiungere un d10 al suo tiro. Può farlo dopo avere visto il tiro iniziale, ma prima che qualsiasi effetto del tiro sia applicato.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il warlock non può più utilizzarlo finché non completa un riposo breve o lungo.</p>
+		</description>
+		<sheet usage="1/Riposo Breve">
+			<description>Quando effettua una prova di caratteristica o un tiro salvezza, può utilizzare questo privilegio per aggiungere un d10 al suo tiro.</description>
+		</sheet>
+	</element>
+	<element name="Resilienza Immonda" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_FIENDISH_RESILIENCE_IT">
+		<description>
+			<p>A partire dal 10° livello, il warlock può scegliere un tipo di danno quando completa un riposo breve o lungo. Ottiene resistenza a quel tipo di danno finché non ne sceglie uno diverso tramite questo privilegio. I danni delle armi magiche o delle armi argentate ignorano questa resistenza.</p>
+		</description>
+		<sheet>
+			<description>Il warlock può scegliere un tipo di danno quando completa un riposo breve o lungo. Ottiene resistenza a quel tipo di danno finché non ne sceglie uno diverso tramite questo privilegio. I danni delle armi magiche o delle armi argentate ignorano questa resistenza.</description>
+		</sheet>
+	</element>
+	<element name="Scagliare all'Inferno" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_FIEND_HURL_THROUGH_HELL_IT">
+		<description>
+			<p>A partire dal 14° livello, quando il warlock colpisce una creatura con un attacco, può utilizzare questo privilegio per trascinare istantaneamente il bersaglio sui piani inferiori. La creatura scompare e sfreccia attraverso un territorio da incubo.</p>
+			<p class="indent">Alla fine del turno successivo del warlock, il bersaglio torna nello spazio che occupava in precedenza, o nello spazio libero più vicino. Se il bersaglio non è un immondo, subisce 10d10 psichici in quanto resta sconvolto da questa esperienza terrificante.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il warlock non può più utilizzarlo finché non completa un riposo lungo.</p>
+		</description>
+		<sheet usage="1/Riposo Lungo">
+			<description>Quando il warlock colpisce una creatura con un attacco, può utilizzare questo privilegio per trascinare istantaneamente il bersaglio sui piani inferiori. La creatura scompare.
+			Alla fine del turno successivo del warlock, il bersaglio torna nello spazio che occupava in precedenza, o nello spazio libero più vicino. Se il bersaglio non è un immondo, subisce 10d10 psichici.</description>
+		</sheet>
+	</element>
+
+	<element name="Il Signore Fatato" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY_IT">
+		<supports>Patrono Ultraterreno</supports>
+		<description>
+			<p>Il patrono del warlock è un nobile o una dama dei folletti, una creatura leggendaria, custode di segreti già dimenticati prima che le razze mortali nascessero. Le motivazioni di questa entità sono spesso imperscrutabili e a volte incostanti: potrebbero riguardare la conquista di ulteriore potere magico o un conto in sospeso antico di secoli che deve essere saldato. Gli esseri di questo tipo includono il Principe del Gelo; la Regina dell'Aria e dell'Oscurità, sovrana della Corte del Crepuscolo; Titania della Corte dell'Estate e il suo consorte Oberon, il Signore Verde; Hyrsam, il Principe dei Folletti e le megere più antiche.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM_IT"/>
+		</description>
+		<sheet display="false">
+			<description>Il patrono del warlock è un nobile o una dama dei folletti, una creatura leggendaria, custode di segreti già dimenticati prima che le razze mortali nascessero.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES_IT" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Lista Ampliata degli Incantesimi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_EXPANDED_SPELL_LIST_IT">
+		<description>
+			<p>Il Signore Fatato consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock. Il warlock aggiunge gli incantesimi seguenti alla sua lista degli incantesimi da warlock.</p>
+			<h5 class="caption">INCANTESIMI AMPLIATI DEL SIGNORE FATATO</h5>
+			<table>
+				<thead>
+					<tr><td>Livello dell'Incantesimo</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Luminescenza, Sonno</em></td></tr>
+				<tr><td>2nd</td><td><em>Allucinazione di Forza, Calmare Emozioni</em></td></tr>
+				<tr><td>3rd</td><td><em>Crescita Vegetale, Intermittenza</em></td></tr>
+				<tr><td>4th</td><td><em>Dominare Bestie, Invisibilità Superiore</em></td></tr>
+				<tr><td>5th</td><td><em>Dominare Persone, Sembrare</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>Il Signore Fatato consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_FAERIE_FIRE_IT</extend>
+			<extend>ID_PHB_SPELL_SLEEP_IT</extend>
+			<extend>ID_PHB_SPELL_CALM_EMOTIONS_IT</extend>
+			<extend>ID_PHB_SPELL_PHANTASMAL_FORCE_IT</extend>
+			<extend>ID_PHB_SPELL_BLINK_IT</extend>
+			<extend>ID_PHB_SPELL_PLANT_GROWTH_IT</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_BEAST_IT</extend>
+			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY_IT</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON_IT</extend>
+			<extend>ID_PHB_SPELL_SEEMING_IT</extend>
+		</spellcasting>
+	</element>
+	<element name="Presenza Fatata" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_FEY_PRESENCE_IT">
+		<description>
+			<p>A partire dal 1° livello, il patrono conferisce al warlock la capacità di emanare la presenza seducente e inquietante tipica dei folletti. Con un'azione, il warlock può obbligare ogni creatura entro un cubo con spigolo di 3 metri, originato da lui, a effettuare un tiro salvezza su Saggezza contro la CD degli incantesimi del warlock. Le creature che falliscono il loro tiro salvezza sono tutte affascinate o spaventate dal warlock (a scelta di quest'ultimo) fino alla fine del suo turno successivo.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il warlock non può più utilizzarlo finché non completa un riposo breve o lungo.</p>
+		</description>
+		<sheet action="Azione" usage="1/Riposo Breve">
+			<description>il warlock può obbligare ogni creatura entro un cubo con spigolo di 3 metri, originato da lui, a effettuare un tiro salvezza su Saggezza contro la CD degli incantesimi del warlock. Le creature che falliscono il loro tiro salvezza sono tutte affascinate o spaventate dal warlock fino alla fine del suo turno successivo.</description>
+		</sheet>
+	</element>
+	<element name="Fuga Velata" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_MISTY_ESCAPE_IT">
+		<description>
+			<p>A partire dal 6° livello, il warlock può svanire in uno sbuffo di nebbia in risposta a un effetto dannoso. Quando il warlock subisce danni può usare la sua reazione per diventare invisibile e teletrasportarsi di un massimo di 18 metri fino a uno spazio libero che egli sia in grado di vedere. Rimane invisibile fino all'inizio del suo turno successivo o finché non attacca o lancia un incantesimo.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il warlock non può più utilizzarlo finché non completa un riposo breve o lungo.</p>
+		</description>
+		<sheet action="Reazione" usage="1/Riposo Breve">
+			<description>Quando il warlock subisce danni può usare la sua reazione per diventare invisibile e teletrasportarsi di un massimo di 18 metri fino a uno spazio libero che egli sia in grado di vedere. Rimane invisibile fino all'inizio del suo turno successivo o finché non attacca o lancia un incantesimo.</description>
+		</sheet>
+	</element>
+	<element name="Difese Seducenti" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_BEGUILING_DEFENSES_IT">
+		<description>
+			<p>A partire dal 10° livello, il patrono insegna al warlock come ritorcere le magie di influenza mentale dei suoi nemici contro loro stessi. Il warlock non può essere affascinato e quando un'altra creatura tenta di affascinarlo, il warlock può usare la sua reazione per ritorcere l'effetto contro quella creatura. La creatura deve superare un tiro salveza su Saggezza contro la CD degli incantesimi del warlock, altrimenti sarà affascinata dal warlock per 1 minuto o finché non subisce danni.</p>
+		</description>
+		<sheet action="Reazione">
+			<description>Il warlock non può essere affascinato e quando un'altra creatura tenta di affascinarlo, il warlock può usare la sua reazione per ritorcere l'effetto contro quella creatura. La creatura deve superare un tiro salveza su Saggezza contro la CD degli incantesimi del warlock, altrimenti sarà affascinata dal warlock per 1 minuto o finché non subisce danni.</description>
+		</sheet>
+	</element>
+	<element name="Delirio Oscuro" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_ARCHFEY_DARK_DELIRIUM_IT">
+		<description>
+			<p>A partire dal 14° livello, il warlock può trascindere una creatura in un reame illusorio. Con un'azione, il warlock sceglie una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Saggezza contro la CD degli incantesimi del warlock. Se lo fallisce, diventa affascinata o spaventata dal warlock (a scelta di quest'ultimo) per 1 minuto o finché la concentrazione del warlock non si interrompe (come se si stesse concentrando su un incantesimo). Questo effetto termina anticipatamente se la creatura subisce danni.</p>
+			<p class="indent">Finché questa illusione non termina, la creature crede di essersi smarrita in un reame nebbioso, il cui aspetto è deciso dal warlock. La creatura è in grado di vedere e sentire soltanto sé stessa, il warlock e l'illusione.</p>
+			<p class="indent">Prima di utilizzare di nuovo questo privilegio, il warlock deve completare un riposo breve o lungo.</p>
+		</description>
+		<sheet action="Azione" usage="1/Riposo Breve">
+			<description>Il warlock sceglie una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, diventa affascinata o spaventata dal warlock per 1 minuto o finché la concentrazione del warlock non si interrompe. Questo effetto termina anticipatamente se la creatura subisce danni.</description>
+		</sheet>
+	</element>
+
+	<element name="Il Grande Antico" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE_IT">
+		<supports>Patrono Ultraterreno</supports>
+		<description>
+			<p>Il patrono del warlock è un'entità misteriosa la cui natura è totalmente estranea al tessuto della realtà. Potrebbe provenire dal Reame Remoto, lo spazio situato oltre la realtà, o potrebbe essere una delle divinità antiche menzionate soltanto nelle leggende. Le sue motivazioni sono incomprensibili per i mortali e le sue conoscenze sono talmente vaste e antiche che perfino le più grandi biblioteche di questo mondo sono ben poca cosa in confronto ai grandi segreti che esso detiene. Il Grande Antico potrebbe essere inconsapevole dell'esistenza del warlock o mostrarsi completamente indifferente nei suoi confronti, ma i segreti che il warlock ha appreso gli consentono comunque di trarre da esso le sue magie.</p>
+			<p class="indent">Le entità di questo tipo includono Ghaunadar, noto anche come Colui Che Si Nasconde nell'Ombra; Tharizdun, il Dio Incatenato; Dendar, il Serpente Notturno; Zargon, il Ritornante; il Grande Cthulhu e altri esseri insondabili.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD_IT"/>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL_IT"/>
+		</description>
+		<sheet display="false">
+			<description>Il patrono del warlock è un'entità misteriosa la cui natura è totalmente estranea al tessuto della realtà.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND_IT" level="1" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD_IT" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Lista Ampliata degli Incantesimi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_EXPANDED_SPELL_LIST_IT">
+		<description>
+			<p>Il Grande Antico consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock. Il warlock aggiunge gli incantesimi seguenti alla sua lista degli incantesimi da warlock.</p>
+			<h5 class="caption">INCANTESIMI AMPLIATI DEL GRANDE ANTICO</h5>
+			<table>
+				<thead>
+					<tr><td>Livello dell'Incantesimo</td><td>Incantesimi</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>Risata Incontenibile di Tasha, Sussurri Dissonanti</em></td></tr>
+				<tr><td>2nd</td><td><em>Allucinazione di Forza, Individuazione dei Pensieri</em></td></tr>
+				<tr><td>3rd</td><td><em>Chiaroveggenza, Inviare</em></td></tr>
+				<tr><td>4th</td><td><em>Dominare Bestie, Tentacoli Neri di Evard</em></td></tr>
+				<tr><td>5th</td><td><em>Dominare Persone, Telecinesi</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>Il Grande Antico consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_DISSONANT_WHISPERS_IT</extend>
+			<extend>ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER_IT</extend>
+			<extend>ID_PHB_SPELL_DETECT_THOUGHTS_IT</extend>
+			<extend>ID_PHB_SPELL_PHANTASMAL_FORCE_IT</extend>
+			<extend>ID_PHB_SPELL_CLAIRVOYANCE_IT</extend>
+			<extend>ID_PHB_SPELL_SENDING_IT</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_BEAST_IT</extend>
+			<extend>ID_PHB_SPELL_EVARDS_BLACK_TENTACLES_IT</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON_IT</extend>
+			<extend>ID_PHB_SPELL_TELEKINESIS_IT</extend>
+		</spellcasting>
+	</element>
+	<element name="Mente Risvegliata" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_AWAKEND_MIND_IT">
+		<description>
+			<p>A partire dal 1° livello, il warlock può usare le sue conoscenze aliene per sfiorare le menti delle altre creature. Può parlare telepaticamente con qualsiasi creatura che si trovi entro 9 metri da lui e che egli sia in grado di vedere. Non è necessario che condivida un linguaggio con la creatura affinché quest'ultima capisca ciò che egli enuncia telepaticamente, ma la creatura deve essere in grado di capire almeno un linguaggio.</p>
+		</description>
+		<sheet>
+			<description>Può parlare telepaticamente con qualsiasi creatura che si trovi entro 9 metri da lui e che egli sia in grado di vedere. Non è necessario che condivida un linguaggio con la creatura affinché quest'ultima capisca ciò che egli enuncia telepaticamente, ma la creatura deve essere in grado di capire almeno un linguaggio.</description>
+		</sheet>
+	</element>
+	<element name="Interdizione Entropica" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_ENTROPIC_WARD_IT">
+		<description>
+			<p>Al 6° livello, il warlock impara a proteggersi magicamente dagli attacchi e a trasformare il colpo fallito di un nemico in un colpo di fortuna per lui. Quando una creatura effettua un tiro per colpire contro di lui, il warlock può usare la sua reazione per infliggere svantaggio a quel tiro. Se l'atacco lo manca, il successivo tiro per colpire del warlock contro la creatura dispone di vantaggio purché il warlock lo effettui entro la fine del proprio turno successivo.</p>
+			<p class="indent">Una volta utilizzato questo privilegio, il warlock non può più utilizzarlo finché non completa un riposo breve o lungo.</p>
+		</description>
+		<sheet action="Reazione" usage="1/Riposo Breve">
+			<description>Quando una creatura effettua un tiro per colpire contro di lui, il warlock può usare la sua reazione per infliggere svantaggio a quel tiro. Se l'atacco lo manca, il successivo tiro per colpire del warlock contro la creatura dispone di vantaggio purché il warlock lo effettui entro la fine del proprio turno successivo.</description>
+		</sheet>
+	</element>
+	<element name="Scudo del Pensiero" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_THOUGHT_SHIELD_IT">
+		<description>
+			<p>A partire dal 10° livello, i pensieri del warlock non possono essere letti tramite telepatia o mezzi di altro tipo, a meno che il warlock non lo consenta. Inoltre, il warlock dispone di resistenza ai danni psichici, e ogni volta che una creatura infligge danni psichici al warlock, essa subisce lo stesso ammontare di danni.</p>
+		</description>
+		<sheet>
+			<description>Ogni volta che una creatura infligge danni psichici al warlock, essa subisce lo stesso ammontare di danni.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+	<element name="Creare Servitore" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_GREATOLDONE_CREATE_THRALL_IT">
+		<description>
+			<p>Al 14° livelo, il warlock ottiene la capacità di contaminare la mente di un umanoide con la magia aliena del suo patrono. Può usare la sua azione per toccare un umanoide incapacitato. Quella creatura diventa affascinata dal warlock finché su di essa non viene lanciato un incantesimo Rimuovi Maledizione, la condizione non viene rimossa, o il warlock non utilizza di nuovo questo privilegio.</p>
+			<p class="indent">Il warlock può comunicare telepaticamente con la creatura affascinata fintanto che entrambi si trovano sullo stesso piano di esistenza.</p>
+		</description>
+		<sheet action="Azione">
+			<description>Può toccare un umanoide incapacitato. Quella creatura diventa affascinata dal warlock finché su di essa non viene lanciato un incantesimo Rimuovi Maledizione, la condizione non viene rimossa, o il warlock non utilizza di nuovo questo privilegio. Il warlock può comunicare telepaticamente con la creatura affascinata fintanto che entrambi si trovano sullo stesso piano di esistenza.</description>
+		</sheet>
+	</element>
+</elements>

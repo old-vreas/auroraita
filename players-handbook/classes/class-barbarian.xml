@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Barbaro</name>
+		<description>La classe del Barbaro dal Manuale del Giocatore.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.5">
+			<file name="class-barbarian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-barbarian.xml" />
+		</update>
+	</info>
+
+	<element name="Barbaro" type="Class" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_BARBARIAN_IT">
+		<description>
+			<p>Un umano selvaggio, alto e possente, avanza a grandi passi in una tormenta di neve, avvolto in una pelliccia e armato di ascia. Si concede una risata quando si scaglia contro il gigante del gelo che ha osato cacciare di frodo gli alci della sua tribù.</p>
+			<p class="indent">Un mezzorco lancia un ringhio all'indirizzo dell'ultimo sfidante che ha messo in discussione la sua autorità sulla tribù, pronto a spezzargli il collo a mani nude come ha già fatto con gli ultimi sei rivali.</p>
+			<p class="indent">Con la bava alla bocca, un nano schianta il suo elmo sul volto del drow che lo ha assalito, poi si volta di scatto per piantare il suo gomito corazzato nello stomaco di un altro.</p>
+			<p class="indent">Questi barbari, per quanto diversi tra loro, sono tutti definiti dalla loro ira: una furia irrazionale, incontrollata e insaziabile. La loro collera è ben più di una semplice emozione, è la ferocia di un predatore messo all'angolo, l'assalto implacabile di una tempesta, il tumulto ribollente del mare.</p>
+			<p class="indent">Per alcuni, questa ira sgorga da una comunione con un indomabile spirito animale. Altri attingono alle riserve sterminate di collera di un mondo gravato dal dolore. Per ogni barbaro, l'ira è un potere che alimenta non solo la frenesia della lotta, ma anche i suoi riflessi e la sua resilienza, permettendogli di compiere imprese di forza prodigiose.</p>
+			<h4>ISTINTO PRIMORDIALE</h4>
+			<p>Gli abitanti dei paesi e delle città vanno fieri delle usanze civilizzate che li distinguono dagli animali, come se rinnegare la propria natura fosse indice di superiorità. Per un barbaro, invece, la civiltà non è una virtù, bensì un segno di debolezza. I forti abbracciano la natura animalesca, l'istinto infallibile, la fisicità primordiale e l'ira feroce che si agitano in loro. I barbari non si trovano a loro agio quando sono confinati tra le mura e in mezzo alla gente: prosperano invece quando possono vagare nei territori selvaggi delle loro lande natie, come le tundre, le giungle o le praterie dove le loro tribù vivono e vanno a caccia.</p>
+			<p class="indent">I barbari esultano nel caos del combattimento. Possono entrare in uno stato di berserk in cui l'ira ha il sopravvento e conferisce loro una forza e una resilienza sovrumane. Un barbaro può attingere a questa riserva di furia soltanto un numero limitato di volte prima di dover riposare, ma quei pochi momenti di ira sono generalmente sufficienti a sconfiggere qualsiasi minaccia gli si pari davanti.</p>
+			<h4>UNA VITA DI PERICOLI</h4>
+			<p>Non tutti i membri delle tribù bollate come "barbariche" dai rampolli della società civilizzata appartengono alla classe del barbaro. Un vero barbaro presso quei popoli è insolito quanto un abile guerriero in una città, e svolge un ruolo analogo come protettore del suo popolo e come guida in tempo di guerra. La vita nei territori selvaggi del mondo è densa di pericoli che vanno dalle tribù rivali, al tempo inclemente, fino agli attacchi dei mostri. I barbari si tuffano a testa bassa verso il pericolo affinché il loro popolo non sia costretto a farlo.</p>
+			<p class="indent">Il coraggio che dimostrano di fronte al pericolo rende i barbari perfettamente adatti al ruolo di avventurieri. Girovagare è spesso uno stile di vita dato per scontato nelle loro tribù di origine, e la vita senza radici di un avventuriero appare tutt'altro che scomoda agli occhi di un barbaro. Alcuni barbari sentono la mancanza degli stretti legami familiari della tribù, ma presto li rimpiazzano con i legami che stringono con i membri del loro gruppo di avventurieri.</p>
+			<h4>CREATING A BARBARIAN</h4>
+			<p>Al momento di creare un personaggio barbaro, il giocatore deve pensare al luogo di provenienza e al posto che il suo personaggio occupa nel mondo. Deve definire assieme al DM un'origine appropriata per il proprio barbaro. Proviene da una terra lontana, cosa che fa di lui uno straniero nell'area della campagna? Oppure la campagna è ambientata in una turbolenta terra di frontiera dove i barbari sono comuni?</p>
+			<p class="indent">Che cosa ha spinto il barbaro a scegliere la vita dell'avventuriero? È stato attirato nelle terre colonizzate da qualche promessa di ricchezza? Ha unito le sue forze ai soldati di quelle terre per fronteggiare una minaccia comune? Un'orda di mostri o di invasori lo ha scacciato dalla sua terra natia, facendo di lui un profugo senza radici? Forse era un prigioniero di guerra, condotto in catene nelle terre "civilizzate" e soltanto ora è riuscito a conquistare la sua libertà? Oppure è stato esiliato dal suo popolo per un crimine che ha commesso, un tabù che ha violato o un colpo di stato che lo ha rimosso da una posizione di autorità?.</p>
+			<h5 class="caption">CREAZIONE RAPIDA</h5>
+			<p>È possibile creare un barbaro rapidamente seguendo questi suggerimenti. Per prima cosa, Forza dovrebbe essere il punteggio di caratteristica più alto, seguito da Costituzione. Poi si sceglie il background del forestiero.</p>
+			<h3>PRIVILEGI DI CLASSE</h3>
+			<p>Un barbaro ottiene i seguenti privilegi di classe.</p>
+			<h5 class="caption">PUNTI FERITA</h5>
+			<ul class="unstyled">
+				<li><strong>Dadi Vita:</strong> 1d12 per ogni livello da barbaro</li>
+				<li><strong>Punti Ferita al 1° Livello:</strong> 12 + il modificatore di Costituzione del barbaro</li>
+				<li><strong>Punti Ferita ai livelli successivi:</strong> 1d12 (o 7) + il modificatore di Costituzione del barbaro per ogni livello da barbaro dopo il 1°</li>
+			</ul>
+			<h5 class="caption">COMPETENZE</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armature:</strong> Armature leggere, armature medie, scudi</li>
+				<li><strong>Armi:</strong> Armi semplici, armi da guerra</li>
+				<li><strong>Strumenti:</strong> Nessuno</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Tiri Salvezza:</strong> Forza, Costituzione</li>
+				<li><strong>Abilità:</strong> Due a scelta tra Addestrare Animali, Atletica, Intimidire, Natura, Percezione e Sopravvivenza.</li>
+			</ul>
+			<h5 class="caption">EQUIPAGGIAMENTO</h5>
+			<p>Un barbaro inizia con l'equipaggiamento seguente, in aggiunta all'equipaggiamento conferito dal suo background:</p>
+			<ul>
+				<li><i>(a)</i> un'ascia bipenne o <i>(b)</i> una qualsiasi arma da guerra da mischia</li>
+				<li><i>(a)</i> due asce o <i>(b)</i> una qualsiasi arma semplice</li>
+				<li>Una dotazione da esploratore e quattro giavellotti</li>
+			</ul>
+			<h5 class="caption">BARBARO</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Livello</td><td>Ira</td><td>Danni dell'Ira</td><td class="col-60 left">Privilegi</td></tr>
+				</thead>
+				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Difesa Senza Armatura, Ira</td></tr>
+				<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Attacco Irruento, Percezione del Pericolo</td></tr>
+				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Cammino Primordiale</td></tr>
+				<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Aumento dei Punteggi di Caratteristica</td></tr>
+				<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Attacco Extra, Movimento Veloce</td></tr>
+				<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Privilegio del Cammino</td></tr>
+				<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Istinto Ferino</td></tr>
+				<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Aumento dei Punteggi di Caratteristica</td></tr>
+				<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Critico Brutale (1 dado)</td></tr>
+				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Privilegio del Cammino</td></tr>
+				<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Ira Implacabile</td></tr>
+				<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Aumento dei Punteggi di Caratteristica</td></tr>
+				<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Critico Brutale (2 dadi)</td></tr>
+				<tr><td>14th</td><td>5</td><td>+3</td><td class="left">Privilegio del Cammino</td></tr>
+				<tr><td>15th</td><td>5</td><td>+3</td><td class="left">Ira Persistente</td></tr>
+				<tr><td>16th</td><td>5</td><td>+4</td><td class="left">Aumento dei Punteggi di Caratteristica</td></tr>
+				<tr><td>17th</td><td>6</td><td>+4</td><td class="left">Critico Brutale (3 dadi)</td></tr>
+				<tr><td>18th</td><td>6</td><td>+4</td><td class="left">Potenza Indomabile</td></tr>
+				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Aumento dei Punteggi di Caratteristica</td></tr>
+				<tr><td>20th</td><td>Illimitata</td><td>+4</td><td class="left">Campione Primordiale</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE_IT"/>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION_IT" />
+		</description>
+		<sheet display="false">
+			<description>Un feroce guerriero di origini primitive in grado di entrare in uno stato di ira in battaglia.</description>
+		</sheet>
+		<setters>
+			<set name="short">Un feroce guerriero di origini primitive in grado di entrare in uno stato di ira in battaglia.</set>
+			<set name="hd">d12</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<select type="Proficiency" name="Skill Proficiency (Barbarian)" number="2" supports="Skill,Barbarian" requirements="!ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE_IT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE_IT" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE_IT" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH_IT" level="3" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT_IT" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK_IT" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT_IT" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT_IT" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL_IT" level="9" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE_IT" level="11" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE_IT" level="15" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT_IT" level="18" />
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION_IT" level="20" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_BARBARIAN_IT">
+			<prerequisite>Forza 13</prerequisite>
+			<requirements>[str:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Scudi, armi semplici, armi da guerra</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Ira" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE_IT">
+		<description>
+			<p>In battaglia, un barbaro combatte animato da ferocia primordiale. Durante il suo turno, può entrare in ira con un’azione bonus. Mentre è in ira, se non sta indossando armature pesanti, ottiene i seguenti benefici:</p>
+			<ul>
+				<li>Dispone di vantaggio alle prove di Forza e ai TS su Forza.</li>
+				<li>Quando effettua un attacco con arma da mischia usando la Forza, ottiene un bonus al tiro di danno che aumenta con il suo livello da barbaro, come indicato nella tabella.</li>
+				<li>Ha resistenza ai danni contundenti, perforanti e taglienti.</li>
+			</ul>
+			<p>Se un barbaro è in grado di lanciare incantesimi, non può lanciarli o concentrarsi su di essi quando è in ira.</p>
+			<p class="indent">L'ira del barbaro dura 1 minuto. Termina anticipatamente se il barbaro cade privo di sensi o se il suo turno termina e non ha attaccato una creatura ostile dal suo ultimo turno o non ha subito danni da allora. Un barbaro può anche porre fine alla sua ira nel proprio turno, come azione bonus.</p>
+			<p class="indent">Una volta entrato in ira per il numero di volte indicato dal suo livello di barbaro nella colonna "Ira" nella tabella "Barbaro", un barbaro deve completare un riposo lungo prima di poter entrare di nuovo in ira.</p>
+		</description>
+		<sheet action="Azione Bonus">
+			<description usage="{{barbarian rage:count}}/Riposo Lungo">Vantaggio alle prove di Forza e ai TS su Forza. 
+			Un +{{barbarian rage:damage}} ai tiri per i danni con attacchi in mischia usando Forza. 
+			Hai resistenza ai danni contundenti, perforanti e taglienti. </description>
+			<description usage="Unlimited" level="20">Vantaggio alle prove di Forza e ai TS su Forza. 
+			Un +{{barbarian rage:damage}} ai tiri per i danni con attacchi in mischia usando Forza. 
+			Hai resistenza ai danni contundenti, perforanti e taglienti.</description>
+		</sheet>
+		<rules>
+			<stat name="barbarian rage:count" value="2" level="1" />
+			<stat name="barbarian rage:count" value="1" level="3" />
+			<stat name="barbarian rage:count" value="1" level="6" />
+			<stat name="barbarian rage:count" value="1" level="12" />
+			<stat name="barbarian rage:count" value="1" level="17" />
+			<stat name="barbarian rage:count" value="93" level="20" />
+			<stat name="barbarian rage:damage" value="2" level="1" />
+			<stat name="barbarian rage:damage" value="1" level="9" />
+			<stat name="barbarian rage:damage" value="1" level="16" />
+			<!-- 
+			<stat name="melee:damage, strength" value="barbarian rage:damage" condition="while raging" />
+			<stat name="advantage:Strength Check" condition="while raging" />
+			<stat name="advantage:Strength Saving Throws" condition="while raging" />
+			<stat name="resistance:bludgeoning" condition="while raging" />
+			<stat name="resistance:piercing" condition="while raging" />
+			<stat name="resistance:slashing" condition="while raging" />
+			-->
+		</rules>
+	</element>
+	<element name="Difesa Senza Armatura" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE_IT">
+		<description>
+			<p>Finché un barbaro non indossa alcuna armatura, la sua Classe Armatura è pari a 10 + il suo modificatore di Destrezza + il suo modificatore di Costituzione. Un barbaro può usare uno scudo e ottenere comunque questo beneficio.</p>
+		</description>
+		<sheet>
+			<description>Finché un barbaro non indossa alcuna armatura, la sua Classe Armatura è pari a {{ac:unarmored defense barbarian}}. Un barbaro può usare uno scudo e ottenere comunque questo beneficio.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense barbarian:base" value="10" />
+			<stat name="ac:unarmored defense barbarian:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense barbarian:constitution" value="constitution:modifier" />
+
+			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:base" />
+			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:dexterity" />
+			<stat name="ac:unarmored defense barbarian" value="ac:unarmored defense barbarian:constitution" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense barbarian" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Barbarian)" />
+		</rules>
+	</element>
+	<element name="Attacco Irruento" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK_IT">
+		<description>
+			<p>A partire dal 2° livello, un barbaro può ignorare ogni preoccupazione per la sua difesa e attacare in preda a una feroce disperazione. Quando effettua il suo primo attacco nel suo turno, può decidere di sferrare un attacco irruento. Così facendo dispone di un vantaggio ai tiri per colpire in mischia che usano Forza durante questo turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino al suo turno successivo.</p>
+		</description>
+		<sheet>
+			<description>Quando effettua il suo primo attacco nel suo turno, può decidere di sferrare un attacco irruento. Così facendo dispone di un vantaggio ai tiri per colpire in mischia che usano Forza durante questo turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino al suo turno successivo.</description>
+		</sheet>
+	</element>
+	<element name="Percezione del Pericolo" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE_IT">
+		<description>
+			<p>Al 2° livello, un barbaro ottiene una percezione prodigiosa di tutto ciò che nei paraggi non è come dovrebbe essere, cosa che lo agevola quando deve schivare i pericoli.</p>
+			<p class="indent">Un barbaro dispone di vantaggio ai tiri salvezza su Destrezza contro gli effetti che può vedere, come le trappole e gli incantesimi. Per ottenere questo beneficio il barbaro non deve essere accecato, assordato o incapacitato.</p>
+		</description>
+		<sheet>
+			<description>Un barbaro dispone di vantaggio ai tiri salvezza su Destrezza contro gli effetti che può vedere, come le trappole e gli incantesimi. Per ottenere questo beneficio il barbaro non deve essere accecato, assordato o incapacitato.</description>
+		</sheet>
+		<rules>
+			<!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
+		</rules>
+	</element>
+	<element name="Cammino Primordiale" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH_IT">
+		<description>
+			<p>Al 3° livello, un barbaro sceglie un cammino che definisce la natura della sua furia. Può scegliere il Cammino del Berserker o il Cammino del Combattente Totemico. Questa scelta gli conferisce alcuni privilegi al 3° livello e poi di nuovo al 6°, 10° e 14° livello.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Cammino Primordiale" supports="Cammino Primordiale" level="3" />
+		</rules>
+	</element>
+	<element name="Aumento dei Punteggi di Caratteristica" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT_IT">
+		<compendium display="false" />
+		<description>
+			<p>Quando arriva al 4° livello, e poi di nuovo all'8°, 12°, 16° e 19° livello, un barbaro può aumentare di 2 un punteggio di caratteristica a sua scelta, oppure può aumentare di 1 due punteggi di caratteristica a sua scelta. Come di consueto, non è consentito aumentare un punteggio di caratteristica a più di 20 utilizzando questo privilegio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Barbarian 4)" supports="Improvement Option,Barbarian,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Barbarian 8)" supports="Improvement Option,Barbarian,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Barbarian 12)" supports="Improvement Option,Barbarian,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Barbarian 16)" supports="Improvement Option,Barbarian,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Barbarian 19)" supports="Improvement Option,Barbarian,19" level="19" />
+		</rules>
+	</element>
+	<element name="Attacco Extra" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK_IT">
+		<description>
+			<p>A partire dal 5° livello, un barbaro può attacare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</p>
+		</description>
+		<sheet>
+			<description>Un barbaro può attacare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Movimento Veloce" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT_IT">
+		<description>
+			<p>A partire dal 5°, la velocità del barbaro aumenta di 3 metri purché il barbaro non indossi un'armatura pesante.</p>
+		</description>
+		<sheet>
+			<description>La velocità del barbaro aumenta di 3 metri purché il barbaro non indossi un'armatura pesante.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="3" equipped="![armor:heavy]" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="3" equipped="![armor:heavy]" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="3" equipped="![armor:heavy]" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="3" equipped="![armor:heavy]" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="3" equipped="![armor:heavy]" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+	<element name="Istinto Ferino" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT_IT">
+		<description>
+			<p>Al 7° livello, gli istinti del barbaro sono talmente affinati da fornirgli vantaggio ai tiri per l'iniziativa.</p>
+			<p class="indent">Inoltre, se il barbaro è sorpreso all'inizio del combattimento e non è incapacitato, può agire normalmente nel suo primo turno, ma solo se entra in ira prima di fare qualsiasi altra cosa in quel turno.</p>
+		</description>
+		<sheet>
+			<description>Il barbaro ha iniziativa ai tiri per l'iniziativa. 
+			Se il barbaro è sorpreso all'inizio del combattimento e non è incapacitato, può agire normalmente nel suo primo turno, ma solo se entra in ira prima di fare qualsiasi altra cosa in quel turno.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
+	<element name="Critico Brutale" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL_IT">
+		<description>
+			<p>A partire dal 9° livello, un barbaro può tirare un dado dell'arma aggiuntivo quando determina i danni extra di un colpo critico con un attacco in mischia.</p>
+			<p class="indent">Questo effetto aumenta a due dadi al 13° livello e a tre dadi al 17° livello.</p>
+		</description>
+		<sheet>
+			<description>Un dado dell'arma aggiuntivo quando determina i danni extra di un colpo critico con un attacco in mischia.</description>
+			<description level="13">Due dadi dell'arma aggiuntivi quando determina i danni extra di un colpo critico con un attacco in mischia.</description>
+			<description level="17">Tre dadi dell'arma aggiuntivi quando determina i danni extra di un colpo critico con un attacco in mischia.</description>
+		</sheet>
+	</element>
+	<element name="Ira Implacabile" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE_IT">
+		<description>
+			<p>A partire dall'11° livello, grazie alla sua ira il barbaro può continuare a combattere nonostante le ferite più gravi. Se scende a 0 punti ferita mentre è in ira e non è ucciso sul colpo, può effettuare un tiro su Costituzione con CD 10. Se lo supera, rimane invece a 1 punto ferita.</p>
+			<p class="indent">Ogni volta che utilizza questo privilegio dopo la prima, la CD aumenta di 5. Quando completa un riposo breve o lungo, la CD è ripristinata a 10.</p>
+		</description>
+		<sheet>
+			<description>Se il barbaro scende a 0 punti ferita mentre è in ira e non è ucciso sul colpo, può effettuare un tiro su Costituzione con CD 10. Se lo supera, rimane invece a 1 punto ferita. Ogni volta che utilizza questo privilegio dopo la prima, la CD aumenta di 5. Quando completa un riposo breve o lungo, la CD è ripristinata a 10.</description>
+		</sheet>
+	</element>
+	<element name="Ira Persistente" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE_IT">
+		<description>
+			<p>A partire dal 15° livello, l'ira del barbaro è talmente feroce che termina prematuramente solo se il barbaro cade privo di sensi o se decide di porvi termine.</p>
+		</description>
+		<sheet>
+			<description>L'ira del barbaro è talmente feroce che termina prematuramente solo se il barbaro cade privo di sensi o se decide di porvi termine.</description>
+		</sheet>
+	</element>
+	<element name="Potenza Indomabile" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT_IT">
+		<description>
+			<p>A partire dal 18° livello, se il totale di una prova di Forza del barbaro è inferiore al suo punteggio di Forza, il barbaro può usare quel punteggio al posto del totale.</p>
+		</description>
+		<sheet>
+			<description>Se il totale di una prova di Forza del barbaro è inferiore a {{strength:score}}, può usare {{strength:score}} al posto del totale.</description>
+		</sheet>
+	</element>
+	<element name="Campione Primordiale" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION_IT">
+		<description>
+			<p>Al 20° livello, il barbaro diventa un'incarnazione del potere delle terre selvagge. I suoi punteggi di Forza e Costituzione aumentano di 4. Il massimo per quei punteggi è ora di 24.</p>
+		</description>
+		<sheet display="false">
+			<description>Il barbaro è un'incarnazione del potere delle terre selvagge. I suoi punteggi di Forza e Costituzione aumentano di 4. Il massimo per quei punteggi è ora di 24.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="4" />
+			<stat name="constitution" value="4" />
+			<stat name="strength:max" value="4" />
+			<stat name="constitution:max" value="4" />
+		</rules>
+	</element>
+
+	<!-- Path of the Berserker -->
+	<element name="Cammino del Berserker" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_BERSERKER_IT">
+		<supports>Cammino Primordiale</supports>
+		<description>
+			<p>Per alcuni barbari, l’ira è un mezzo per raggiungere un fine, e tale fine è la violenza. Il Cammino del Berserker è un cammino di furia indiscriminata grondante di sangue. Quando un barbaro entra nell'ira del berserker, si esalta nel caos della battaglia, ignorando la propria salute e la propria incolumità.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION_IT" />
+		</description>
+		<sheet display="false">
+			<description>Il Cammino del Berserker è un cammino di furia indiscriminata grondante di sangue.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE_IT" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Frenesia" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_FRENZY_IT">
+		<description>
+			<p>A partire da quando sceglie questo cammino al 3° livello, il barbaro può entrare in frenesia quando entra in ira. Se lo fa, per la durata della sua ira può effettuare un singolo attacco con un'arma da mischia come azione bonus in ognuno dei suoi turni successivi a questo. Quando la sua ira termina, il barbaro subisce un livello di indebolimento (come descritto nell'appendice A)</p>
+		</description>
+		<sheet>
+			<description>Per la durata della sua ira il barbaro può effettuare un singolo attacco con un'arma da mischia come azione bonus in ognuno dei suoi turni successivi a questo. Quando la sua ira termina, subisce un livello di indebolimento.</description>
+		</sheet>
+	</element>
+	<element name="Ira Incontenibile" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_MINDLESS_RAGE_IT">
+		<description>
+			<p>A partire dal 6° livello, il barbaro non può essere affascinato o spaventato mentre è in ira. Se è affascinato o spaventato quando entra in ira, quell'effetto è sospeso per tutta la durata dell'ira.</p>
+		</description>
+		<sheet>
+			<description>Il barbaro non può essere affascinato o spaventato mentre è in ira. Se è affascinato o spaventato quando entra in ira, quell'effetto è sospeso per tutta la durata dell'ira.</description>
+		</sheet>
+	</element>
+	<element name="Presenza Intimidatoria" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_INTIMIDATING_PRESENCE_IT">
+		<description>
+			<p>A partire dal 10° livello, il barbaro può usare la sua azione per spaventare qualcuno con la sua presenza minacciosa. Quando lo fa, sceglie una creatura che egli sia in grado di vedere entro 9 metri. Se la creatura può vedere o sentire il barbaro, deve superare un TS di Saggezza (CD pari a 8 + il bonus di competenza del barbaro + il modificatore di Carisma del Barbaro), altrimenti sarà spaventata dal barbaro fino alla fine del turno successivo di quest'ultimo. Nei turni successivi, il barbaro può usare la sua azione per estendere la durata di questo effetto sulla creatura spaventata fino alla fine del proprio turno successivo. Questo effetto si esaurisce se la creatura termina il suo turno fuori dalla linea di vista o oltre 18 metri di distanza dal barbaro.</p>
+			<p class="indent">Se la creatura supera il suo tiro salvezza, il barbaro non può più usare questo privilegio su quella creatura per 24 ore.</p>
+		</description>
+		<sheet action="Action">
+			<description>A partire dal 10° livello, il barbaro può usare la sua azione per spaventare qualcuno con la sua presenza minacciosa. Quando lo fa, sceglie una creatura che egli sia in grado di vedere entro 9 metri. Se la creatura può vedere o sentire il barbaro, deve superare un TS di Saggezza CD{{intimidating presence:dc}}, altrimenti sarà spaventata dal barbaro fino alla fine del turno successivo di quest'ultimo. Nei turni successivi, il barbaro può usare la sua azione per estendere la durata di questo effetto sulla creatura spaventata fino alla fine del proprio turno successivo. Questo effetto si esaurisce se la creatura termina il suo turno fuori dalla linea di vista o oltre 18 metri di distanza dal barbaro.
+			Se la creatura supera il suo tiro salvezza, il barbaro non può più usare questo privilegio su quella creatura per 24 ore.</description>
+		</sheet>
+		<rules>
+			<stat name="intimidating presence:dc" value="8" />
+			<stat name="intimidating presence:dc" value="proficiency" />
+			<stat name="intimidating presence:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Ritorsione" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_BERSERKER_RETALIATION_IT">
+		<description>
+			<p>A partire dal 14° livello, quando il barbaro subisce danni da una creatura che si trova entro 1,5 metri da lui, può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Quando il barbaro subisce danni da una creatura che si trova entro 1,5 metri da lui, può usare la sua reazione per effettuare un attacco con un'arma da mischia contro quella creatura.</description>
+		</sheet>
+	</element>
+
+	<!-- Path of the Totem Warrior -->
+	<element name="Cammino del Combattente Totemico" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_PATH_OF_THE_TOTEM_WARRIOR_IT">
+		<supports>Cammino Primordiale</supports>
+		<description>
+			<p>Il Cammino del Combattente Totemico è un viaggio spirituale, in cui il barbaro accetta uno spirito animale come guida, protettore e ispiratore. In battaglia, il tuo spirito totemico ti pervade di energia soprannaturale, aggiungendo vigore magico alla sua ira barbarica. È raro che un individuo abbia più di uno spirito animale totemico, ma esistono alcune eccezioni.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_IT" />
+		</description>
+		<sheet display="false">
+			<description>Il Cammino del Combattente Totemico è un viaggio spirituale, in cui il barbaro accetta uno spirito animale come guida, protettore e ispiratore.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT" level="14" />
+		</rules>
+	</element>
+	<element name="Cercatore di Spiriti" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_SEEKER_IT">
+		<description>
+			<p>Il cammino del barbaro è un cammino in sintonia con il mondo naturale, destinato ad accentuare la sua affinità con le bestie. Al 3° livello, quando il barbaro adotta questo cammino, ottiene la capacità di lanciare gli incantesimi percezione delle bestie e parlare con gli animali, ma solo come rituali, come descritto nel capitolo 10, "Magia".</p>
+		</description>
+		<sheet>
+			<description>Il barbaro può lanciare gli incantesimi percezione delle bestie e parlare con gli animali.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_BEAST_SENSE_IT" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS_IT" />
+		</rules>
+	</element>
+	<element name="Spirito Totemico" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_IT">
+		<description>
+			<p>Al 3° livello, quando adotta questo cammino, il barbaro sceglie uno spirito totemico e ne ottiene il relativo privilegio. Deve fabbricare o acquisire un oggetto fisico che funga per lui da totem, come un amuleto o un monile simile, che includa pelliccia, piume, artigli, denti o ossa di un animale totemico. A sua opzione, potrebbe sviluppare anche degli attributi fisici minori che richiamino il suo spirito totemico. Per esempio, un barbaro che abbia un orso come spirito totemico potrebbe avere barba e capelli molto folti e una pelle molto dura; uno che abbia un'aquila come totem potrebbe avere gli occhi di color giallo chiaro.</p>
+			<p class="indent">Un animale totemico potrebbe essere un animale correlato a quelli elencati di seguito, ma più appropriato alle terre di provenienza del barbaro. Per esempio, un brbaro potrebbe scegliere un falco o un avvoltoio al posto di un'aquila.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Spirito Totemico" supports="Spirito Totemico" />
+		</rules>
+	</element>
+	<element name="Aspetto della Bestia" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_IT">
+		<description>
+			<p>Al 6° livello, il barbaro ottiene un beneficio magico basato su un animale totemico di sua scelta. Può scegliere lo stesso animale che ha scelto al 3° livello o un animale diverso.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Aspetto della Bestia" supports="Aspetto della Bestia" />
+		</rules>
+	</element>
+	<element name="Viandante Spirituale" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_SPIRIT_WALKER_IT">
+		<description>
+			<p>Al 10° livello, il barbaro può lanciare l'incantesimo comunione con la natura, ma solo come rituale. Quando lo fa, una versione spirituale di uno degli animali che ha scelto come Spirito Totemico o Aspetto della Bestia gli appare per fornirgli le informazioni che desidera.</p>
+		</description>
+		<sheet>
+			<description>Il barbaro può lanciare l'incantesimo comunione con la natura, ma solo come rituale. Quando lo fa, una versione spirituale di uno degli animali che ha scelto come Spirito Totemico o Aspetto della Bestia gli appare per fornirgli le informazioni che desidera.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE_IT" />
+		</rules>
+	</element>
+	<element name="Sintonia Totemica" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_IT">
+		<description>
+			<p>Al 14° livello, il barbaro ottiene un beneficio magico basato su un animale totemico di sua scelta. Può scegliere lo stesso animale che ha scelto in precedenza o un animale diverso.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Sintonia Totemica" supports="Sintonia Totemica" />
+		</rules>
+	</element>
+
+	<!-- Totem Spirit Choices-->
+	<element name="Totem Spirit (Orso)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BEAR_IT">
+		<supports>Spirito Totemico</supports>
+		<description>
+			<p>Quando il barbaro è in ira, ottiene resistenza a tutti i danni tranne che a quelli psichici. Lo spirito dell'orso lo rende abbastanza robusto da sopportare qualsiasi aggressione.</p>
+		</description>
+		<sheet>
+			<description>Quando il barbaro è in ira, ottiene resistenza a tutti i danni tranne che a quelli psichici.</description>
+		</sheet>
+	</element>
+	<element name="Totem Spirit (Aquila)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_EAGLE_IT">
+		<supports>Spirito Totemico</supports>
+		<description>
+			<p>Finché il barbaro è in ira e non indossa un'armatura pesante, le altre creature dispongono di svantaggio ai tiri degli attacchi di oppurtunità contro di lui, e il barbaro può usare l'azione di Scatto come azione bonus nel suo turno. Lo spirito dell'aquila trasforma il barbaro in un predatore che può sgusciare agilmente in mezzo a una mischia.</p>
+		</description>
+		<sheet>
+			<description>Finché il barbaro è in ira e non indossa un'armatura pesante, le altre creature hanno svantaggio ai tiri degli attacchi di oppurtunità contro di lui, e il barbaro può usare l'azione di Scatto come azione bonus nel suo turno.</description>
+		</sheet>
+	</element>
+	<element name="Totem Spirit (Lupo)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_WOLF_IT">
+		<supports>Spirito Totemico</supports>
+		<description>
+			<p>Finché il barbaro è in ira, i suoi amici dispongono di vantaggio ai tiri per colpire in mischia contro ogni creatura che si trovi entro 1,5 metri da lui e che gli sia ostile. Lo spirito del lupo trasforma il barbaro in un capobranco di cacciatori.</p>
+		</description>
+		<sheet>
+			<description>Finché il barbaro è in ira, i suoi amici hanno vantaggio ai tiri per colpire in mischia contro ogni creatura che si trovi entro 1,5 metri da lui e che gli sia ostile.</description>
+		</sheet>
+	</element>
+
+	<!-- Aspect of the Beast Choices-->
+	<element name="Aspetto della Bestia (Orso)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_BEAR_IT">
+		<supports>Aspetto della Bestia</supports>
+		<description>
+			<p>Il barbaro ottiene la potenza di un orso. La sua capacità di trasporto (incluso il carico massimo e il sollevamento massimo) raddoppia e il barbaro dispone di vantaggio alle prove di forza per trascinare, sollevare o spezzare oggetti.</p>
+		</description>
+		<sheet>
+			<description>La capacità di trasporto del barbaro raddoppia e il ha vantaggio alle prove di forza per trascinare, sollevare o spezzare oggetti.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_DOUBLED" />
+		</rules>
+	</element>
+	<element name="Aspetto della Bestia (Aquila)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_EAGLE_IT">
+		<supports>Aspetto della Bestia</supports>
+		<description>
+			<p>Il barbaro ottiene la vista di un'aquila. Può vedere fino a 1,5 km di distanza senza difficoltà e discernere i dettagli come se osservasse qualcosa entro 30 metri da lui. Inoltre, la luce fioca non impone svantaggio alle sue prove di Saggezza (Percezione).</p>
+		</description>
+		<sheet>
+			<description>Il barbaro può vedere fino a 1,5 km di distanza senza difficoltà e discernere i dettagli come se osservasse qualcosa entro 30 metri da lui. Inoltre, la luce fioca non impone svantaggio alle sue prove di Saggezza (Percezione).</description>
+		</sheet>
+	</element>
+	<element name="Aspetto della Bestia (Lupo)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_WOLF_IT">
+		<supports>Aspetto della Bestia</supports>
+		<description>
+			<p>Il barbaro ottiene gli istinti cacciatori di un lupo. Può seguire le tracce delle altre creature mentre viaggia a passo veloce e può muoversi furtivamente mentre viaggia a passo normale (vedi il Capitolo 8, "All'Avventura", per le regole relative al passo di viaggio).</p>
+		</description>
+		<sheet>
+			<description>Il barbaro può seguire le tracce delle altre creature mentre viaggia a passo veloce e può muoversi furtivamente mentre viaggia a passo normale.</description>
+		</sheet>
+	</element>
+
+	<!-- Totemic Attunement Choices-->
+	<element name="Sintonia Totemica (Orso)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BEAR_IT">
+		<supports>Sintonia Totemica</supports>
+		<description>
+			<p>Finché il barbaro è in ira, ogni creatura entro 1,5 metri da lui e che gli sia ostile dispone di svantaggio ai tiri per colpire contro i bersagli diversi da lui o da un altro personaggio dotato di questo privilegio. Un nemico è immune a questo effetto se non è in grado di vedere o sentire il barbaro o se non può essere spaventato.</p>
+		</description>
+		<sheet>
+			<description>Finché il barbaro è in ira, ogni creatura entro 1,5 metri da lui e che gli sia ostile dispone di svantaggio ai tiri per colpire contro i bersagli diversi da lui o da un altro personaggio dotato di questo privilegio. Un nemico è immune a questo effetto se non è in grado di vedere o sentire il barbaro o se non può essere spaventato.</description>
+		</sheet>
+	</element>
+	<element name="Sintonia Totemica (Aquila)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_EAGLE_IT">
+		<supports>Sintonia Totemica</supports>
+		<description>
+			<p>Finché il barbaro è in ira, ha una velocità di volo pari alla sua attuale velocità base sul terreno. Questo beneficio funziona soltanto sui brevi tratti; se il barbaro termina il suo turno in aria e non c'è nulla a sorreggerlo, cade a terra.</p>
+		</description>
+		<sheet>
+			<description>Finché il barbaro in ira, ha una velocità di volo pari a {{speed}} m. Questo beneficio funziona soltanto sui brevi tratti; se il barbaro termina il suo turno in aria e non c'è nulla a sorreggerlo, cade a terra.</description>
+		</sheet>
+	</element>
+	<element name="Sintonia Totemica (Lupo)" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_WOLF_IT">
+		<supports>Sintonia Totemica</supports>
+		<description>
+			<p>Finché il barbaro è in ira, può usare un'azione bonus nel suo turno per buttare a terra una creatura di taglia Grande o inferiore quando la colpisce con un attacco con un'arma da mischia.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Finché il barbaro è in ira, può buttare a terra una creatura di taglia Grande o inferiore quando la colpisce con un attacco con un'arma da mischia.</description>
+		</sheet>
+	</element>
+</elements>

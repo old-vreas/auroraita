@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Tiefling</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.1">
+			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-tiefling.xml" />
+		</update>
+	</info>
+
+  <element name="Tiefling" type="Race" source="Manuale del Giocatore" id="ID_RACE_TIEFLING_IT">
+    <description>
+      <p class="flavor">Essere oggetto di sguardi ostili e bisbigli, subire violenze e insulti nelle strade, leggere diffidenza e paura negli occhi di tutti: questo è il destino dei tiefling. E tanto per girare il coltello nella piaga, i tiefling sanno che tutto ciò è dovuto a un patto stipulato molte generazioni fa, quando l'essenza di Asmodeus, il Signore dei Nove Inferi, contaminò la loro discendenza. L'aspetto e l'indole di un tiefling non sono una sua colpa: è il risultato di un antico peccato di cui tutti i tiefling, i loro figli, e i figli dei loro figli saranno sempre ritenuti responsabili.</p>
+      <h4>Lignaggio Infernale</h4>
+      <p>La stirpe dei tiefling ha origini umane e, nel senso più ampio del termine, i tiefling hanno tuttora un aspetto umano. Tuttavia, il loro retaggio infernale ha segnato in modo evidente il loro aspetto. I tiefling sfoggiano grandi corna che possono assumere una varietà di forme: alcuni hanno corna ricurve come quelle di un ariete, altri hanno corna lunghe e dritte come quelle di una gazzella, e altri ancora delle corna a spirale simili a quelle delle antilopi. Un tiefling è dotato anche di una robusta coda, lunga dagli 1,2 agli 1,5 metri, che tende ad agitare o attorcigliare attorno alle gambe quando è irritato o nervoso. I canini di un tiefling sono ben appuntiti, e gli occhi di un unico colore (nero, rosso, bianco, argento o oro), senza una sclera o una pupilla visibile. La pelle di un tiefling può avere tutte le colorazioni della pelle umana, ma può assumere anche delle tonalità di rosso, mentre i suoi capelli capelli, che scendono dietro le loro corna, sono solitamente scuri, e variano dal nero al castano, dal rosso scuro al blu o al viola.</p>
+      <h4>INDIPENDENTI E SOSPETTOSI</h4>
+      <p>I tiefling sopravvivono in piccole comunità situate generalmente nelle città o nei villaggi degli umani, spesso nei quartieri più malfamati, dove spesso crescono diventando truffatori, ladri o signori del crimine. A volte vivono anche presso altre minoranze, all'interno di enclavi dove vengono trattati con maggior rispetto.</p>
+      <p class="indent">Non avendo una loro patria, i tiefling sanno che devono farsi strada da soli nel mondo e devono essere forti per sopravvivere. Non concedono facilmente la loro fiducia a chiunque si dichiari loro amico ma, quando i compagni di un tiefling gli concedono fiducia, egli tende a ricambiarla. Una volta che un tiefling fa dono della sua lealtà a qualcuno, diventa un amico o un alleato fidato per tutta la vita.</p>
+      <h4>NOMI DEI TIEFLING</h4>
+      <p>È possibile suddividere i nomi dei tiefling in tre ampie categorie. I tiefling nati all'interno di una cultura diversa avranno nomi correlati a quella cultura. Altri portano nomi derivati dal linguaggio Infernale e tramandati da generazioni, a rappresentanza del loro retaggio diabolico. Alcuni giovani tiefling che cercano disperatamente di trovare un posto nel mondo adottano nomi di virtù o altri concetti che tentano poi di incarnare. Per alcuni questo nome è simbolo di una nobile ricerca, per altri di un triste destino.</p>
+      <p>
+        <span class="feature">Nomi Infernali Maschili:</span>Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai<br/>          
+        <span class="feature">Nomi Infernali Femminili:</span>Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta<br/>
+        <span class="feature">Nomi di "Virtù":</span>Aperto, Arte, Canto, Carogna, Caso, Credo, Disperazione, Dolore, Eccellenza, Gloria, Ideale, Musica, Nessun Luogo, Paura, Poesia, Ricerca, Sfinimento, Soggezione, Speranza, Temerarietà, Tormento<br/>
+      </p>
+      <h4>TRATTI DEI TIEFLING</h4>
+      <p>I tiefling condividono alcuni tratti razziali frutto della loro discendenza infernale.</p>
+      <p>
+        <span class="feature">Incremento dei Punteggi di Caratteristica.</span>Il punteggio di Intelligenza di un tiefling aumenta di 1 e quello di Carisma aumenta di 2.<br/>
+        <span class="feature">Età.</span>I tiefling maturano alla stessa velocità degli umani, ma vivono qualche anno in più.<br/>
+        <span class="feature">Allineamento.</span>I tiefling non hanno alcuna tendenza naturale verso il male, ma molti sono malvagi. La loro natura indipendente fa sì che molti di essi siano caotici.<br/>
+        <span class="feature">Taglia.</span>I tiefling hanno all'incirca le stesse dimensioni e corporatura degli umani. Un tiefling è una creatura di taglia media.<br/>
+        <span class="feature">Velocità.</span>La velocità base sul terreno di un tiefling è di 9 metri.<br/>
+        <span class="feature">Scurovisione.</span>Grazie al suo retaggio infernale, un tiefling beneficia di una vista superiore nell'oscurità e nelle condizioni di luce fioca. Un tiefling in condizioni di luce fioca può vedere fino a 18 metri come se si trovasse in condizioni di luce intensa e nell'oscurità come se si trovasse in luce fioca. Nell'oscurità non è in grado di discernere i colori, ma solo le tonalità di grigio.<br/>
+        <span class="feature">Resistenza Infernale.</span>Un tiefling dispone di resistenza ai danni da fuoco.<br/>
+        <span class="feature">Eredità Infernale.</span>Conosci il trucchetto Taumaturgia. Quando raggiungi il 3° livello, puoi lanciare l’incantesimo Intimorire Infernale come incantesimo di 2° livello una volta, per poi recuperare l’abilità al termine di un riposo lungo. Quando raggiungi il 5° livello, puoi lanciare l’incantesimo Oscurità una volta, per poi recuperare l’abilità al termine di un riposo lungo. Il Carisma è la tua abilità da incantatore per questi incantesimi.<br/>
+        <span class="feature">Linguaggi.</span>Un tiefling può parlare, leggere e scrivere in Comune e in Infernale.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</set>
+      <set name="names" type="female">Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</set>
+      <set name="names" type="virtue">Aperto, Arte, Canto, Carogna, Caso, Credo, Disperazione, Dolore, Eccellenza, Gloria, Ideale, Musica, Nessun Luogo, Paura, Poesia, Ricerca, Sfinimento, Soggezione, Speranza, Temerarietà, Tormento</set>
+      <set name="names-format">{{name}} “{{virtue}}”</set>
+      <set name="height" modifier="2d8">145 cm</set>
+      <set name="weight" modifier="2d4">55 kg</set>
+    </setters>
+    <rules>      
+      <stat name="intelligence" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+      <stat name="charisma" value="2" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+      <stat name="innate speed" value="9" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON_IT" />
+      <grant type="Language" id="ID_LANGUAGE_INFERNAL_IT" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE_IT" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY_IT" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+      <select type="Sub Race" name="Tiefling Subrace" supports="Tiefling" optional="true" /> 
+
+      <!--<select type="Race Variant" name="Tiefling Variant" supports="Tiefling" optional="true"/>-->
+    </rules>
+  </element>
+
+  <element name="Resistenza Infernale" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE_IT">
+    <description>
+      <p>Il personaggio ha resistenza ai danni da fuoco.</p>
+    </description>
+    <sheet>
+      <description>Il personaggio ha resistenza ai danni da fuoco.</description>
+    </sheet>
+    <rules>
+		<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+    </rules>
+  </element>
+  <element name="Eredità Infernale" type="Racial Trait" source="Manuale del Giocatore" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY_IT">
+    <description>
+      <p>Conosci il trucchetto Taumaturgia. Quando raggiungi il 3° livello, puoi lanciare l’incantesimo Intimorire Infernale come incantesimo di 2° livello una volta al giorno, per poi recuperare l’abilità al termine di un riposo lungo. Quando raggiungi il 5° livello, puoi lanciare l’incantesimo Oscurità una volta al giorno, per poi recuperare l’abilità al termine di un riposo lungo. Il Carisma è la tua abilità da incantatore per questi incantesimi.</p>
+    </description>
+    <sheet>
+      <description>Conosci il trucchetto Taumaturgia. Charisma is your spellcasting ability for these spells.</description>
+      <description level="3">Conosci il trucchetto Taumaturgia. Puoi lanciare l’incantesimo Intimorire Infernale come incantesimo di 2° livello una volta al giorno. Il Carisma è la tua abilità da incantatore per questi incantesimi.</description>
+      <description level="5">Conosci il trucchetto Taumaturgia. Puoi lanciare l’incantesimo Intimorire Infernale come incantesimo di 2° livello una volta al giorno. Il Carisma è la tua abilità da incantatore per questi incantesimi.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY_IT" />
+      <grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE_IT" level="3"/>
+      <grant type="Spell" id="ID_PHB_SPELL_DARKNESS_IT" level="5"/>
+    </rules>
+  </element>
+
+  <!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->
+  <element name="Tiefling Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+
+</elements>

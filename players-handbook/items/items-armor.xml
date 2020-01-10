@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Armoratura</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.1.0">
+			<file name="items-armor.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-armor.xml" />
+		</update>
+	</info>
+
+	<!-- light armor -->
+	<element name="Imbottita" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_LIGHT_PADDED_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Un'armatura imbottita è costituita da vari strati trapuntati di stoffa e imbottitura.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE_IT" />
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+	<element name="Cuoio" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_LIGHT_LEATHER_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Il pettorale e le spalline che compongono questa armatura sono fatti di cuoio indurito e bollito nell'olio. Il resto dell'armatura è fatto di materiali più morbidi e flessibili.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+	<element name="Cuoio Borchiato" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Un'armatura di cuoio borchiato è fatta di cuoio resistente ma flessibile, rinforzato con borchie o spuntoni di metallo.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">45</set>
+			<set name="weight" lb="13">13 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">12 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+
+	<!-- medium armor -->
+	<element name="Pelle" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_MEDIUM_HIDE_ARMOR_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Questa rozza armatura è composta da un fitto strato di pelle o pelliccia. Solitamente è indossata dai membri delle tribù barbariche, umanoidi malvagi e altri individui che non possono accedere agli strumenti e ai materiali necessari per fabbricare armature migliori.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">12 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+	<element name="Giaco di Maglia" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Un giaco di maglia, composto da anelli di metallo interconnessi, si indossa tra due strati di stoffa o di cuoio. Questa armatura offre una minima protezione alla parte superiore del corpo e smorza il rumore degli anelli di metallo soffocandolo tra i due strati esterni.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">13 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="13" />
+		</rules>
+	</element>
+	<element name="Corazza di Scaglle" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Questa armatura è composta da un corpetto e da gambali (e forse da una gonna separata) di cuoio ed è ricoperta di pezzi di metallo leggermente sovrapposti, proprio come le scaglie di un pesce. Include anche due guanti d'arme.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="armor">Medium</set>
+			<set name="slot">body</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SCALE_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Corazza di Piastre" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Questa armatura è composta da un pettorale di metallo montato su uno strato di cuoio flessibile. Anche se lascia le gambe e le braccia relativamente scoperte, fornisce una buona protezione degli organi vitali del portatore, lasciandolo anche relativamente privo di ingombro.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="20">20 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_BREASTPLATE</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Mezza Armatura" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>Una mezza armatura è composta da una serie di piastre di metallo modellate che coprono la maggior parte del corpo. Non include una protezione per le gambe, al di là di due semplici gambiere fissate da alcune cinghie di cuoio.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Medium</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">15 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_HALF_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="15" />
+		</rules>
+	</element>
+
+	<!-- heavy armor -->
+	<element name="Corazza ad Anelli" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_HEAVY_RING_MAIL_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>È un'armatura di cuoio su cui sono stati cuciti dei pesanti anelli di metallo. Gli anelli rinforzano rarmatura contro i colpi di spada e ascia. Una corazza ad anelli è inferiore a una cotta di maglia e solitamente è indossata soltanto da coloro che non possono permettersi un'armatura migliore.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">30</set>
+			<set name="weight" lb="40">40 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">14</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_RING_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Cotta di Maglia" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Una cotta di maglia, composta da anelli di metallo interconnessi. include uno strato di tessuto trapuntato da indossare sotto la cotta per evitare l'attrito e per attutire l'impatto dei colpi. Questa armatura include anche dei guanti d'arme.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="55">55 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">13</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">16</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="16" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:13]" />
+		</rules>
+	</element>
+	<element name="Corazza a Striscie" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_HEAVY_SPLINT_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p> Questa armatura è fatta di strette strisce verticali di metallo imbullonate su uno strato di cuoio da indossare su un'imbottitura di stoffa. Le giunture sono protette da uno strato flessibile di anelli di maglia.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="60">60 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">17</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SPLINT</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="17" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		</rules>
+	</element>
+	<element name="Armatura Completa" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_ARMOR_HEAVY_PLATE_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
+		<description>
+			<p>Un'armatura completa è composta da piastre di metallo modellate e interconnesse che coprono tutto il corpo. Un'armatura completa include guanti d'arme, pesanti stivali di cuoio, un elmo con visiera e uno spesso strato di imbottitura sotto l'armatura. Una serie di fibbie e di cinghie consente di distribuire il peso su tutto il corpo.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="weight" lb="65">65 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Heavy</set>
+			<set name="strength">15</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">18</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_PLATE</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="18" />
+			<stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
+		</rules>
+	</element>
+
+	<!--shield-->
+	<element name="Scudo" type="Armor" source="Manuale del Giocatore" id="ID_WOTC_GEAR_SHIELD_IT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>Uno scudo può essere fatto di legno o di metallo ed è impugnato a una mano. Uno scudo impugnato aumenta di 2 la Classe Armatura del personaggio. Un personaggio può beneficiare di un solo scudo alla volta.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Bardo</name>
+		<update version="0.4.7">
+			<file name="class-bardo.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-bardo.xml" />
+		</update>
+	</info>
+	
+	<element name="Bardo" type="Class" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_BARD_IT">
+		<description>
+			<p>Intonando un motivetto mentre fa scorrere le dita su un antico monumento in un complesso di rovine dimenticato da tempo, una mezzelfa che indossa un consunto abito di pelle è colta da una rivelazione che si manifesta all'improvviso nella sua mente, evocata dalla magia del canto... conoscenze appartenute al popolo che aveva eretto il monumento e alla mitica saga a cui esso si riferisce.</p>
+			<p class="indent">Un severo combattente umano batte ritmicamente la spada contro la sua corazza di scaglie, scandendo il tempo del suo canto da guerra e incitando i suoi compagni a dimostrare coraggio ed eroismo. La magia del suo canto li fortifica e li galvanizza.</p>
+			<p class="indent">Ridendo nell'accordare il suo mandolino, una gnoma intesse una sottile magia attorno ai nobili riuniti, assicurandosi che le parole dei suoi compagni siano ben accolte.</p>
+			<p class="indent">Che si tratti di uno studioso, di uno scaldo o di una canaglia, un bardo tesse la sua magia con le parole e la musica per ispirare gli alleati, demoralizzare gli avversari, manipolare le menti, creare illusioni e perfino curare le ferite.</p>
+			<h4>MUSICA E MAGIA</h4>
+			<p>Nei mondi di DnD, le parole e la musica non sono semplici vibrazioni nell'aria, ma vocalizzazioni che racchiudono un grande potere personale. Il bardo è un maestro del canto, della lingua e della magia che essi contengono. I bardi affermano che l'universo è stato creato tramite la parola, che è stato il verbo degli dèi a impartire una forma alle cose e che gli echi di queste primordiali Parole della Creazione riverberano ancora in tutto il cosmo. La musica dei bardi è un tentativo di afferrare e imbrigliare quegli echi e di plasmarli con perizia nei loro incantesimi e nei loro poteri.</p>
+			<p class="indent">La forza più grande di un bardo è la sua straordinaria versatilità. Molti bardi preferiscono tenersi ai margini del combattimento, usando la loro magia per ispirare gli alleati e ostacolare i nemici da una certa distanza. Ma i bardi sono anche in grado di difendersi in mischia se necessario, usando la magia per rafforzare le loro spade e armature. I loro incantesimi tendono a prediligere il fascino e le illusioni anziché essere direttamente distruttivi. I bardi dispongono di vaste conoscenze su molti argomenti, e di un'indole innata che permette loro di fare bene pressoché ogni cosa. Spesso un bardo diventa un vero e proprio maestro nel settore in cui decide di perfezionarsi, dalle esibizioni musicali alle conoscenze esoteriche.</p>
+			<h4>APPRENDERE DALL'ESPERIENZA</h4>
+			<p>I veri bardi non sono figure comuni nel mondo. Non tutti i menestrelli che cantano in una taverna o i giullari che fanno capriole in una corte reale sono dei bardi. Scoprire la magia celata nella musica richiede un intenso studio e un talento innato che la maggior parte dei trovatori e dei cantastorie non possiede. Tuttavia, può essere difficile cogliere la differenza tra questi intrattenitori e i veri bardi. Un bardo trascorre la sua vita sulla strada, girovagando da una terra all'altra in cerca di conoscenze da scoprire e storie da raccontare, vivendo della gratitudine del pubblico proprio come ogni altro intrattenitore. Ma la profondità delle sue conoscenze, il livello della sua perizia musicale e un tocco di magia lo elevano al di sopra dei suoi colleghi.</p>
+			<p class="indent">È raro che i bardi si stabiliscano in un luogo per molto tempo, e la loro passione innata per i viaggi, le nuove storie da raccontare, le nuove abilità da imparare e le nuove scoperte in attesa oltre l'orizzonte rendono la carriera dell'avventuriero una vocazione  perfetta per loro. Ogni avventura è un'opportunità per imparare qualcosa, mettere in pratica le abilità più disparate, addentrarsi in tombe dimenticate da tempo, scoprire artefatti magici perduti, decifrare vecchi tomi, viaggiare fino a luoghi misteriosi o incontrare creature esotiche. I bardi adorano accompagnare gli eroi per assistere alle loro gesta in prima persona. Un bardo che sa distinguere una storia ispiratrice da  un'esperienza personale si fa presto un buon nome presso gli altri bardi. Anzi, dopo avere raccontato così tante storie sugli eroi che hanno compiuto epiche gesta, molti bardi si appassionano alla loro causa e finiscono per diventare eroi a loro volta.</p>
+			<h4>CREARE UN BARDO</h4>
+			<p>I bardi vivono di storie, che si tratti di storie vere o meno. Il background e le motivazioni del personaggio non sono importanti quanto le storie che egli crea attorno a essi. Forse il bardo ha avuto un'infanzia tranquilla e banale, ma un'infanzia del genere non offre alcuna bella storia da raccontare, quindi preferisce presentarsi come un orfano cresciuto da una strega in una tetra palude. Oppure la sua infanzia potrebbe  effettivamente essere degna di una storia. Alcuni bardi acquisiscono la magia della musica attraverso mezzi straordinari, come l'ispirazione dei folletti o altre creature soprannaturali.</p>
+			<p class="indent">Il personaggio ha studiato come apprendista presso un maestro e ha seguito un bardo più esperto finché non è diventato in grado di andare al'avventura da solo? Oppure ha frequentato un collegio dove ha appreso le conoscenze bardiche e si è esercitato nell'utilizzo della magia musicale? Forse era un giovane fuggiasco o un orfano che ha fatto amicizia con un bardo errante che è diventato il suo mentore, o forse era il figlio viziato di un nobile che ha avuto un bardo come tutore. Forse è finito nelle grinfie di una megera e ha stipulato un patto che gli ha procurato la vita, la libertà e il dono della musica...ma a quale prezzo?</p>
+			<h5>CREAZIONE RAPIDA</h5>
+			<p>È possibile creare un bardo rapidamente seguendo questi suggerimenti. Per prima cosa, Carisma dovrebbe essere il punteggio di caratteristica più alto, seguito da Destrezza. Poi si sceglie il background dell'intrattenitore. Infine si scelgono i trucchetti Beffa Crudele e Luci Danzanti assieme ai seguenti incantesimi di 1° livello: Charme su Persone, Individuazione del Magico, Onda Tonante e Parola Guaritrice.</p>
+			<h3>PRIVILEGI DI CLASSE</h3>
+			<p>Un bardo ottiene i seguenti privilegi di classe.</p>
+			<h5>PUNTI FERITA</h5>
+			<ul class="unstyled">
+				<li><strong>Dadi Vita:</strong> 1d8 per ogni livello da bardo</li>
+				<li><strong>Punti Ferita al 1° Livello:</strong> 8 + il modificatore di Costituzione del bardo</li>
+				<li><strong>Punti Ferita ai Livelli Successivi:</strong> 1d8 (or 5) + il modificatore di Costituzione del bardo per ogni livello da bardo dopo il 1°</li>
+			</ul>
+			<h5>COMPETENZE</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armature:</strong> Armature leggere</li>
+				<li><strong>Armi:</strong> Armi semplici, balestre a mano, spade corte, spade lunghe, stocchi</li>
+				<li><strong>Strumenti:</strong> Tre strumenti musicali a scelta del bardo</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Tiri Salvezza:</strong> Destrezza, Carisma</li>
+				<li><strong>Abilità:</strong> Tre a scelta</li>
+			</ul>
+			<h5>EQUIPAGGIAMENTO</h5>
+			<p>Un bardo inizia con l'equipaggiamento seguente, in aggiunta all'equipaggiamento conferito dal suo background:</p>
+			<ul>
+				<li>(a) uno stocco, (b) una spada lunga o (c) una qualsiasi arma semplice</li>
+				<li>(a) una dotazione da diplomatico o (b) una dotazione da intrattenitore</li>
+				<li>(a) un liuto o (b) un qualsiasi altro strumento musicale</li>
+				<li>Un'armatura di cuoio e un pugnale</li>
+			</ul>
+			<h5 class="caption">BARDO</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Livello</td><td class="left">Privilegi</td><td class="col-5">Trucchetti Conosciuti</td><td class="col-5">Incantesimi Conosciuti</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Incantesimi, Ispirazione Bardica (d6)</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">	Factotum, Canto di Riposo (d6)</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">	Collegio Bardico, Maestria</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Ispirazione Bardica (d8), Fonte di Ispirazione</td><td>3</td><td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Controfascino, Privilegio del Collegio Bardico</td><td>3</td><td>9</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Canto di Riposo (d8)</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Ispirazione Bardica (d10), Maestria, Segreti Magici</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Canto di Riposo (d10)</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Segreti Magici, Privilegio del Collegio Bardico</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Ispirazione Bardica (d12)</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">Canto di Riposo (d12)</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Segreti Magici</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Aumento dei Punteggi di Caratteristica</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td class="left">Ispirazione Superiore</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS_IT" />
+			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION_IT" />
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="short">Un ispirante incantatore il cui potere fa riecheggiare la musica della creazione.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<select type="Proficiency" name="Musical Instrument (Bardo)" supports="Musical Instrument" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<select type="Proficiency" name="Skill Proficiency (Bardo)" supports="Skill,Bard" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_BARD_IT"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION_IT" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD_IT" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES_IT" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST_IT" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE_IT" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE_IT" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD_IT" level="4"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION_IT" level="5"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM_IT" level="6"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS_IT" level="10"/>
+			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION_IT" level="20"/>
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_BARD_IT">
+			<prerequisite>Carisma 13</prerequisite>
+			<requirements>[cha:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, one skill of your choice, one musical instrument of your choice</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<select type="Proficiency" name="Skill Proficiency (Bardo)" supports="Skill,Bard" number="1" />
+				<select type="Proficiency" name="Musical Instrument (Bardo)" supports="Musical Instrument" number="1" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Ispirazione Bardica" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION_IT">
+		<description>
+			<p>Un bardo può ispirare gli altri tramite il lirismo delle sue parole o della sua musica. Per farlo usa un'azione bonus nel suo turno per scegliere una creatura diversa da sé stesso, situata entro 18 metri da lui e in grado di sentirlo. Quella creatura ottiene un dado di Ispirazione Bardica, un d6.</p>
+			<p class="indent">Per una volta entro i 10 minuti successivi, quella creatura può tirare il dado e aggiungere il risultato ottenuto a una prova di caratteristica, un tiro per colpire o un tiro salvezza da essa effettuato. La creatura può aspettare di avere tirato il d20 prima di decidere se utilizzare il dado di Ispirazione Bardica, ma deve decidere se utilizzarlo o meno prima che il DM dichiari se il tiro abbia avuto successo o meno. Una volta tirato il dado di Ispirazione Bardica, quel dado è perduto. Una creatura può possedere un solo dado di Ispirazione Bardica alla volta.</p>
+			<p class="indent">Il bardo può utilizzare questo privilegio un numero di volte pari al suo modificatore di Carisma (fino a un minimo di una volta). Recupera tutti gli utilizzi spesi quando completa un riposo lungo.</p>
+			<p class="indent">Il dado di Ispirazione Bardica cambia quando il bardo raggiunge livelli superiori. Il dado diventa un d8 al 5° livello, un d10 al 10° livello e un d12 al 15° livello.</p>
+		</description>
+		<sheet action="Azione Bonus" usage="{{bardic-inspiration:count}}/Riposo Lungo">
+			<description>Il bardo ispira una creatura diversa da sé stesso, situata entro 18 metri da lui e in grado di sentirlo. Quella creatura ottiene un dado di Ispirazione Bardica, un d{{bardic-inspiration:dice}}.
+		    Per una volta entro i 10 minuti successivi, quella creatura può tirare il dado e aggiungere il risultato ottenuto a una prova di caratteristica, un tiro per colpire o un tiro salvezza da essa effettuato.</description>
+		</sheet>
+		<rules>
+			<stat name="bardic-inspiration:count" value="1" bonus="bardic inspiration"/>
+			<stat name="bardic-inspiration:count" value="charisma:modifier" bonus="bardic inspiration"/>
+
+			<stat name="bardic-inspiration:dice" value="6" bonus="bardic inspiration" />
+			<stat name="bardic-inspiration:dice" value="8" bonus="bardic inspiration" level="5" />
+			<stat name="bardic-inspiration:dice" value="10" bonus="bardic inspiration" level="10" />
+			<stat name="bardic-inspiration:dice" value="12" bonus="bardic inspiration" level="15" />
+		</rules>
+	</element>
+	<element name="Incantesimi" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD_IT">
+		<description>
+			<p>Un bardo ha imparato a districare e rimodellare la trama della realtà in armonia con i suoi desideri tramite la musica. I suoi incantesimi fanno parte del suo vasto repertorio come magie che il bardo può mettere in sintonia con le situazioni più disparate.</p>
+			<h5>TRUCCHETTI</h5>
+			<p>Un bardo conosce due trucchetti a sua scelta tratti dalla lista degli incantesimi da bardo. Apprende ulteriori trucchetti da bardo a sua scelta ai livelli successivi, come indicato dalla colonna "Trucchetti Conosciuti" nella tabella.</p>
+			<h5>SLOT INCANTESIMO</h5>
+			<p>La tabella indica quanti slot incantesimo possiede un bardo per lanciare i suoi incantesimi di 1° livello e di livello superiore. Per lanciare uno di questi incantesimi, il bardo deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il bardo recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>
+			<p class="indent">Per esempio, se un bardo conosce l'incantesimo di 1° livello Cura Ferite e possiede uno slot incantesimo di 1° livello e uno slot incantesimo di 2° livello, può lanciare Cura Ferite usando uno qualsiasi dei due slot.</p>
+			<h5>INCANTESIMI CONOSCIUTI DI 1° LIVELLO E DI LIVELLO SUPERIORE</h5>
+			<p>Un bardo conosce quattro incantesimi di 1° livello a sua scelta dalla lista degli incantesimi da bardo.</p>
+			<p class="indent">La colonna "Incantesimi Conosciuti" nella tabella indica quando un bardo impara altri incantesimi da bardo a sua scelta. Ognuno di questi incantesimi deve appartenere a un livello di cui il bardo possiede degli slot incantesimo, come indicato nella tabella. Per esempio, quando un bardo arriva al 3° livello, può imparare un nuovo incantesimo di 1° o di 2° livello.</p>
+			<p class="indent">Inoltre, quando un bardo acquisisce un livello, può scegliere un incantesimo da bardo che conosce e sostituirlo con un altro incantesimo della lista degli incantesimi da bardo; anche il nuovo incantesimo deve essere di un livello di cui il bardo possiede degli slot incantesimo.</p>
+			<h5>CARATTERISTICA DA INCANTATORE</h5>
+			<p>Carisma è la caratteristica da incantatore per gli incantesimi da bardo. La magia di un bardo fluisce dal cuore e dall'anima che egli riversa in ogni esibizione della sua musica o della sua oratoria. Un bardo usa Carisma ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Carisma per definire la CD del tiro salvezza di un incantesimo da bardo da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>
+			<center>
+				<p><strong>CD del tiro salvezza dell'incantesimo</strong> = 8 + il bonus di competenza del bardo + il modificatore di Carisma del bardo</p>
+				<p><strong>Modificatore di attacco dell'incantesimo</strong> = il bonus di competenza del bardo + il modificatore di Carisma del bardo</p>
+			</center>
+			<h5>CELEBRARE RITUALI</h5>
+			<p>Un bardo può lanciare qualsiasi incantesimo da bardo da lui conosciuto come rituale se quell'incantesimo possiede il descrittore Rituale.</p>
+			<h5>FOCUS DA INCANTATORE</h5>
+			<p>Un bardo può usare uno strumento musicale come focus da incantatore per i suoi incantesimi da bardo.</p>
+		</description>
+		<sheet display="false">
+			<description>Un bardo ha imparato a districare e rimodellare la trama della realtà in armonia con i suoi desideri tramite la musica.</description>
+		</sheet>
+		<spellcasting name="Bardo" ability="Charisma" prepare="false" allowReplace="true">
+			<list>Bardo</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+			<stat name="bardo:spellcasting:slots:1" value="2" level="1" />
+			<stat name="bardo:spellcasting:slots:1" value="1" level="2" />
+			<stat name="bardo:spellcasting:slots:1" value="1" level="3" />
+			<stat name="bardo:spellcasting:slots:2" value="2" level="3" />
+			<stat name="bardo:spellcasting:slots:2" value="1" level="4" />
+			<stat name="bardo:spellcasting:slots:3" value="2" level="5" />
+			<stat name="bardo:spellcasting:slots:3" value="1" level="6" />
+			<stat name="bardo:spellcasting:slots:4" value="1" level="7" />
+			<stat name="bardo:spellcasting:slots:4" value="1" level="8" />
+			<stat name="bardo:spellcasting:slots:4" value="1" level="9" />
+			<stat name="bardo:spellcasting:slots:5" value="1" level="9" />
+			<stat name="bardo:spellcasting:slots:5" value="1" level="10" />
+			<stat name="bardo:spellcasting:slots:5" value="1" level="18" />
+			<stat name="bardo:spellcasting:slots:6" value="1" level="11" />
+			<stat name="bardo:spellcasting:slots:6" value="1" level="19" />
+			<stat name="bardo:spellcasting:slots:7" value="1" level="13" />
+			<stat name="bardo:spellcasting:slots:7" value="1" level="20" />
+			<stat name="bardo:spellcasting:slots:8" value="1" level="15" />
+			<stat name="bardo:spellcasting:slots:9" value="1" level="17" />
+
+			<select type="Spell" name="Cantrip (Bardo)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Bardo" />
+			<select type="Spell" name="Cantrip (Bardo)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Cantrip (Bardo)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="4" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="Bardo" />
+			<select type="Spell" name="Spellcasting (Bardo)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="Bardo" />
+		</rules>
+	</element>
+	<element name="Factotum" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES_IT">
+		<description>
+			<p>A partire dal 2° livello, un bardo può aggiungere metà del suo bonus di competenza, arrotondato per difetto, a ogni prova di caratteristica da lui effettuata che non includa già il suo bonus di competenza.</p>
+		</description>
+		<sheet display="false">
+			<description>Un bardo può aggiungere metà del suo bonus di competenza ({{proficiency:half}}), arrotondato per difetto, a ogni prova di caratteristica da lui effettuata che non includa già il suo bonus di competenza.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="proficiency:half" bonus="proficiency" />
+			<stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
+			<stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
+			<stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
+			<stat name="athletics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ATHLETICS"/>
+			<stat name="deception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_DECEPTION"/>
+			<stat name="history:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_HISTORY"/>
+			<stat name="insight:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INSIGHT"/>
+			<stat name="intimidation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+			<stat name="investigation:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_INVESTIGATION"/>
+			<stat name="medicine:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_MEDICINE"/>
+			<stat name="nature:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_NATURE"/>
+			<stat name="perception:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERCEPTION"/>
+			<stat name="performance:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERFORMANCE"/>
+			<stat name="persuasion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_PERSUASION"/>
+			<stat name="religion:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_RELIGION"/>
+			<stat name="sleight of hand:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SLEIGHTOFHAND"/>
+			<stat name="stealth:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_STEALTH"/>
+			<stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
+		</rules>
+	</element>
+	<element name="Canto di Riposo" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST_IT">
+		<description>
+			<p>Dal 2° livello, un bardo può usare una musica o un'orazione lenitiva per infondere nuova vita nei suoi alleati durante un riposo breve. Se il bardo o le eventuali creature amiche in grado di udire la sua esibizione recuperano punti ferita alla fine di un riposo breve spendendo uno o più Dadi Vita, ognuna di quelle creature recupera 1d6 punti ferita extra.</p>
+			<p class="indent">I punti ferita extra aumentano quando il bardo raggiunge livelli superiori: 1d8 al 9° livello, 1d10 al 13° livello e 1d12 al 17° livello.</p>
+		</description>
+		<sheet>
+			<description>Se il bardo o le eventuali creature amiche in grado di udire la sua esibizione recuperano punti ferita alla fine di un riposo breve spendendo uno o più Dadi Vita, ognuna di quelle creature recupera 1d{{song-of-rest:dice:size}} punti ferita extra.</description>
+		</sheet>
+		<rules>
+			<stat name="song-of-rest:dice:size" value="6" bonus="song-of-rest" />
+			<stat name="song-of-rest:dice:size" value="8" bonus="song-of-rest" level="9" />
+			<stat name="song-of-rest:dice:size" value="10" bonus="song-of-rest" level="13" />
+			<stat name="song-of-rest:dice:size" value="12" bonus="song-of-rest" level="17" />
+		</rules>
+	</element>
+	<element name="Collegio Bardico" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE_IT">
+		<description>
+			<p>Al 3° livello, un bardo apprende le tecniche più avanzate di un collegio bardico a sua scelta: il Collegio della Sapienza o il Collegio del Valore, entrambi descritti alla fine della sezione di questa classe. Il collegio a sua scelta gli conferisce alcuni privilegi al 3° livello e poi di nuovo al 6° e al 14° livello.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Collegio Bardico" supports="Collegio Bardico" level="3"/>
+		</rules>
+	</element>
+	<element name="Maestria" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE_IT">
+		<description>
+			<p>Al 3° livello, un bardo sceglie due tra le sue competenze nelle abilità. Il suo bonus di competenza raddoppia in ogni prova di caratteristica effettuata usando una delle competenza scelte.</p>
+			<p class="indent">Al 10° livello, un bardo può scegliere altre due competenze nelle abilità per ottenere questo beneficio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Expertise (Bardo 3)" level="3" number="2" supports="Expertise,Skill"/>
+			<select type="Class Feature" name="Expertise (Bardo 10)" level="10" number="2" supports="Expertise,Skill"/>
+		</rules>
+	</element>
+	<element name="Aumento dei Punteggi di Caratteristica" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_ABILITYSCOREIMPROVEMENT_BARD_IT">
+		<compendium display="false" />
+		<description>
+			<p>Quando arriva al 4° livello e poi di nuovo all'8°, 12°, 16° e 19° livello, un bardo può aumentare di 2 un punteggio di caratteristica a sua scelta, oppure può aumentare di 1 due punteggi di caratteristica a sua scelta. Come di consueto, non è consentito aumentare un punteggio di caratteristica a più di 20 utilizzando questo privilegio.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Bardo 4)" supports="Improvement Option,Bardo,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Bardo 8)" supports="Improvement Option,Bardo,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Bardo 12)" supports="Improvement Option,Bardo,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Bardo 16)" supports="Improvement Option,Bardo,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Bardo 19)" supports="Improvement Option,Bardo,19" level="19" />
+		</rules>
+	</element>
+	<element name="Fonte di Ispirazione" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_FONT_OF_INSPIRATION_IT">
+		<description>
+			<p>A partire dal 5° livello, un bardo recupera tutti i suoi utilizzi spesi di Ispirazione Bardica quando completa un riposo breve o lungo.</p>
+		</description>
+		<sheet>
+			<description>Un bardo recupera tutti i suoi utilizzi spesi di Ispirazione Bardica quando completa un riposo breve o lungo.</description>
+		</sheet>
+	</element>
+	<element name="Controfascino" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_COUNTERCHARM_IT">
+		<description>
+			<p>Al 6° livello, un bardo ottiene la capacità di usare note musicali o parole del potere per interferire negli effetti di influenza mentale. Con un'azione può iniziare un'esibizione che dura fino alla fine del suo turno successivo. Durante quel periodo, il bardo e ogni creatura amica entro 9 metri da lui dispongono di vantaggio ai tiri salvezza per non essere affascinati o spaventati. Una creatura deve essere in grado di sentire il bardo per ottenere questo beneficio. L'esibizione termina prematuramente se il bardo diventa incapacitato o è ridotto al silenzio, o se vi pone fine volontariamente (non è richiesta un'azione per farlo).</p>
+		</description>
+		<sheet action="Azione">
+			<description>Un bardo può iniziare un'esibizione che dura fino alla fine del suo turno successivo. Durante quel periodo, il bardo e ogni creatura amica entro 9 metri da lui dispongono di vantaggio ai tiri salvezza per non essere affascinati o spaventati.</description>
+		</sheet>
+	</element>
+	<element name="Segreti Magici" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_MAGICAL_SECRETS_IT">
+		<description>
+			<p>Giunto al 10° livello, un bardo ha attinto alle conoscenze magiche provenienti da una vasta gamma di discipline. Il bardo sceglie due incantesimi di qualsiasi classe, inclusa questa stessa classe. Ogni incantesimo scelto deve essere di un livello che il bardo sia in grado di lanciare, come indicato nella tabella, oppure deve essere un trucchetto.</p>
+			<p class="indent">Gli incantesimi scelti contano come incantesimi da bardo e vanno inclusi nel numero specificato dalla colonna "Incantesimi Conosciuti" nella tabella.</p>
+			<p class="indent">Un bardo apprende due incantesimi aggiuntivi di qualsiasi classe al 14° livello e poi di nuovo al 18° livello.</p>
+		</description>
+		<sheet display="false">
+			<description>Il bardo ha attinto alle conoscenze magiche provenienti da una vasta gamma di discipline.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="10" spellcasting="Bardo"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="14" spellcasting="Bardo"/>
+			<select type="Spell" name="Magical Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="18" spellcasting="Bardo"/>
+		</rules>
+	</element>
+	<element name="Ispirazione Superiore" type="Class Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SUPERIOR_INSPIRATION_IT">
+		<description>
+			<p>Al 20° livello, quando il bardo tira per l'iniziativa e non gli rimane alcun utilizzo di Ispirazione Bardica, ne recupera un utilizzo.</p>
+		</description>
+		<sheet>
+			<description>Quando il bardo tira per l'iniziativa e non gli rimane alcun utilizzo di Ispirazione Bardica, ne recupera un utilizzo.</description>
+		</sheet>
+	</element>
+
+	<!-- College of Lore -->
+	<element name="Collegio della Sapienza" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_LORE_IT">
+		<supports>Collegio Bardico</supports>
+		<description>
+			<p>I bardi del Collegio della Sapienza hanno conoscenze su qualsiasi argomento e raccolgono informazioni dalle fonti più disparate, che possono variare dai tomi accademici ai racconti dei contadini. Che si tratti di untonare ballate popolari da taverna o di poemi nelle corti reali, questi bardi usano sempre i loro doni per ammaliare il pubblico. Quando gli applausi si spengono, il pubblico si ritrova a dubitare di tutto ciò che fino ad allora aveva dato per certo, dalla sua fede nel sacerdozio locale alla sua lealtà al re.</p>
+			<p class="indent">Questi bardi sono votati innanzitutto alla ricerca della bellezza e della verità, e non a un monarca o ai precetti di una divinità. Un nobile che tiene presso di sé un bardo del genere come araldo o consigliere farà bene a sapere che tale bardo tende a essere più onesto che diplomatico.</p>
+			<p class="indent">I membri di questo collegio si radunano nelle biblioteche e a volte in alcuni colleti veri e propri, con tanto di aule e di dormitori, dove condividono liberamente le conoscenze recuperate. Si incontrano anche in occasione di feste popolari e ricevimenti di stato, dove possono denunciare casi di corruzione, smascherare bugie e farsi beffe dei più pomposi esponenti delle autorità.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL_IT" />
+		</description>
+		<sheet display="false">
+			<description>I bardi del Collegio della Sapienza hanno conoscenze su qualsiasi argomento e raccolgono informazioni dalle fonti più disparate, che possono variare dai tomi accademici ai racconti dei contadini.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Competenze Bonus" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_BONUS_PROFICIENCIES_IT">
+		<description>
+			<p>Quando un bardo si unisce al Collegio della Sapienza al 3° livello, ottiene competenza in tre abilità a sua scelta.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiencies (Bardo)" supports="Skill,Bardo" number="3" level="3"/>
+		</rules>
+	</element>
+	<element name="Parole Taglienti" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS_IT">
+		<description>
+			<p>Sempre al 3° livello, il bardo impara anche a fare buon uso del suo ingegno per distrarre, confondere e fiaccare la determinazione e la competenza altrui. Quando una creatura situata entro 18 metri e che il bardo sia in grado di vedere effettua un tiro per colpire, una prova di caratteristica o un tiro per i danni, il bardo può usare la sua reazione per spendere uno dei suoi utilizzi di Ispirazione Bardica, tirare un dado di Ispirazione Bardica e sottrarre il numero ottenuto dal tiro della creatura. Può scegliere di utilizzare questo privilegio dopo che la creatura ha effettuato il suo tiro, ma prima che il DM dichiari se il tiro per colpire o la prova di caratteristica abbia avuto successo o meno, o prima che la creatura infligga i danni. La creatura è immune se non è in grado di sentire il bardo o se non può essere affascinata.</p>
+		</description>
+		<sheet action="Reazione">
+			<description>Quando una creatura situata entro 18 metri e che il bardo sia in grado di vedere effettua un tiro per colpire, una prova di caratteristica o un tiro per i danni, il bardo può usare la sua reazione per spendere uno dei suoi utilizzi di Ispirazione Bardica, tirare un dado di Ispirazione Bardica e sottrarre il numero ottenuto dal tiro della creatura. Può scegliere di utilizzare questo privilegio dopo che la creatura ha effettuato il suo tiro, ma prima che il DM dichiari se il tiro per colpire o la prova di caratteristica abbia avuto successo o meno, o prima che la creatura infligga i danni. La creatura è immune se non è in grado di sentire il bardo o se non può essere affascinata.</description>
+		</sheet>
+	</element>
+	<element name="Segreti magici Aggiuntivi" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_ADDITIONAL_MAGICAL_SECRETS_IT">
+		<description>
+			<p>Al 6° livello, un bardo impara due incantesimi a sua scelta da qualsiasi classe. Ogni incantesimo scelto deve essere di un livello che il bardo sia in grado di lanciare, come indicato dalla tabella, oppure deve essere un trucchetto. Gli incantesimi scelti contano come incantesimi da bardo, ma non contano al fine di determinare il numero di incantesimi da bardo conosciuti.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Spell" name="Additional Magic Secrets" supports="(0)||($(spellcasting:slots))" number="2" level="6" spellcasting=""/>
+		</rules>
+	</element>
+	<element name="Abilità Impareggiabile" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_PEERLESS_SKILL_IT">
+		<description>
+			<p>A partire dal 14° livello, quando un bardo effettua una prova di caratteristica, può spendere un utilizzo di Ispirazione Bardica. Se lo fa, tira un dado di Ispirazione Bardica e aggiunge il risultato ottenuto alla sua prova di caratteristica. Può scegliere di farlo dopo avere tirato il dado per la prova di caratteristica, ma prima che il DM dichiari se la prova abbia avuto successo o meno.</p>
+		</description>
+		<sheet>
+			<description>Quando il bardo effettua una prova di caratteristica, può spendere un utilizzo di Ispirazione Bardica. Se lo fa, tira un dado di Ispirazione Bardica e aggiunge il risultato ottenuto alla sua prova di caratteristica. Può scegliere di farlo dopo avere tirato il dado per la prova di caratteristica, ma prima che il DM dichiari se la prova abbia avuto successo o meno.</description>
+		</sheet>
+	</element>
+
+	<!-- College of Valor -->
+	<element name="Collegio del Valore" type="Archetype" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_COLLEGE_OF_VALOR_IT">
+		<supports>Collegio Bardico</supports>
+		<description>
+			<p>I bardi del Collegio del Valore sono audaci scaldi che con le loro storie mantengono in vita il ricordo dei grandi eroi del passato e ispirano una nuova generazione di eroi. Questi bardi si radunano nelle sale del sidro o attorno a grandi falò per cantare le gesta dei potenti, sia delle epoche passate che del presente. Viaggiando di terra in terra per assistere ai grandi eventi di persona e per assicurarsi che il ricordo di tali eventi non scompaia dal mondo. Con le loro canzoni ispirano altri a raggiungere le vette e i traguardi degli eroi dei tempi antichi.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK_IT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC_IT" />
+		</description>
+		<sheet display="false">
+			<description>I bardi del Collegio del Valore sono audaci scaldi che con le loro storie mantengono in vita il ricordo dei grandi eroi del passato e ispirano una nuova generazione di eroi.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION_IT" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK_IT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC_IT" level="14" />
+		</rules>
+	</element>
+	<element name="Competenze Bonus" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BONUS_PROFICIENCIES_IT">
+		<description>
+			<p>Quando un bardo si unisce al Collegio del Valore al 3° livello, ottiene competenza nelle armature medie, negli scudi e nelle armi da guerra.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Ispirazione in Combattimento" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_COMBAT_INSPIRATION_IT">
+		<description>
+			<p>Al 3° livello, un bardo apprende anche a ispirare gli altri in battaglia. Una creatura a cui il bardo abbia fornito un dado di Ispirazione Bardica può tirare quel dado e aggingere il risultato ottenuto al tiro appena effettuato per i danni dell'arma. In alternativa, quando qualcuno effettua un tiro per colpire contro la creatura, essa può usare la sua reazione per tirare il dado di Ispirazione Bardica e aggiungere il risultato ottenuto alla sua CA contro quell'attacco, dopo avere visto il tiro, ma prima di sapere se la colpirà o meno.</p>
+		</description>
+		<sheet>
+			<description>Una creatura a cui il bardo abbia fornito un dado di Ispirazione Bardica può tirare quel dado e aggingere il risultato ottenuto al tiro appena effettuato per i danni dell'arma. In alternativa, quando qualcuno effettua un tiro per colpire contro la creatura, essa può usare la sua reazione per tirare il dado di Ispirazione Bardica e aggiungere il risultato ottenuto alla sua CA contro quell'attacco, dopo avere visto il tiro, ma prima di sapere se la colpirà o meno.</description>
+		</sheet>
+	</element>
+	<element name="Attacco Extra" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_EXTRA_ATTACK_IT">
+		<description>
+			<p>A partire dal 6° livello, un bardo può attaccare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</p>
+		</description>
+		<sheet>
+			<description>Il bardo può attaccare due volte anziché una, ogni volta che effettua l'azione di Attacco nel proprio turno.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="6" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Magia da Battaglia" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_VALOR_BATTLE_MAGIC_IT">
+		<description>
+			<p>Al 14° livello, un bardo ha padroneggiato l'arte di intessere incantesimi e di utilizzare le armi in un'unica pratica armonizzata. Quando usa la propria azione per lanciare un incantesimo da bardo, può effettuare un attacco con un'arma come azione bonus.</p>
+		</description>
+		<sheet action="Azione Bonus">
+			<description>Quando usa la propria azione per lanciare un incantesimo da bardo, può effettuare un attacco con un'arma come azione bonus.</description>
+		</sheet>
+	</element>
+</elements>

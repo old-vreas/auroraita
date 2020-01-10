@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ciarlatano</name>
+		<description>Ciarlatano Background</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.5">
+			<file name="background-charlatan.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/backgrounds/background-charlatan.xml" />
+		</update>
+	</info>
+
+	<element name="Ciarlatano" type="Background" source="Manuale del Giocatore" id="ID_BACKGROUND_CHARLATAN_IT">
+		<description>
+			<p>Un ciarlatano è sempre stato portato per le interazioni sociali. E' abile nel capire le persone, dopo pochi minuti di conversazione riesce a individuare ciò che il loro cuore desidera e, dopo alcune domande mirate, ogni interlocutore è per lui un libro aperto. E' una dote molto utile, che il ciarlatano non esita a sfruttare a suo vantaggio.</p>
+			<p class="indent">Il ciarlatano sa cosa la gente vuole, e glielo offre su un piatto d'argento... o meglio, promette di offrirglielo. Il buon senso dovrebbe indurre la gente a stare in guardia dalle offerte che sembrano troppo belle per essere vere, ma il buon senso diventa una merce molto rara quando il ciarlatano è nei paraggi. Quella bottiglia di liquido rosa curerà sicuramente quella brutta irritazione, questo unguento (nient'altro che un pò di grasso con uno spruzzo di polverina argentata) è in grado di restituire vigore e giovinezza a chi lo beve, e c'è un ponte in città che guarda caso è appena stato messo in vendita. Queste meraviglie sono improbabili, ma il ciarlatano sa come renderle realistiche.</p>
+			<ul class="unstyled">
+				<li><strong>Competenza nelle Abilità:</strong> Inganno, Rapidità di Mano</li>
+				<li><strong>Competenza negli Strumenti:</strong> Arnesi da falsario, trucchi per il camuffamento</li>
+				<li><strong>Equipaggiamento:</strong> Un abito pregiato, trucchi per il camuffamento, strumento da truffatore a scelta (dieci bottiglie sigillate piene di un liquido colorato, una serie di dadi truccati, un mazzo di carte segnate o un anello con sigillo di un duca immaginario), una borsa con 15 mo</li>
+			</ul>
+			<h5>Truffe Preferite</h5>
+			<p>Ogni ciarlatano ha una tecnica preferita che usa più spesso rispetto alle altre truffe. Il giocatore sceglie una truffa preferita o tira sulla tabella sottostante.</p>
+			<table>
+				<thead>
+					<tr><td class="col-20">d6</td><td>Scam</td></tr>
+				</thead>
+				<tr><td>1</td><td>Barare ai giochi d'azzardo.</td></tr>
+				<tr><td>2</td><td>Limare monete o forgiare documenti.</td></tr>
+				<tr><td>3</td><td>Insinuarsi nelle vite degli altri e fare leva sulle loro debolezze per impossessarsi delle loro fortune.</td></tr>
+				<tr><td>4</td><td>Cambiare identità come cambiandosi d'abito.</td></tr>
+				<tr><td>5</td><td>Truffe di destrezza manuale agli angoli delle strade.</td></tr>
+				<tr><td>6</td><td>Convincere un compratore che una cianfrusaglia senza valore in realtà vale tutti i suoi sudati guadagni.</td></tr>
+			</table>
+			<div element="ID_BACKGROUND_FEATURE_FALSE_IDENTITY_IT" />
+			<h5>CARATTERISTICHE SUGGERITE</h5>
+			<p>I ciarlatani sono personaggi pittoreschi che nascondono la loro vera personalità dietro le maschere di loro creazione. Si spacciano per ciò che la gente vuole vedere, ciò in cui vuole credere e dipingono il mondo come l'interlocutore vuole sentirselo raccontare. Ma il loro vero io è spesso tormentato da una coscienza inquieta, un vecchio nemico, o radicati problemi di diffidenza nei confronti del prossimo.</p>
+		</description>
+		<setters>
+			<set name="short">Inganno, Rapidità di Mano, Arnesi da falsario, Trucchi per il camuffamento</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" />
+			<grant type="Background Feature" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY_IT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select name="Truffa" type="List" optional="true">
+				<item id="1">Barare ai giochi d'azzardo.</item>
+				<item id="2">Limare monete o forgiare documenti.</item>
+				<item id="3">Insinuarsi nelle vite degli altri e fare leva sulle loro debolezze per impossessarsi delle loro fortune.</item>
+				<item id="4">Cambiare identità come cambiandosi d'abito.</item>
+				<item id="5">Truffe di destrezza manuale agli angoli delle strade.</item>
+				<item id="6">Convincere un compratore che una cianfrusaglia senza valore in realtà vale tutti i suoi sudati guadagni.</item>
+			</select>
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">Il ciarlatano si innamora in continuazione ed è sempre alla ricerca di una nuova fiamma.</item>
+				<item id="2">Il ciarlatano ha una battuta pronta per ogni occasione, specialmente quelle in cui l'umorismo è completamente fuori luogo.</item>
+				<item id="3">Le lusinghe sono il sitema preferito dal ciarlatano per ottenere ciò che desidera.</item>
+				<item id="4">Il ciarlatano è un giocatore d'azzardo nato e non resiste a correre un rischio ce c'è la prospettiva di un guadagno.</item>
+				<item id="5">Il ciarlatano mente quasi sempre, anche senza una ragione.</item>
+				<item id="6">Le armi preferite dal ciarlatano sono il sarcasmo e l'insulto.</item>
+				<item id="7">Il ciarlatano ha con sé diversi simboli sacri e invoca qualunque divinità possa tornargli utile al momento.</item>
+				<item id="8">Il ciarlatano si intasca qualsiasi oggetto che sembri di valore.</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Indipendenza. Il ciarlatano è uno spirito libero: nessuno può dirgli cosa deve fare. (Caotico)</item>
+				<item id="2">Giustizia. Il ciarlatano non prende mai di mira persone che non possono permettersi di perdere nemmeno pochi spiccioli. (Legale)</item>
+				<item id="3">Carità. Il ciarlatano distribuisce i soldi ottenuti tra coloro che ne hanno davvero bisogno. (Buono)</item>
+				<item id="4">Creatività. Il ciarlatano non usa mai due volte la stessa bugia. (Caotico)</item>
+				<item id="5">Amicizia. Gli oggetti materiali vanno e vengono. I legami d'amicizia durano per sempre. (Buono)</item>
+				<item id="6">Ambizione. Il ciarlatano è determinato a diventare qualcuno. (Qualsiasi)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">Il ciarlatano ha derubato la persona sbagliata e ora deve evitarla in tutti i modi.</item>
+				<item id="2">Il ciarlatano deve tutto al suo mentore, un essere orribile che probabilmente ora marcisce in qualche prigione.</item>
+				<item id="3">Da qualche parte nel mondo il ciarlatano ha un figlio che non lo conosce. Il ciarlatano cerca di rendergli il mondo migliore.</item>
+				<item id="4">Il ciarlatano proviene da una famiglia nobile e sogna un giorno di riuscire a strappare le sue terre e il titolo da coloro che glieli hanno sottratti.</item>
+				<item id="5">Un personaggio potente ha ucciso qualcuno che il ciarlatano amava. Egli ha giurato che un giorno avrà la sua vendetta.</item>
+				<item id="6">Il ciarlatano ha truffato e ridotto sul lastrico qualcuno che non lo meritava. Da allora cerca di espiare le sue malefatte ma non potrà mai riuscire a perdonarsi.</item>
+			</select>
+			<select name="Difetto" type="List">
+				<item id="1">Il ciarlatano non può assolutamente resistere a un bel viso.</item>
+				<item id="2">Il ciarlatano è perennemente indebitato. Spende il frutto dei suoi proventi illeciti in lussi decadenti molto più velocemente di quanto riesca a procurarseli.</item>
+				<item id="3">Il ciarlatano è convinto che nessuno riuscirà mai a imbrogliarlo come lui imbroglia gli altri.</item>
+				<item id="4">L'avidità del ciarlatano è tale da risultare pericolosa anche per sé stesso. Se c'è di mezzo del nerao, il ciarlatano deve tentare di impossessarsene, qualunque sia il rischio da correre.</item>
+				<item id="5">Il ciarlatano non può fare a meno di tentare di truffare le persone più potenti di lui.</item>
+				<item id="6">Il ciarlatano detesta ammetterlo e si odia per questo, ma quando le cose si mettono male, se la dà a gambe e pensa solo a salvarsi la pelle.</item>
+			</select>
+		</rules>
+	</element>
+	
+	<element name="Privilegio: Falsa Identità" type="Background Feature" source="Manuale del Giocatore" id="ID_BACKGROUND_FEATURE_FALSE_IDENTITY_IT">
+		<supports>Background Feature</supports>
+		<description>
+			<p>Il ciarlatano si è creato una seconda identità che include documenti, conoscenze stimate e camuffamenti che gli permettono di interpretare un individuo fittizio. E' inoltre in grado di forgiare documenti, inclusi documenti ufficiali e lettere personali, purché abbia visto un esempio del tipo di documento o di scrittura che cerca di copiare.</p>
+		</description>
+		<sheet alt="Falsa Identità">
+			<description>Il ciarlatano si è creato una seconda identità che include documenti, conoscenze stimate e camuffamenti che gli permettono di interpretare un individuo fittizio. E' inoltre in grado di forgiare documenti, inclusi documenti ufficiali e lettere personali, purché abbia visto un esempio del tipo di documento o di scrittura che cerca di copiare.</description>
+		</sheet>
+	</element>
+</elements>
