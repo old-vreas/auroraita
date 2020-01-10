@@ -368,7 +368,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Bonus Proficiencies (Bardo)" supports="Skill,Bardo" number="3" level="3"/>
+			<select type="Proficiency" name="Bonus Proficiencies (Bardo)" supports="Skill,Bard" number="3" level="3"/>
 		</rules>
 	</element>
 	<element name="Parole Taglienti" type="Archetype Feature" source="Manuale del Giocatore" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_BARD_LORE_CUTTING_WORDS_IT">
