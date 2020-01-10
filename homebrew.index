@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew</name>
+		<description>Oggetti creati da moi.</description>
+		<author>vreas</author>
+		<update version="0.2.5">
+			<file name="homebrew.index" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/homebrew.index" />
+		</update>
+	</info>
+	<files>
+		
+		<file name="lama-patto-sangue.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/homebrew/items/lama-patto-sangue.xml" />
+		<file name="martello-empio.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/homebrew/items/martello-empio.xml" />
+
+
+	</files>
+</index>
