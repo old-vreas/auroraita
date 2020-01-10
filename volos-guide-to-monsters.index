@@ -9,31 +9,31 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/source.xml" />
 		<!-- races -->		
 
 		<!--
-		<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-aasimar.xml" />
-		<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-firbolg.xml" />
-		<file name="race-goliath.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-goliath.xml" />
+		<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-aasimar.xml" />
+		<file name="race-firbolg.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-firbolg.xml" />
+		<file name="race-goliath.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-goliath.xml" />
 		-->
 
-		<file name="race-kenku.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-kenku.xml" />
+		<file name="race-kenku.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-kenku.xml" />
 
 		<!--
-		<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-lizardfolk.xml" />
-		<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-tabaxi.xml" />
-		<file name="race-triton.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-triton.xml" />	
+		<file name="race-lizardfolk.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-lizardfolk.xml" />
+		<file name="race-tabaxi.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-tabaxi.xml" />
+		<file name="race-triton.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/race-triton.xml" />	
 		-->
 
 		<!-- monster races  -->	
 		<!--	
-		<file name="monstrous-adventurers.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/monstrous-adventurers.xml" />
+		<file name="monstrous-adventurers.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/monstrous-adventurers.xml" />
 		-->
-		<!--<file name="monsters.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/monsters.xml" />-->
+		<!--<file name="monsters.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/monsters.xml" />-->
 
 		<!--
-		<file name="spells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/spells.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/old-vreas/auroraita/master/spells.xml" />
 		-->
 	</files>
 </index>
