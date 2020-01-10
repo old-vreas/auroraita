@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Lama del Patto di Sangue</name>
+        <author>vreas</author>
+        <update version="0.0.1">
+            <file name="lama-patto-sangue.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/lama-patto-sangue.xml" />
+        </update>
+    </info>
+
+    <element name="Lama del Patto di Sangue" type="Magic Item" source="custom" id="ID_VREAS_CUSTOM_WEAPON_LAMAPATTOSANGUE_IT">
+
+        <description>
+            <p>Il personaggio in sintonia con quest'arma riceve +1 ai tiri per colpire e ai tiri per i danni.</p>
+            <p class="indent">Quando colpisce una creatura vivente con il pugnale, quella creatura deve superare un tiro salvezza su Saggezza CD 15, altrimenti riceve 2d6 danni necrotici extra. Una volta tirati i dadi per i danni, l'attaccante può decidere di dimezzare i danni effettuati dall’incantamento per recuperare la stessa quantità (il valore dimezzato dei danni) di Punti Ferita.</p>
+            <p class="indent">Questo potere non ha effetto su Costrutti o Non-morti.</p>
+        </description>
+        <setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+            <set name="enhancement">1</set>
+			<set name="weapon">Pugnale</set>
+		</setters>
+    </element>
+    
+    
+</elements>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Martello dell'Empio</name>
+        <author>vreas</author>
+        <update version="0.0.1">
+            <file name="martello-empio.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/martello-empio.xml" />
+        </update>
+    </info>
+
+    <element name="Martello dell'Empio" type="Magic Item" source="custom" id="ID_VREAS_CUSTOM_WEAPON_MARTELLOEMPIO_IT">
+
+        <description>
+            <p>Il personaggio in sintonia con quest'arma riceve +1 ai tiri per colpire e ai tiri per i danni.</p>
+            <p class="indent">Quando colpisce un Immondo o un Non-morto con quest’arma magica, quella creatura riceve 2d6 danni radiosi extra. Se il bersaglio ha 25 Punti Ferita o meno dopo aver ricevuto quei danni, deve superare un tiro salvezza su Saggezza CD 15 o viene distrutto. Se ha successo sul tiro, quella creatura è Spaventata fino alla fine del tuo prossimo turno</p>
+            <p class="indent">Mentre quest’arma è impugnata, emana luce intensa per un raggio di 6 metri e luce tenue per ulteriori 6 metri.</p>
+        </description>
+        <setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="warhammer">Weapon</set>
+            <set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+            <set name="enhancement">1</set>
+			<set name="weapon">Martello da Guerra</set>
+		</setters>
+    </element>
+    
+    
+</elements>
